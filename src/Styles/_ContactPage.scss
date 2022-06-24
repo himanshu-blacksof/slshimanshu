@@ -1,0 +1,80 @@
+.connect__headings{
+    height: 75vh;
+
+    h1{
+        font-size: 8rem;
+    }
+}
+
+.business__enquiries{
+    margin-left: 5rem;
+    h2{
+        font-size: 3rem;
+    }
+}
+
+.contact__container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.business__enquiries{
+    width: 50%;
+}
+
+.mail{
+    display: flex;
+    align-items: center;
+    margin: 2rem ;
+    margin-top: 5rem;
+
+    img{
+        width: 60px;
+    }
+    p{
+        font-size: 2rem;
+        padding-left: 2rem;
+        
+    }
+}
+
+
+.phone{
+    display: flex;
+    align-items: center;
+    margin: 2rem ;
+    img{
+        width: 60px;
+    }
+    p{
+        font-size: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+
+
+.contact__footer{
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    text-align: center;
+    display: grid;
+    place-content: center;
+
+    h5{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        font-weight: bold;
+        line-height: 2rem;
+    }
+    h6{
+        font-size: 1.1rem;
+        font-weight: bold;
+        
+    }
+}

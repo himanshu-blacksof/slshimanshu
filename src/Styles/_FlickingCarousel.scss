@@ -1,0 +1,85 @@
+.carousel__container{
+  position: relative;
+  // padding-bottom: 10%;
+}
+.carousel__flicking{
+  width: 100%;
+  padding-bottom: 2.5%;
+  & .flicking-pagination {
+    bottom:0%;
+  }
+  & .flicking-pagination-bullet {
+      background: #fff ;
+      width: 15px;
+      height: 15px;
+      z-index: 10;
+  }
+  & .flicking-pagination-bullet-active {
+      background: #CFFE00 !important;
+  }
+}
+
+.slides__flicking{
+  margin:auto 10%;
+  width: 80%;
+  & img{
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+.bold__B{
+  position: absolute;
+  bottom: 0;
+  left:-5%;
+  opacity: .12;
+  & img{
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .carousel__flicking{
+    width: 100%;
+    padding-bottom: 2.5%;
+    & .flicking-pagination {
+      bottom:0%;
+    }
+    & .flicking-pagination-bullet {
+        background: #fff ;
+        width: 12px;
+        height: 12px;
+        z-index: 10;
+  
+    }
+    & .flicking-pagination-bullet-active {
+        background: #CFFE00 !important;
+    }
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .carousel__flicking{
+    width: 100%;
+    padding-bottom: 2.5%;
+    & .flicking-pagination {
+      bottom:0%;
+    }
+    & .flicking-pagination-bullet {
+        background: #fff ;
+        width: 10px;
+        height: 10px;
+        z-index: 10;
+  
+    }
+    & .flicking-pagination-bullet-active {
+        background: #CFFE00 !important;
+    }
+  }
+}

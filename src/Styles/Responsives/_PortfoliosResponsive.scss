@@ -1,0 +1,289 @@
+
+
+
+@media screen and (max-width: 800px) {
+
+    //sinLess
+    .dialog__box {
+        width: 35rem;
+    }
+
+    // EVRE 
+    .evre__gen__heading__container {
+        width: 80%;
+    }
+
+    .card__black {
+        width: 100%;
+        padding: 0%;
+        height: 200px;
+        margin: 10px 0 !important;
+    }
+
+    .card__grey {
+        width: 100%;
+        padding: 0%;
+        height: 200px;
+        margin: 10px 0;
+    }
+
+    .evre__main__box {
+        flex-direction: column;
+        width: 80%;
+
+        .evre__right__box {
+            margin-top: 5%;
+        }
+
+        .half__left {
+            width: 100%;
+        }
+
+        .half__right {
+            width: 100%;
+        }
+    }
+
+    //Design Strategy
+
+    .evre__design__strategy {
+        flex-direction: column;
+
+        .card__Images {
+            padding: 3% 2%;
+            width: 100%;
+        }
+    }
+
+
+    .dark__line {
+        background: #000;
+        height: 2px;
+    }
+
+    //Competitors
+
+    .evre__flicking__carousels {
+        padding: 5% 0;
+        width: 100%;
+        position: relative;
+
+    }
+
+    //Our Role
+    .cards__4__container {
+        flex-direction: column;
+
+    }
+
+    .cards__4 {
+        width: 100%;
+        height: 60vw;
+        padding: 0% 3rem;
+        margin: 5% auto;
+    }
+
+
+    // USER SURVEY
+
+    .user__survey__heading {
+        width: 80%;
+
+        h3 {
+            padding-right: 0%;
+        }
+
+        .para {
+            width: 80%;
+            padding-left: 0%;
+            text-align: left;
+        }
+    }
+
+
+    //   ############ Interviews ################ 
+
+    .evre__small__cards__wrapper {
+        flex-direction: column;
+
+        .evre__small__cards {
+            margin-top: 5%;
+        }
+    }
+
+    //   {/* USER PERSONAL */}
+
+
+    .user__personal__head__para {
+        width: 80%;
+    }
+
+    .cards__2__wrapper {
+        flex-direction: column;
+    }
+
+    .cards__2 {
+        width: 100%;
+        height: fit-content;
+    }
+
+
+    //wireframes
+
+
+    .wireframes__box {
+        width: 100%;
+        margin: 0 2.5rem;
+        margin-top: 2.5rem;
+
+        p {
+            color: #006934;
+        }
+    }
+
+    //CAR section
+
+    .car__section__heading__small__cards {
+        width: 80%;
+        margin: 0 auto;
+
+        h3 {
+            text-align: left;
+            width: 100%;
+            background: -webkit-linear-gradient(#00FF7F, #006934);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            padding: 5px;
+        }
+    }
+
+
+    // #########   SHOPX
+
+    .features__main__wrapper {
+        flex-wrap: wrap;
+
+        .features__wrapper {
+            width: 48%;
+            height: 24rem;
+            h4{
+                height: 15%;
+            }
+        }
+    }
+
+    .card__white__wrapper{
+        div:nth-child(2n){
+            padding-left:3.5rem;
+        }
+        div:nth-child(2n-1){
+            padding-right: 3.5rem;
+        }
+        .card__white{
+            width: 100%;
+            z-index: 9;
+        }
+
+    }
+    .pos__image{
+        width: 100%;
+        overflow: hidden;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    // EVRE 
+    .evre__gen__heading__container {
+        width: 80%;
+    }
+
+    .card__black {
+        width: 100%;
+        padding: 0%;
+        height: 200px;
+        margin: 10px 0 !important;
+    }
+
+    .card__grey {
+        width: 100%;
+        padding: 0%;
+        height: 200px;
+        margin: 10px 0;
+    }
+
+    .evre__main__box {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    //Design Strategy
+
+    .evre__design__strategy {
+        flex-wrap: wrap;
+    }
+
+    .card__Images {
+        padding: 3% 2%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .dark__line {
+        background: #000;
+        height: 2px;
+    }
+
+    //Competitors
+
+    .evre__flicking__carousels {
+        padding: 5% 0;
+        width: 100%;
+        position: relative;
+
+    }
+
+    //Our Role
+    .cards__4__container {
+        flex-direction: column;
+    }
+
+    .cards__4 {
+        width: 100%;
+        height: 60vw;
+        padding: 0% 3rem;
+        margin: 5% auto;
+    }
+
+
+    // ######  ShopX 500
+    .features__main__wrapper {
+        flex-direction: column;
+        .features__wrapper {
+            width: 100%;
+            height: 35rem;
+            h4{
+                height: 10% ;
+            }
+        }
+    }
+    .card__white__wrapper{
+        div:nth-child(2n){
+            padding-left:3.5rem;
+        }
+        div:nth-child(2n-1){
+            padding-right: 3.5rem;
+        }
+        .card__white{
+            width: 100%;
+            z-index: 9;
+        }
+
+    }
+    
+    .pos__image{
+        z-index: 1;
+        max-width: 100%;
+    }
+}

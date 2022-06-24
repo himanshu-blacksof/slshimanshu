@@ -1,0 +1,106 @@
+.background__gradient{
+    background: linear-gradient(white, #FFF7F1);
+}
+
+.spintly__light__blue__container{
+    background: #eff2f7;
+    padding: 10rem 0rem;
+
+}
+
+.spintly__heading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    div{
+        width: 40%;
+    }
+    h1{
+        color:#ffe7d9;
+        font-size: 13rem ;
+    }
+    h3{
+        position: absolute;
+        margin-left: 8%;
+        bottom: 8%;
+        color: #000 !important;
+        z-index: 1;
+    }
+}
+
+.top__padding{
+    padding-top: 5rem;
+}
+
+.attendence__container{
+    .att__paragraph{
+        width: 40%;
+        float: right;
+        margin-bottom: 5%;
+    }
+    h2{
+        color: #ff6501;
+        font-family: Access__Regular;
+        padding-left: 3%;
+    }
+    h5{
+        font-family: Access__Regular;
+        line-height: 1.5; 
+    }
+}
+
+
+.grey__dashboards__container{
+    position: relative;
+    margin: 8% auto;
+    padding-top: 4%;
+    h3{
+        color: #ff6501;
+        font-family: Access__Regular;
+        padding-left: 3%;
+    }
+    h5{
+        font-family: Access__Regular;
+        line-height: 1.5; 
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top:0%;
+        left:0%;
+        width: 50%;
+        height: 100%;
+        background-color: #EFF2F6;
+        z-index: -1;
+        border-radius: 5px;
+    }
+}
+
+.grey__dashboards__container__reverse{
+    position: relative;
+    margin: 8% auto;
+    padding-top: 4%;
+    h3{
+        color: #ff6501;
+        font-family: Access__Regular;
+        padding-right: 5%;
+        float: right;
+    }
+    h5{
+        font-family: Access__Regular;
+        line-height: 1.5;
+    }
+
+    &::before{
+        content: '';
+        position: absolute;
+        top:0%;
+        right:0%;
+        width: 50%;
+        height: 100%;
+        background-color: #EFF2F6;
+        z-index: -1;
+        border-radius: 5px;
+    }
+}

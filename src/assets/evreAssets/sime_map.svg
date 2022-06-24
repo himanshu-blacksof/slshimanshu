@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1461.008" height="1555.064" viewBox="0 0 1461.008 1555.064">
+  <defs>
+    <filter id="Rectangle_548" x="442" y="273" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-2" x="794" y="273" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-2"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-3" x="618" y="0" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-3"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-4" x="266" y="546" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-4"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-5" x="265" y="1106.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-5"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-6" x="265" y="1303.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-6"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-7" x="0" y="909.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-7"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-8" x="0" y="1106.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-8"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-8"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-9" x="530" y="908.629" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-9"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-9"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-10" x="530" y="1106.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-10"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-10"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-11" x="617" y="546" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-11"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-11"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-12" x="969" y="546" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-12"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-12"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-13" x="265" y="908.629" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-13"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-13"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-14" x="969.951" y="908.629" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-14"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-14"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_548-15" x="970" y="1268.064" width="321" height="252" filterUnits="userSpaceOnUse">
+      <feOffset dy="20" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur-15"/>
+      <feFlood flood-color="#6575ff" flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur-15"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7043" data-name="Group 7043" transform="translate(-182 -23301.936)">
+    <g id="Component_11_7" data-name="Component 11 – 7" transform="translate(669 23599.936)">
+      <g transform="matrix(1, 0, 0, 1, -487, -298)" filter="url(#Rectangle_548)">
+        <rect id="Rectangle_548-16" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(487 298)" fill="#202024"/>
+      </g>
+      <g id="Group_6970" data-name="Group 6970" transform="translate(16 8)">
+        <circle id="Ellipse_119" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Products" transform="translate(59 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">PRODUCTS</tspan></text>
+      <text id="main_page" data-name="main page" transform="translate(73 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">main page</tspan></text>
+    </g>
+    <g id="Component_11_8" data-name="Component 11 – 8" transform="translate(1021 23599.936)">
+      <g transform="matrix(1, 0, 0, 1, -839, -298)" filter="url(#Rectangle_548-2)">
+        <rect id="Rectangle_548-17" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(839 298)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-2" data-name="Group 6970" transform="translate(15.8 8)">
+        <circle id="Ellipse_119-2" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-2" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-2" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Charge_with_EVRE" data-name="Charge with
+EVRE" transform="translate(115 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="-74.8" y="0">CHARGE WITH</tspan><tspan x="-26.202" y="24">EVRE</tspan></text>
+      <text id="main_page-2" data-name="main page" transform="translate(72.8 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">main page</tspan></text>
+    </g>
+    <g id="Component_11_12" data-name="Component 11 – 12" transform="translate(845 23326.936)">
+      <g transform="matrix(1, 0, 0, 1, -663, -25)" filter="url(#Rectangle_548-3)">
+        <rect id="Rectangle_548-18" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(663 25)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-3" data-name="Group 6970" transform="translate(16 8)">
+        <circle id="Ellipse_119-3" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-3" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-3" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="EVRE" transform="translate(90 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">EVRE</tspan></text>
+      <text id="home_page" data-name="home page" transform="translate(71 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">home page</tspan></text>
+    </g>
+    <g id="Component_11_9" data-name="Component 11 – 9" transform="translate(493 23872.936)">
+      <g transform="matrix(1, 0, 0, 1, -311, -571)" filter="url(#Rectangle_548-4)">
+        <rect id="Rectangle_548-19" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(311 571)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-4" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-4" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-4" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-4" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="About_US" data-name="About US" transform="translate(63 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">ABOUT US</tspan></text>
+      <text id="main_page-3" data-name="main page" transform="translate(72.599 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">main page</tspan></text>
+    </g>
+    <g id="Component_11_16" data-name="Component 11 – 16" transform="translate(492 24433)">
+      <g transform="matrix(1, 0, 0, 1, -310, -1131.06)" filter="url(#Rectangle_548-5)">
+        <rect id="Rectangle_548-20" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(310 1131.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-5" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-5" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-5" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-5" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Upcoming_products" data-name="Upcoming
+products" transform="translate(116 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="-59.686" y="0">UPCOMING</tspan><tspan x="-56.672" y="31">PRODUCTS</tspan></text>
+      <text id="product_page" data-name="product page" transform="translate(61 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">product page</tspan></text>
+    </g>
+    <g id="Component_11_19" data-name="Component 11 – 19" transform="translate(492 24630)">
+      <g transform="matrix(1, 0, 0, 1, -310, -1328.06)" filter="url(#Rectangle_548-6)">
+        <rect id="Rectangle_548-21" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(310 1328.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-6" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-6" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-6" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-6" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Become_a_Dealer" data-name="Become a Dealer" transform="translate(116 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="-98.032" y="0">BECOME A DEALER</tspan></text>
+      <text id="dealer_page" data-name="dealer page" transform="translate(68 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">dealer page</tspan></text>
+    </g>
+    <g id="Component_11_14" data-name="Component 11 – 14" transform="translate(227 24236)">
+      <g transform="matrix(1, 0, 0, 1, -45, -934.06)" filter="url(#Rectangle_548-7)">
+        <rect id="Rectangle_548-22" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(45 934.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-7" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-7" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-7" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-7" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="halo" transform="translate(86 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">HALO</tspan></text>
+      <text id="product_page-2" data-name="product page" transform="translate(61 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">product page</tspan></text>
+    </g>
+    <g id="Component_11_18" data-name="Component 11 – 18" transform="translate(227 24433)">
+      <g transform="matrix(1, 0, 0, 1, -45, -1131.06)" filter="url(#Rectangle_548-8)">
+        <rect id="Rectangle_548-23" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(45 1131.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-8" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-8" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-8" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-8" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Intellipole" transform="translate(51 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">INTELLIPOLE</tspan></text>
+      <text id="product_page-3" data-name="product page" transform="translate(61 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">product page</tspan></text>
+    </g>
+    <g id="Component_11_15" data-name="Component 11 – 15" transform="translate(757 24235.564)">
+      <g transform="matrix(1, 0, 0, 1, -575, -933.63)" filter="url(#Rectangle_548-9)">
+        <rect id="Rectangle_548-24" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(575 933.63)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-9" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-9" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-9" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-9" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="AC-001" transform="translate(86 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">AC-001</tspan></text>
+      <text id="product_page-4" data-name="product page" transform="translate(61 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">product page</tspan></text>
+    </g>
+    <g id="Component_11_17" data-name="Component 11 – 17" transform="translate(757 24433)">
+      <g transform="matrix(1, 0, 0, 1, -575, -1131.06)" filter="url(#Rectangle_548-10)">
+        <rect id="Rectangle_548-25" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(575 1131.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-10" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-10" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-10" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-10" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Solutions" transform="translate(56 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">SOLUTIONS</tspan></text>
+      <text id="Solutions_page" data-name="Solutions page" transform="translate(57 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">solutions page</tspan></text>
+    </g>
+    <g id="Component_11_10" data-name="Component 11 – 10" transform="translate(844 23872.936)">
+      <g transform="matrix(1, 0, 0, 1, -662, -571)" filter="url(#Rectangle_548-11)">
+        <rect id="Rectangle_548-26" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(662 571)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-11" data-name="Group 6970" transform="translate(16.4 8)">
+        <circle id="Ellipse_119-11" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-11" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-11" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Why_make_the_switch" data-name="Why make 
+the switch" transform="translate(116 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="-61.523" y="0">WHY MAKE </tspan><tspan x="-64.57" y="24">THE SWITCH</tspan></text>
+      <text id="main_page-4" data-name="main page" transform="translate(73.401 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">main page</tspan></text>
+    </g>
+    <g id="Component_11_11" data-name="Component 11 – 11" transform="translate(1196 23872.936)">
+      <g transform="matrix(1, 0, 0, 1, -1014, -571)" filter="url(#Rectangle_548-12)">
+        <rect id="Rectangle_548-27" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(1014 571)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-12" data-name="Group 6970" transform="translate(16.2 8)">
+        <circle id="Ellipse_119-12" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-12" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-12" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="Contact_US" data-name="Contact US" transform="translate(49 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">CONTACT US</tspan></text>
+      <text id="main_page-5" data-name="main page" transform="translate(73.2 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">main page</tspan></text>
+    </g>
+    <line id="Line_54" data-name="Line 54" y2="56" transform="translate(960.5 23489.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_58" data-name="Line 58" x1="34.5" transform="translate(458 24316.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_60" data-name="Line 60" x1="34.5" transform="translate(458 24514)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_59" data-name="Line 59" x1="34.5" transform="translate(722.5 24316.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_62" data-name="Line 62" y1="34.936" transform="translate(607.5 24397.564)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_64" data-name="Line 64" y1="34.936" transform="translate(342.5 24397.564)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_65" data-name="Line 65" y1="34.936" transform="translate(872.5 24397.564)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_66" data-name="Line 66" y1="197.936" transform="translate(1312.451 24397.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_63" data-name="Line 63" y1="34.936" transform="translate(607.5 24595.064)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_61" data-name="Line 61" x1="34.5" transform="translate(722.5 24514)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_67" data-name="Line 67" x1="323.951" transform="translate(988.5 24514.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_56" data-name="Line 56" y2="56" transform="translate(960.5 23817)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <line id="Line_55" data-name="Line 55" y2="267" transform="translate(960.5 23547.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_9995" data-name="Path 9995" d="M-8773.42,3376.671l-.266-52.8a2.211,2.211,0,0,1,1.922-2.344l347.213-.031a4.647,4.647,0,0,1,2.271.672,3.442,3.442,0,0,1,.859,2.2v51.606" transform="translate(9557.92 20225)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_10004" data-name="Path 10004" d="M-8815.42,3321.5l-.266,52.8a2.211,2.211,0,0,0,1.922,2.344l527.135.525a4.647,4.647,0,0,0,2.271-.672,3.442,3.442,0,0,0,.859-2.2V2291.5" transform="translate(9419.998 21470.5)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_9997" data-name="Path 9997" d="M-8773.687,3769.789l0-445.914a2.246,2.246,0,0,1,2.152-2.344l388.846-.031" transform="translate(9051.688 20359.436)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_10002" data-name="Path 10002" d="M-8382.687,3769.789l0-445.914a2.246,2.246,0,0,0-2.152-2.344l-388.846-.031" transform="translate(10024.688 20359.436)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_9999" data-name="Path 9999" d="M-8773.687,3762.028l0,5.386a2.246,2.246,0,0,0,2.152,2.344l323.229.031s2.393-.016,3.319,1.392a5.483,5.483,0,0,1,.845,2.984v95.2" transform="translate(9051.688 20367.195)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_10003" data-name="Path 10003" d="M-8444.139,3762.028l0,5.386a2.246,2.246,0,0,1-2.152,2.344l-323.229.031s-2.393-.016-3.319,1.392a5.483,5.483,0,0,0-.845,2.984v95.2" transform="translate(10086.139 20367.195)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_10000" data-name="Path 10000" d="M-8773.687,3762.028l0,118.386s-.112,2.063,1.73,2.344l146.918.031" transform="translate(9116.188 20833.035)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_10001" data-name="Path 10001" d="M-8625.037,3762.028l0,118.385s.112,2.063-1.73,2.344l-146.918.031" transform="translate(9497.537 20833.035)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <path id="Path_9996" data-name="Path 9996" d="M-8773.154,3376.671l-.77-51.3a3.974,3.974,0,0,1,4.075-3.844l692.913-.031a15.166,15.166,0,0,1,4.126.695c1.589.625,1.744,3.052,1.744,3.052l.379,50.728" transform="translate(9382.188 20494.264)" fill="none" stroke="#00d176" stroke-width="2" opacity="0.5"/>
+    <circle id="Ellipse_122" data-name="Ellipse 122" cx="5.5" cy="5.5" r="5.5" transform="translate(779 23596)" fill="#00d176"/>
+    <circle id="Ellipse_125" data-name="Ellipse 125" cx="5.5" cy="5.5" r="5.5" transform="translate(603 23867)" fill="#00d176"/>
+    <circle id="Ellipse_126" data-name="Ellipse 126" cx="5.5" cy="5.5" r="5.5" transform="translate(955 23867)" fill="#00d176"/>
+    <circle id="Ellipse_123" data-name="Ellipse 123" cx="5.5" cy="5.5" r="5.5" transform="translate(1131 23596)" fill="#00d176"/>
+    <circle id="Ellipse_124" data-name="Ellipse 124" cx="5.5" cy="5.5" r="5.5" transform="translate(1306 23867)" fill="#00d176"/>
+    <g id="Component_11_13" data-name="Component 11 – 13" transform="translate(492 24235.564)">
+      <g transform="matrix(1, 0, 0, 1, -310, -933.63)" filter="url(#Rectangle_548-13)">
+        <rect id="Rectangle_548-28" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(310 933.63)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-13" data-name="Group 6970" transform="translate(15.6 8)">
+        <circle id="Ellipse_119-13" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-13" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-13" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="infinity" transform="translate(72 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">INFINITY</tspan></text>
+      <text id="product_page-5" data-name="product page" transform="translate(61 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">product page</tspan></text>
+    </g>
+    <g id="Component_11_20" data-name="Component 11 – 20" transform="translate(1196.951 24235.564)">
+      <g transform="matrix(1, 0, 0, 1, -1014.95, -933.63)" filter="url(#Rectangle_548-14)">
+        <rect id="Rectangle_548-29" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(1014.95 933.63)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-14" data-name="Group 6970" transform="translate(15.1 8)">
+        <circle id="Ellipse_119-14" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-14" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-14" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="EVRE_Mobile_App" data-name="EVRE Mobile App" transform="translate(23 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">EVRE MOBILE APP</tspan></text>
+      <text id="about_evre_page" data-name="about evre page" transform="translate(50 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">about evre page</tspan></text>
+    </g>
+    <g id="Component_11_21" data-name="Component 11 – 21" transform="translate(1197 24595)">
+      <g transform="matrix(1, 0, 0, 1, -1015, -1293.06)" filter="url(#Rectangle_548-15)">
+        <rect id="Rectangle_548-30" data-name="Rectangle 548" width="231" height="162" rx="17" transform="translate(1015 1293.06)" fill="#202024"/>
+      </g>
+      <g id="Group_6970-15" data-name="Group 6970" transform="translate(15.1 8)">
+        <circle id="Ellipse_119-15" data-name="Ellipse 119" cx="3" cy="3" r="3" fill="#00d176"/>
+        <circle id="Ellipse_120-15" data-name="Ellipse 120" cx="3" cy="3" r="3" transform="translate(9)" fill="#fff"/>
+        <circle id="Ellipse_121-15" data-name="Ellipse 121" cx="3" cy="3" r="3" transform="translate(18)" fill="#545454"/>
+      </g>
+      <text id="own_a_franchise" data-name="own a franchise" transform="translate(17 75)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700"><tspan x="0" y="0">OWN A FRANCHISE</tspan></text>
+      <text id="about_evre_page-2" data-name="about evre page" transform="translate(50 139)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300" opacity="0.5"><tspan x="0" y="0">about evre page</tspan></text>
+    </g>
+  </g>
+</svg>

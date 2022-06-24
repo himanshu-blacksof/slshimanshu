@@ -1,0 +1,381 @@
+.wrapper {
+    width: 80%;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 8rem;
+    border-radius: 60px;
+    padding-top: 8rem;
+    position: relative;
+    z-index: 9;
+}
+
+.internal__wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page__headings {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5rem;
+
+    h4 {
+        position: absolute;
+        left: 0;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    h3 {
+        // display: inline;
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        padding: 10px;
+    }
+
+    span {
+        height: 3px;
+        width: 100%;
+        background-color: #000;
+    }
+}
+
+.our__roles__wrapper__cards {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .cards__Image {
+        width: 28%;
+        margin-top: 3rem;
+
+        .cards__images__svg {
+            margin-top: 0rem;
+            margin-bottom: 0rem;
+            filter: grayscale(1);
+        }
+
+    }
+
+}
+
+.project__goal__main{
+    position: relative;
+}
+
+.track__project__goal{
+    position: absolute;
+    top:-2%;
+    left:20%;
+    right:0;
+    bottom: 0;
+    width: 55%;
+    // margin: 0 auto;
+}
+
+.project__goal__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+
+    h4 {
+        font-family: Access__Regular;
+    }
+
+    p {
+        margin-top: 1rem;
+        line-height: 1.5;
+    }
+}
+
+.project__goal__wrapper__reverse {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin-top: 10%;
+
+    h4 {
+        font-family: Access__Regular;
+    }
+
+    p {
+        margin-top: 1rem;
+        line-height: 1.5;
+    }
+}
+
+.general__heading {
+    h3 {
+        color: #000 !important;
+
+    }
+}
+
+.cards__wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 5% auto;
+
+    div {
+        padding: 2%;
+    }
+
+    h5 {
+        color: #b55219;
+    }
+
+    p {
+        margin-top: 2%;
+    }
+}
+
+.problems__image {
+    width: 40% !important;
+}
+
+.logo__wrapper {
+    height: 250vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.color__wrapper {
+    background-color: #656b54;
+
+    h4 {
+        background-color: #656b54;
+        color: #fff;
+    }
+
+    h3 {
+        color: #fff;
+        background-color: #656b54;
+    }
+
+    span {
+        background-color: #fff;
+    }
+}
+
+
+.user__flow__wrapper {
+    background-color: #e4e5e5;
+
+    h4 {
+        background-color: #e4e5e5;
+    }
+
+    h3 {
+        background-color: #e4e5e5;
+    }
+}
+
+.mobile__app__wrapper {
+    position: relative;
+    z-index: 99;
+
+    &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: -10vw;
+        height: 30vh;
+        width: 100%;
+        background-color: #656b54;
+        z-index: -1;
+    }
+}
+
+.mobile__app__flexbox {
+    h4 {
+        font-family: Playfair__Bold;
+    }
+
+    p {
+        line-height: 1.5;
+    }
+}
+
+.backgrounds__defaults {
+    position: relative;
+
+    div {
+        position: absolute;
+        width: 100%;
+        bottom: 0%;
+        left: 0%;
+        z-index: 0;
+    }
+}
+
+
+.homepage__view__mobile {
+    background-color: #363f28;
+    padding: 5% 0%;
+
+    .wrapper {
+        background-color: #363f28;
+    }
+
+    .homepage__view__width {
+        padding-right: 10%;
+    }
+}
+
+.homepage__heading {
+    margin: 0;
+    color: #fff;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    img {
+        width: 70%;
+        margin-left: 30%;
+    }
+}
+
+.components__used__wrapper {
+    position: relative;
+    background: #363f28;
+    height: 50vh;
+
+    .components__used__inside {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        height: fit-content;
+    }
+}
+
+.website__wrapper {
+    position: relative;
+    margin-top: -10%;
+}
+
+.about__page__wrapper {
+    background-color: #1F2D16;
+    padding-top: 8rem;
+
+    .wrapper {
+        margin-top: 0;
+        background-color: #e0dfd8;
+    }
+
+    .about__page__view {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+
+        .pos__para__right {
+            position: absolute;
+            width: 25%;
+            top: 6%;
+            right: 5%;
+        }
+
+        .pos__para__left {
+            position: absolute;
+            width: 25%;
+            top: 0;
+            left: 5%;
+        }
+
+        img {
+            padding: 0% 5%;
+        }
+    }
+}
+
+.tab__view__images {
+    padding-right: 10%;
+    background-image: linear-gradient(to bottom, #1F2D16 0 50%, #E5E7E3 0 50%);
+}
+
+.stationary__wrapper {
+    h4 {
+        color: #1F2D16;
+        background: #E5E7E3;
+    }
+
+    h3 {
+        color: #1F2D16;
+        background: #E5E7E3;
+    }
+
+    span {
+        background-color: #1F2D16;
+    }
+}
+
+
+.stationary__width {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.stationary__grid__wrapper {
+    display: grid;
+}
+
+.grid__half {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+}
+
+.grid__margin {
+    margin-top: 5rem !important;
+}
+
+.thank__for__watching__wrapper {
+    position: relative;
+
+    .contents {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+    }
+}
+
+.position__mid__background {
+    div {
+        bottom: -45vh;
+    }
+}
+
+
+.project__goal__right {
+    padding-left: 5%;
+    // background: #fff;
+    z-index: 9;
+    padding-top: 2%;
+}
+
+.project__timeline {
+    margin-bottom: 8rem;
+}
+
+.padding__bottom {
+    padding-bottom: 8rem;
+}
+
+.padding__top {
+    padding-top: 8rem;
+}

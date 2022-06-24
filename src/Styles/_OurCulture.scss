@@ -1,0 +1,30 @@
+.our__culture {
+  width: 100%;
+  margin: 10rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.our__culture__image {
+  width: 50%;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.our__culture__text {
+  width: 50%;
+  padding: 2rem;
+  p {
+    padding: 2rem 0;
+  }
+}
+
+li{
+  font-family: Access__Bold;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 3.3rem;
+  margin-left: 1.3rem;
+}

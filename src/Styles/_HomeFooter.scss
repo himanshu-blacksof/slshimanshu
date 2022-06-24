@@ -1,0 +1,28 @@
+.home__footer {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+}
+
+.home__footer__container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.socials {
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  a {
+    margin-right: 1.5rem;
+
+    img {
+      transition: all .3s ease;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+}

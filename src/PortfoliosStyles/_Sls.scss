@@ -1,0 +1,141 @@
+.MyStyle{
+    height: 100vh;
+    background-color: #0426A1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .images{
+        margin: 1rem;
+        margin-top: 10%;
+    }
+}
+.MyImg{
+ display:flex;
+    opacity: 1;
+    justify-content: center;
+    padding:2px;
+    width: 30%;
+    }
+.MyLogo{
+    
+    margin: auto;
+    opacity: 1;
+    margin-right:auto;
+    margin-left:auto;
+  display:block;
+}
+.subpara_wrapper{
+    display: flex;  
+    justify-content: center;
+}
+.textStyle{ 
+    margin-top:11%;
+    margin-bottom: 8%;
+  margin-left: 15%;
+    width: 50%;
+}
+.textStyleP{
+    margin-top:8%;
+    margin-bottom: 8%;
+    margin-right: 15%;
+    margin:10%;
+    width: 60%;
+}
+
+.background_container{
+    background-color:#EEEEEE ;
+    display:flex;
+}
+.style_container{
+    background-color: #FFFFFF;
+     margin-left:10%;
+    margin-top: -5%;
+    width: 30%;
+    padding:2rem;
+    margin-bottom: 5%;
+}
+.para_container{
+    margin-left:5%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.element_container{
+    background-color: #0426A1;
+    width: 140%;
+    color:#FFFFFF;
+    padding:1rem
+}
+.our_container{
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-bottom: 10%;
+}
+.backgroundblack{
+    background-color: #171515;
+    margin-left: 15%;
+    margin-top: 10%;
+    width:30%;
+    padding:4rem;
+    margin-bottom: 15%;
+    height: 806px;
+  
+}
+.wordh3{
+    color:#FFFFFF;
+    size: 48px;
+     margin-top: 10%;
+    margin-left: 5%;
+}
+.backgroundblue{
+    background-color: #0426A1;
+    width: 30%;
+    padding:4rem;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    height: 806px;
+}
+.wordp{
+    color:#FFFFFF;
+    size: 24px;
+    margin-top: 70%;
+    font-style: italic;
+    font-family:  Playfair__Bolditalic;
+}
+.circle{
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    border-radius:50%;
+     margin-top: 2%;
+     margin-left: -10%;
+}
+.black_container{
+    background-color: #212121;
+    
+}
+.font{
+    color:#FFFFFF;
+}
+.flow{
+    width: 80%;
+    height: 1221px;
+    margin-bottom: 8%;
+}
+.backdown_container{
+    background-color: #EEEEEE;
+    display: flex;
+}
+.textcolor{
+    color: #0426a1;
+  padding: 1rem;
+}
+.textp{
+    font-size: 18px;
+}
+.all{
+    padding:20rem;
+    width: 60%;
+
+}

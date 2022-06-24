@@ -1,0 +1,101 @@
+.cards__nums__container {
+  border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  z-index: 9;
+  overflow: hidden;
+
+  h4 {
+    margin-top: 10%;
+    width: 85%;
+    float: right;
+    font-family: Access__Regular;
+    font-weight: 300;
+    letter-spacing: 1px;
+    z-index: 99;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 7vw;
+    height: 7vw;
+    background-color: #78797b;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .1;
+  }
+}
+
+.cards__quotes {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-size: 5rem;
+  color: #78797b;
+}
+
+.cards__number {
+  position: absolute;
+  bottom: -6%;
+  right: 5%;
+  font-weight: lighter;
+  opacity: .4;
+}
+
+
+
+//CardsImage
+.cards__images__container {
+  transition: all .3s ease-in-out;
+
+}
+
+.cards__ul {
+  color: #fff;
+  margin-top: 4rem;
+
+  h4 {
+    font-family: Access__Regular;
+  }
+}
+
+.cards__li {
+  color: #6c6c6e;
+  margin-top: 10px;
+  line-height: 1.5;
+
+  &::marker {
+    color: #00c261;
+
+  }
+}
+
+.cards__images__svg {
+  // width: 100%;
+  margin-top: 12rem;
+  margin-bottom: 5rem;
+}
+
+
+//Gavyam 
+.camel__case__para {
+  display: flex;
+  margin-top: 1rem;
+
+  h2 {
+    font-family: Access__Regular;
+    display: inline;
+  }
+
+  div {
+    margin-left: 10px;
+  }
+
+  h6 {
+    line-height: 1.4;
+  }
+}
+

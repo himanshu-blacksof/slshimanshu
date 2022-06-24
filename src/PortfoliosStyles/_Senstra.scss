@@ -1,0 +1,180 @@
+.senstra__log__width{
+    width: 38%;
+    margin: 15% auto;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.padding__lr{
+    padding: 0 2rem;
+}
+
+.right__shift{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left__shift{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.senstra__set__width{
+    width: 70%;
+    margin-top: 5rem;
+}
+
+
+.fullwidth__container{
+    display: flex;
+}
+
+.half__container{
+    width: 50%;
+    overflow: hidden;
+}
+
+.greenback{
+    background-color: #48b086;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 3%;
+    padding-top: 2%;
+    color: white;
+    h2{
+        font-family: Access__Regular;
+        font-size: 5.5rem;
+    }
+    p{
+        margin-top: 15%;
+        font-weight: bold;
+    }
+}
+
+
+
+//social__media
+.senstra__social__media{
+    width: 100%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    .black__box{
+        position: relative;
+        background: black;
+        color: white;
+        padding: 12% 0%;
+        text-align: center;
+        .senstra__set__width{
+            width:18%;
+        }
+        .pos__left{
+            position: absolute;
+            top:-55%;
+            left:15%;
+        }
+        .pos__right{
+            position: absolute;
+            bottom: -40%;
+            right:15%;
+        }
+    }
+    .top__margin{
+        margin-top: 10%;
+    }
+}
+
+.social__media__margins{
+    margin: 25% auto;
+}
+
+//website__section 
+
+.website__section {
+    background-color: #1958a7;
+    position: relative;
+    padding-bottom: 20%;
+    overflow: hidden;
+    margin-top: 15%;
+    z-index: 0;
+    .top__margin{
+        margin-top: 12rem !important; 
+    }
+   .text__box{
+    padding-top: 15%;
+    color: white;
+    width: 50%;
+   }
+   p{
+       margin-top: 10%;
+   }
+   .border__radius{
+       border-radius: 10px;
+       overflow: hidden;
+   }
+   .pos_right_senstra_logo_02{
+       position: absolute;
+       top: 5%;
+       right: -19%;
+       opacity: 30%;
+   }
+   .big_pos_right_senstra_logo_02{
+       width: 204%;
+       position: absolute;
+       top: 33%;
+       left: -22%;
+       opacity: 30%;
+       z-index: -1;
+   }
+   .widths__{
+       width: 85%;
+       margin: 0 auto;
+       z-index: 9;
+       img{
+           z-index: 9;
+       }
+   }
+}
+
+.end__section{
+    position: relative;
+    padding: 4.2% 0%;
+}
+
+.top__position__boxes{
+    position: absolute;
+    top:-100%,
+}
+
+.button__box{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.senstra__website__button{
+    background: #1958a7;
+    color: white;
+    padding: 2.4% 6%;
+    border: none;
+    font-family: Access__Regular;
+    font-size: 1.6rem;
+    transition: all .4s ease-in-out;
+    &:hover{
+        background-color: white;
+        color: #1958a7;
+        box-shadow: inset 0px 0px 2px #1958a7;
+        font-weight: 500;
+    }
+}
+
+
+.senstra__all__padding{
+    padding: 5%;
+}
+
+
+

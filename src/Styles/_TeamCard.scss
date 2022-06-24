@@ -1,0 +1,146 @@
+.card__container{
+    cursor: pointer;
+    // width: 265px;
+    width: 23%;
+    margin: 3%;
+}
+
+.card__image{
+    width: 100%;
+    img{
+        width: 100%;
+        object-fit: contain;
+        vertical-align: bottom;
+    }
+}
+.card__image__popup{
+    width: 20%;
+   
+    img{
+        width: 100%;
+        object-fit: contain;
+        vertical-align: bottom;
+    }
+}
+
+.card__content{
+    text-align: center;
+
+    h5{
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    p{
+        font-size: 1.3rem;
+    }
+}
+
+.overlay__container{
+    transition: all ease;
+    background-image: url("../assets/images/team_bg.svg");
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    opacity: 0;
+    display: none;
+    background-color: rgba($color: #000000, $alpha: 0.9);
+    z-index: 100;
+}
+
+.overlay__container__inside{
+    height:100vh; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+}
+.align__con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay{
+    background-image: url("../assets/images/team_bg_new.svg");
+    background-repeat: no-repeat;
+    background-position: 15% 60%;
+    padding: 3% 0%;
+    background-color: white;
+    width: 80%;
+    height: fit-content;
+    position: relative;
+}
+
+.view{
+    visibility: visible;
+}
+
+.close__button{
+    cursor: pointer;
+    width: 30px;
+    position: absolute;
+    top:0;
+    right: 0;
+    margin: 1.8rem;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.overlay__content__container{
+    display: grid;
+    place-content: center;
+}
+
+.overlay__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    margin: 3rem auto;
+
+}
+
+.about__team__member{
+    width: 70%;
+    padding: 0 1rem;
+    h5{
+        font-size: 1.87rem;
+        font-weight: bolder;
+    }
+
+    h6{
+        padding: 1rem 0;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    p{
+        padding: 1.5rem 0;
+        overflow-y:scroll;
+        height: 30vh;
+        &::-webkit-scrollbar {
+            width: 0.3em;
+        }          
+        &::-webkit-scrollbar-track {
+        // box-shadow: inset 0 0 16px rgba(134, 134, 134, 0.7);
+        }
+        
+        &::-webkit-scrollbar-thumb {
+        background-color: rgb(19, 19, 19);
+        outline: 1px solid rgb(255, 255, 255);
+        border-radius: 20px;
+        }
+
+    }
+}
+
+.image__border{
+    border: 1px solid grey;
+}

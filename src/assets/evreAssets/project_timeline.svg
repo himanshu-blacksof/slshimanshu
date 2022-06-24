@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="951" viewBox="0 0 1440 951">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00ff7f"/>
+      <stop offset="1" stop-color="#006934"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect width="1313" height="31" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7042" data-name="Group 7042" transform="translate(-240 -10199)">
+    <rect id="Rectangle_124" data-name="Rectangle 124" width="1440" height="951" rx="15" transform="translate(240 10199)" fill="#16161a"/>
+    <path id="Intersection_2" data-name="Intersection 2" d="M10248,21271a15,15,0,0,1-15-15V20985.77c165.389,42.141,294.954,149.7,342.417,285.229Z" transform="translate(-9993 -10121)" opacity="0.15" fill="url(#linear-gradient)"/>
+    <g id="Group_6959" data-name="Group 6959" transform="translate(0 -180)">
+      <line id="Line_28" data-name="Line 28" y2="706.5" transform="translate(334.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-2" data-name="Line 28" y2="706.5" transform="translate(513.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-3" data-name="Line 28" y2="706.5" transform="translate(692.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-4" data-name="Line 28" y2="706.5" transform="translate(871.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-5" data-name="Line 28" y2="706.5" transform="translate(1050.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-6" data-name="Line 28" y2="706.5" transform="translate(1229.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-7" data-name="Line 28" y2="706.5" transform="translate(1408.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28-8" data-name="Line 28" y2="706.5" transform="translate(1587.5 10623.5)" fill="none" stroke="#fff" stroke-width="1" opacity="0.1"/>
+    </g>
+    <g id="Component_12_1" data-name="Component 12 – 1" transform="translate(309 10266.998)">
+      <rect id="Rectangle_125" data-name="Rectangle 125" width="198" height="73" rx="9" transform="translate(0 0.002)" fill="#1a1d24"/>
+      <path id="Intersection_1" data-name="Intersection 1" d="M9580,20360a19.955,19.955,0,0,1-7-1.26V20343a9,9,0,0,1,9-9h18.084a20.013,20.013,0,0,1-19.083,26Z" transform="translate(-9573 -20333.998)" fill="url(#linear-gradient)"/>
+      <text id="_1_Week" data-name="1 Week" transform="translate(99 46.002)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-34.485" y="0">1 Week</tspan></text>
+    </g>
+    <g id="Component_12_2" data-name="Component 12 – 2" transform="translate(762 10266.998)">
+      <rect id="Rectangle_125-2" data-name="Rectangle 125" width="198" height="73" rx="9" transform="translate(0 0.002)" fill="#1a1d24"/>
+      <path id="Intersection_1-2" data-name="Intersection 1" d="M9580,20360a19.955,19.955,0,0,1-7-1.26V20343a9,9,0,0,1,9-9h18.084a20.013,20.013,0,0,1-19.083,26Z" transform="translate(-9573 -20333.998)" fill="url(#linear-gradient)"/>
+      <text id="_2_Week" data-name="2 Week" transform="translate(99 46.002)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-36.311" y="0">2 Week</tspan></text>
+    </g>
+    <g id="Component_12_3" data-name="Component 12 – 3" transform="translate(1215 10266.998)">
+      <rect id="Rectangle_125-3" data-name="Rectangle 125" width="198" height="73" rx="9" transform="translate(0 0.002)" fill="#1a1d24"/>
+      <path id="Intersection_1-3" data-name="Intersection 1" d="M9580,20360a19.955,19.955,0,0,1-7-1.26V20343a9,9,0,0,1,9-9h18.084a20.013,20.013,0,0,1-19.083,26Z" transform="translate(-9573 -20333.998)" fill="url(#linear-gradient)"/>
+      <text id="_3_Week" data-name="3 Week" transform="translate(99 46.002)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-36.465" y="0">3 Week</tspan></text>
+    </g>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(304 10405)" clip-path="url(#clip-path)">
+      <g transform="translate(-313 -10563)">
+        <text id="MON" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-26.961" y="0">MON</tspan></text>
+      </g>
+      <g transform="translate(-134 -10563)">
+        <text id="TUE" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-19.789" y="0">TUE</tspan></text>
+      </g>
+      <g transform="translate(45 -10563)">
+        <text id="WED" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-24.717" y="0">WED</tspan></text>
+      </g>
+      <g transform="translate(224 -10563)">
+        <text id="THU" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-21.681" y="0">THU</tspan></text>
+      </g>
+      <g transform="translate(403 -10563)">
+        <text id="FRI" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-15.862" y="0">FRI</tspan></text>
+      </g>
+      <g transform="translate(582 -10563)">
+        <text id="MON-2" data-name="MON" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-26.961" y="0">MON</tspan></text>
+      </g>
+      <g transform="translate(761 -10563)">
+        <text id="TUE-2" data-name="TUE" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-19.789" y="0">TUE</tspan></text>
+      </g>
+      <g transform="translate(940 -10563)">
+        <text id="WED-2" data-name="WED" transform="translate(340 10588)" fill="#fff" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-24.717" y="0">WED</tspan></text>
+      </g>
+    </g>
+    <rect id="Rectangle_129" data-name="Rectangle 129" width="527" height="76" rx="10" transform="translate(328 10556)" fill="#1a1d24"/>
+    <text id="Strategy" transform="translate(438 10604)" fill="#6de4f2" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-44.099" y="0">Strategy</tspan></text>
+    <g id="Group_6956" data-name="Group 6956" transform="translate(-6 -160)">
+      <path id="Polygon_1" data-name="Polygon 1" d="M14.086,1.414a2,2,0,0,1,2.828,0L29.586,14.086a2,2,0,0,1,0,2.828L16.914,29.586a2,2,0,0,1-2.828,0L1.414,16.914a2,2,0,0,1,0-2.828Z" transform="translate(769 10739)" fill="#65d1dd" opacity="0.08"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M11.086,1.414a2,2,0,0,1,2.828,0l9.672,9.672a2,2,0,0,1,0,2.828l-9.672,9.672a2,2,0,0,1-2.828,0L1.414,13.914a2,2,0,0,1,0-2.828Z" transform="translate(772 10742)" fill="#65d1dd" opacity="0.35"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M7.086,1.414a2,2,0,0,1,2.828,0l5.672,5.672a2,2,0,0,1,0,2.828L9.914,15.586a2,2,0,0,1-2.828,0L1.414,9.914a2,2,0,0,1,0-2.828Z" transform="translate(776 10746)" fill="#65d1dd" opacity="0.7"/>
+    </g>
+    <rect id="Rectangle_129-2" data-name="Rectangle 129" width="698" height="76" rx="10" transform="translate(328 10667)" fill="#1a1d24"/>
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="844" height="76" rx="10" transform="translate(742 10793)" fill="#1a1d24"/>
+    <rect id="Rectangle_131" data-name="Rectangle 131" width="486" height="76" rx="10" transform="translate(742 10904)" fill="#1a1d24"/>
+    <text id="Research" transform="translate(439 10715)" fill="#f26d6d" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-44.814" y="0">Research</tspan></text>
+    <text id="UX" transform="translate(845 10841)" fill="#00d176" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-14.575" y="0">UX</tspan></text>
+    <text id="UI_Design" data-name="UI Design" transform="translate(877 10952)" fill="#f6df6b" font-size="22" font-family="Access-Bold, Access" font-weight="700" opacity="0.9"><tspan x="-46.596" y="0">UI Design</tspan></text>
+    <g id="Group_6956-2" data-name="Group 6956" transform="translate(162 -49)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M14.086,1.414a2,2,0,0,1,2.828,0L29.586,14.086a2,2,0,0,1,0,2.828L16.914,29.586a2,2,0,0,1-2.828,0L1.414,16.914a2,2,0,0,1,0-2.828Z" transform="translate(769 10739)" fill="#dc6465" opacity="0.08"/>
+      <path id="Polygon_2-2" data-name="Polygon 2" d="M11.086,1.414a2,2,0,0,1,2.828,0l9.672,9.672a2,2,0,0,1,0,2.828l-9.672,9.672a2,2,0,0,1-2.828,0L1.414,13.914a2,2,0,0,1,0-2.828Z" transform="translate(772 10742)" fill="#dc6465" opacity="0.35"/>
+      <path id="Polygon_3-2" data-name="Polygon 3" d="M7.086,1.414a2,2,0,0,1,2.828,0l5.672,5.672a2,2,0,0,1,0,2.828L9.914,15.586a2,2,0,0,1-2.828,0L1.414,9.914a2,2,0,0,1,0-2.828Z" transform="translate(776 10746)" fill="#dc6465" opacity="0.7"/>
+    </g>
+    <g id="Group_6957" data-name="Group 6957" transform="translate(729 77)">
+      <path id="Polygon_1-3" data-name="Polygon 1" d="M14.086,1.414a2,2,0,0,1,2.828,0L29.586,14.086a2,2,0,0,1,0,2.828L16.914,29.586a2,2,0,0,1-2.828,0L1.414,16.914a2,2,0,0,1,0-2.828Z" transform="translate(769 10739)" fill="#00d176" opacity="0.08"/>
+      <path id="Polygon_2-3" data-name="Polygon 2" d="M11.086,1.414a2,2,0,0,1,2.828,0l9.672,9.672a2,2,0,0,1,0,2.828l-9.672,9.672a2,2,0,0,1-2.828,0L1.414,13.914a2,2,0,0,1,0-2.828Z" transform="translate(772 10742)" fill="#00d176" opacity="0.35"/>
+      <path id="Polygon_3-3" data-name="Polygon 3" d="M7.086,1.414a2,2,0,0,1,2.828,0l5.672,5.672a2,2,0,0,1,0,2.828L9.914,15.586a2,2,0,0,1-2.828,0L1.414,9.914a2,2,0,0,1,0-2.828Z" transform="translate(776 10746)" fill="#00d176" opacity="0.7"/>
+    </g>
+    <g id="Group_6958" data-name="Group 6958" transform="translate(1140 10927)">
+      <path id="Polygon_1-4" data-name="Polygon 1" d="M14.086,1.414a2,2,0,0,1,2.828,0L29.586,14.086a2,2,0,0,1,0,2.828L16.914,29.586a2,2,0,0,1-2.828,0L1.414,16.914a2,2,0,0,1,0-2.828Z" fill="#f6df6b" opacity="0.08"/>
+      <path id="Polygon_2-4" data-name="Polygon 2" d="M11.086,1.414a2,2,0,0,1,2.828,0l9.672,9.672a2,2,0,0,1,0,2.828l-9.672,9.672a2,2,0,0,1-2.828,0L1.414,13.914a2,2,0,0,1,0-2.828Z" transform="translate(3 3)" fill="#f6df6b" opacity="0.35"/>
+      <path id="Polygon_3-4" data-name="Polygon 3" d="M7.086,1.414a2,2,0,0,1,2.828,0l5.672,5.672a2,2,0,0,1,0,2.828L9.914,15.586a2,2,0,0,1-2.828,0L1.414,9.914a2,2,0,0,1,0-2.828Z" transform="translate(7 7)" fill="#f6df6b" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

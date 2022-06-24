@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1038" height="600" viewBox="0 0 1038 600">
+  <defs>
+    <filter id="Rectangle_1327" x="0" y="0" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1331" x="0" y="305" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1332" x="350" y="305" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1333" x="700" y="305" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1328" x="350" y="0" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_1329" x="700" y="0" width="338" height="295" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7189" data-name="Group 7189" transform="translate(-269 -13659)">
+    <g id="Group_7183" data-name="Group 7183">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1327)">
+        <g id="Rectangle_1327-2" data-name="Rectangle 1327" transform="translate(15 10)" fill="#8d2a00" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_8D2A00" data-name="#8D2A00" transform="translate(449 13907)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#8D2A00</tspan></text>
+    </g>
+    <g id="Group_7188" data-name="Group 7188">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1331)">
+        <g id="Rectangle_1331-2" data-name="Rectangle 1331" transform="translate(15 315)" fill="#545e46" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_BE6731" data-name="#BE6731" transform="translate(449 14212)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#BE6731</tspan></text>
+    </g>
+    <g id="Group_7187" data-name="Group 7187">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1332)">
+        <g id="Rectangle_1332-2" data-name="Rectangle 1332" transform="translate(365 315)" fill="#1f2d16" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_1F2D16" data-name="#1F2D16" transform="translate(799 14212)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#1F2D16</tspan></text>
+    </g>
+    <g id="Group_7186" data-name="Group 7186">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1333)">
+        <g id="Rectangle_1333-2" data-name="Rectangle 1333" transform="translate(715 315)" fill="#1d201d" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_1D201D" data-name="#1D201D" transform="translate(1149 14212)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#1D201D</tspan></text>
+    </g>
+    <g id="Group_7184" data-name="Group 7184">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1328)">
+        <g id="Rectangle_1328-2" data-name="Rectangle 1328" transform="translate(365 10)" fill="#b55219" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_B55219" data-name="#B55219" transform="translate(799 13907)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#B55219</tspan></text>
+    </g>
+    <g id="Group_7185" data-name="Group 7185">
+      <g transform="matrix(1, 0, 0, 1, 269, 13659)" filter="url(#Rectangle_1329)">
+        <g id="Rectangle_1329-2" data-name="Rectangle 1329" transform="translate(715 10)" fill="#be6731" stroke="#bebebe" stroke-width="2">
+          <rect width="308" height="265" rx="15" stroke="none"/>
+          <rect x="1" y="1" width="306" height="263" rx="14" fill="none"/>
+        </g>
+      </g>
+      <text id="_BE6731-2" data-name="#BE6731" transform="translate(1148 13907)" fill="#fff" font-size="28" font-family="Access-Regular, Access" opacity="0.8"><tspan x="0" y="0">#BE6731</tspan></text>
+    </g>
+  </g>
+</svg>

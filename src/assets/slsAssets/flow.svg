@@ -1,0 +1,259 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1521" height="1521" viewBox="0 0 1521 1521">
+  <g id="Group_16282" data-name="Group 16282" transform="translate(-200 -7722)">
+    <circle id="Ellipse_743" data-name="Ellipse 743" cx="610.5" cy="610.5" r="610.5" transform="translate(350 7872)" fill="#eee" opacity="0.02"/>
+    <g id="Group_7242" data-name="Group 7242" transform="translate(7187 24144)">
+      <rect id="Rectangle_1579" data-name="Rectangle 1579" width="182" height="55" rx="4" transform="translate(-6318 -16213)" fill="#171515"/>
+      <rect id="Rectangle_1580" data-name="Rectangle 1580" width="182" height="55" rx="4" transform="translate(-6791 -16080)" fill="#171515"/>
+      <rect id="Rectangle_1584" data-name="Rectangle 1584" width="182" height="55" rx="4" transform="translate(-6791 -15945)" fill="#303030"/>
+      <rect id="Rectangle_1594" data-name="Rectangle 1594" width="182" height="55" rx="4" transform="translate(-6477 -15945)" fill="#303030"/>
+      <rect id="Rectangle_1601" data-name="Rectangle 1601" width="182" height="55" rx="4" transform="translate(-6160 -15945)" fill="#303030"/>
+      <rect id="Rectangle_1602" data-name="Rectangle 1602" width="182" height="55" rx="4" transform="translate(-6160 -15864)" fill="#303030"/>
+      <rect id="Rectangle_1603" data-name="Rectangle 1603" width="182" height="55" rx="4" transform="translate(-6160 -15784)" fill="#303030"/>
+      <rect id="Rectangle_1595" data-name="Rectangle 1595" width="182" height="55" rx="4" transform="translate(-6477 -15864)" fill="#303030"/>
+      <rect id="Rectangle_1596" data-name="Rectangle 1596" width="182" height="55" rx="4" transform="translate(-6477 -15784)" fill="#303030"/>
+      <rect id="Rectangle_1597" data-name="Rectangle 1597" width="182" height="55" rx="4" transform="translate(-6477 -15701)" fill="#303030"/>
+      <rect id="Rectangle_1598" data-name="Rectangle 1598" width="182" height="55" rx="4" transform="translate(-6477 -15621)" fill="#303030"/>
+      <rect id="Rectangle_1599" data-name="Rectangle 1599" width="182" height="55" rx="4" transform="translate(-6477 -15541)" fill="#303030"/>
+      <rect id="Rectangle_1600" data-name="Rectangle 1600" width="182" height="55" rx="4" transform="translate(-6477 -15461)" fill="#303030"/>
+      <rect id="Rectangle_1585" data-name="Rectangle 1585" width="182" height="55" rx="4" transform="translate(-6791 -15864)" fill="#303030"/>
+      <rect id="Rectangle_1586" data-name="Rectangle 1586" width="182" height="55" rx="4" transform="translate(-6791 -15784)" fill="#303030"/>
+      <rect id="Rectangle_1587" data-name="Rectangle 1587" width="182" height="55" rx="4" transform="translate(-6791 -15702)" fill="#303030"/>
+      <rect id="Rectangle_1588" data-name="Rectangle 1588" width="182" height="55" rx="4" transform="translate(-6791 -15621)" fill="#303030"/>
+      <rect id="Rectangle_1589" data-name="Rectangle 1589" width="182" height="55" rx="4" transform="translate(-6791 -15540)" fill="#303030"/>
+      <rect id="Rectangle_1590" data-name="Rectangle 1590" width="182" height="55" rx="4" transform="translate(-6791 -15459)" fill="#303030"/>
+      <rect id="Rectangle_1591" data-name="Rectangle 1591" width="182" height="55" rx="4" transform="translate(-6791 -15378)" fill="#303030"/>
+      <rect id="Rectangle_1592" data-name="Rectangle 1592" width="182" height="55" rx="4" transform="translate(-6791 -15297)" fill="#303030"/>
+      <rect id="Rectangle_1593" data-name="Rectangle 1593" width="182" height="55" rx="4" transform="translate(-6791 -15216)" fill="#303030"/>
+      <rect id="Rectangle_1581" data-name="Rectangle 1581" width="182" height="55" rx="4" transform="translate(-6477 -16080)" fill="#171515"/>
+      <rect id="Rectangle_1582" data-name="Rectangle 1582" width="182" height="55" rx="4" transform="translate(-6160 -16080)" fill="#171515"/>
+      <rect id="Rectangle_1583" data-name="Rectangle 1583" width="182" height="55" rx="4" transform="translate(-5844 -16080)" fill="#171515"/>
+      <text id="Home" transform="translate(-6251 -16177)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Home</tspan></text>
+      <text id="Industries" transform="translate(-6739 -16044)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Industries</tspan></text>
+      <text id="IoT_Platform" data-name="IoT Platform" transform="translate(-6750 -15909)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">IoT Platform</tspan></text>
+      <text id="IP_CORE_FPGA_SoC" data-name="IP CORE/FPGA/SoC" transform="translate(-6467 -15909)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">IP CORE/FPGA/SoC</tspan></text>
+      <text id="In_a_Snapshot" data-name="In a Snapshot" transform="translate(-6124 -15909)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">In a Snapshot</tspan></text>
+      <text id="CSR_Initiatives" data-name="CSR Initiatives" transform="translate(-6127 -15829)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">CSR Initiatives</tspan></text>
+      <text id="Certifications" transform="translate(-6124 -15748)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Certifications</tspan></text>
+      <text id="High_Speed_PCB" data-name="High Speed PCB" transform="translate(-6451 -15829)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">High Speed PCB</tspan></text>
+      <text id="Software_Development" data-name="Software Development" transform="translate(-6469 -15749)" fill="#fff" font-size="16" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Software Development</tspan></text>
+      <text id="EMS_Services" data-name="EMS Services" transform="translate(-6433 -15666)" fill="#fff" font-size="16" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">EMS Services</tspan></text>
+      <text id="Testing_and_Calibration" data-name="Testing and Calibration" transform="translate(-6470 -15586)" fill="#fff" font-size="16" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Testing and Calibration</tspan></text>
+      <text id="Machine_Learning" data-name="Machine Learning" transform="translate(-6386 -15506)" fill="#fff" font-size="16" font-family="Access-Light, Access" font-weight="300"><tspan x="-64" y="0">Machine Learning</tspan></text>
+      <text id="Artificial_Intelligence" data-name="Artificial Intelligence" transform="translate(-6386 -15426)" fill="#fff" font-size="16" font-family="Access-Light, Access" font-weight="300"><tspan x="-74" y="0">Artificial Intelligence</tspan></text>
+      <text id="Cloud_Solutions" data-name="Cloud Solutions" transform="translate(-6762 -15829)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Cloud Solutions</tspan></text>
+      <text id="EV_Charging" data-name="EV Charging" transform="translate(-6750 -15748)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">EV Charging</tspan></text>
+      <text id="Solar_and_wind" data-name="Solar and wind" transform="translate(-6759 -15666)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Solar and wind</tspan></text>
+      <text id="Smart_Metering" data-name="Smart Metering" transform="translate(-6764 -15585)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Smart Metering</tspan></text>
+      <text id="Home_Automation" data-name="Home Automation" transform="translate(-6775 -15504)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Home Automation</tspan></text>
+      <text id="Smart_Street_Lighting" data-name="Smart Street Lighting" transform="translate(-6788 -15423)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Smart Street Lighting</tspan></text>
+      <text id="Smart_Gaming" data-name="Smart Gaming" transform="translate(-6759 -15342)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Smart Gaming</tspan></text>
+      <text id="Smart_Traffic" data-name="Smart Traffic" transform="translate(-6753 -15261)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Smart Traffic</tspan></text>
+      <text id="Digital_signage" data-name="Digital signage" transform="translate(-6761 -15180)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Digital signage</tspan></text>
+      <text id="Services" transform="translate(-6418 -16044)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Services</tspan></text>
+      <text id="About_Us" data-name="About Us" transform="translate(-6106 -16044)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">About Us</tspan></text>
+      <text id="Contact_Us" data-name="Contact Us" transform="translate(-5798 -16044)" fill="#fff" font-size="18" font-family="Access-Light, Access" font-weight="300"><tspan x="0" y="0">Contact Us</tspan></text>
+      <g id="Group_7215" data-name="Group 7215" transform="translate(-0.5)">
+        <path id="Union_2" data-name="Union 2" d="M4.5,8.5v0ZM1,4.5A3.5,3.5,0,1,1,4.5,8,3.5,3.5,0,0,1,1,4.5Z" transform="translate(-6704 -16028)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214" data-name="Group 7214">
+          <line id="Line_66" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7224" data-name="Group 7224" transform="translate(-22553.5 -9217.5) rotate(90)">
+        <line id="Line_65" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-2" data-name="Group 7214">
+          <line id="Line_66-2" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-2" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7232" data-name="Group 7232" transform="translate(-22239.5 -9217.5) rotate(90)">
+        <line id="Line_65-2" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-3" data-name="Group 7214">
+          <line id="Line_66-3" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-3" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7239" data-name="Group 7239" transform="translate(-21922.5 -9217.5) rotate(90)">
+        <line id="Line_65-3" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-4" data-name="Group 7214">
+          <line id="Line_66-4" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-4" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7240" data-name="Group 7240" transform="translate(-21922.5 -9136.5) rotate(90)">
+        <line id="Line_65-4" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-5" data-name="Group 7214">
+          <line id="Line_66-5" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-5" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7241" data-name="Group 7241" transform="translate(-21922.5 -9056.5) rotate(90)">
+        <line id="Line_65-5" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-6" data-name="Group 7214">
+          <line id="Line_66-6" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-6" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7224-2" data-name="Group 7224" transform="translate(-22553.5 -9136.5) rotate(90)">
+        <line id="Line_65-6" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-7" data-name="Group 7214">
+          <line id="Line_66-7" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-7" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7233" data-name="Group 7233" transform="translate(-22239.5 -9136.5) rotate(90)">
+        <line id="Line_65-7" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-8" data-name="Group 7214">
+          <line id="Line_66-8" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-8" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7224-3" data-name="Group 7224" transform="translate(-22553.5 -9056.5) rotate(90)">
+        <line id="Line_65-8" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-9" data-name="Group 7214">
+          <line id="Line_66-9" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-9" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7234" data-name="Group 7234" transform="translate(-22239.5 -9056.5) rotate(90)">
+        <line id="Line_65-9" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-10" data-name="Group 7214">
+          <line id="Line_66-10" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-10" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7225" data-name="Group 7225" transform="translate(-22553.5 -8974.5) rotate(90)">
+        <line id="Line_65-10" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-11" data-name="Group 7214">
+          <line id="Line_66-11" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-11" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7235" data-name="Group 7235" transform="translate(-22239.5 -8974.5) rotate(90)">
+        <line id="Line_65-11" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-12" data-name="Group 7214">
+          <line id="Line_66-12" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-12" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7226" data-name="Group 7226" transform="translate(-22553.5 -8893.5) rotate(90)">
+        <line id="Line_65-12" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-13" data-name="Group 7214">
+          <line id="Line_66-13" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-13" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7236" data-name="Group 7236" transform="translate(-22239.5 -8893.5) rotate(90)">
+        <line id="Line_65-13" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-14" data-name="Group 7214">
+          <line id="Line_66-14" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-14" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7227" data-name="Group 7227" transform="translate(-22553.5 -8812.5) rotate(90)">
+        <line id="Line_65-14" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-15" data-name="Group 7214">
+          <line id="Line_66-15" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-15" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7237" data-name="Group 7237" transform="translate(-22239.5 -8812.5) rotate(90)">
+        <line id="Line_65-15" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-16" data-name="Group 7214">
+          <line id="Line_66-16" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-16" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7228" data-name="Group 7228" transform="translate(-22553.5 -8731.5) rotate(90)">
+        <line id="Line_65-16" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-17" data-name="Group 7214">
+          <line id="Line_66-17" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-17" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7238" data-name="Group 7238" transform="translate(-22239.5 -8731.5) rotate(90)">
+        <line id="Line_65-17" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-18" data-name="Group 7214">
+          <line id="Line_66-18" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-18" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7229" data-name="Group 7229" transform="translate(-22553.5 -8650.5) rotate(90)">
+        <line id="Line_65-18" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-19" data-name="Group 7214">
+          <line id="Line_66-19" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-19" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7230" data-name="Group 7230" transform="translate(-22553.5 -8569.5) rotate(90)">
+        <line id="Line_65-19" data-name="Line 65" y2="28" transform="translate(-6699.5 -15973.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-20" data-name="Group 7214">
+          <line id="Line_66-20" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-20" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7231" data-name="Group 7231" transform="translate(-22553.5 -8488.5) rotate(90)">
+        <line id="Line_65-20" data-name="Line 65" y2="28.2" transform="translate(-6699.5 -15974)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-21" data-name="Group 7214">
+          <line id="Line_66-21" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-21" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7220" data-name="Group 7220" transform="translate(-0.5 -136)">
+        <line id="Line_65-21" data-name="Line 65" y2="40" transform="translate(-6699.5 -15985.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-22" data-name="Group 7214">
+          <line id="Line_66-22" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-22" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7221" data-name="Group 7221" transform="translate(313.5 -136)">
+        <line id="Line_65-22" data-name="Line 65" y2="40" transform="translate(-6699.5 -15985.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-23" data-name="Group 7214">
+          <line id="Line_66-23" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-23" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7222" data-name="Group 7222" transform="translate(630.5 -136)">
+        <line id="Line_65-23" data-name="Line 65" y2="40" transform="translate(-6699.5 -15985.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-24" data-name="Group 7214">
+          <line id="Line_66-24" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-24" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7223" data-name="Group 7223" transform="translate(946.5 -136)">
+        <line id="Line_65-24" data-name="Line 65" y2="40" transform="translate(-6699.5 -15985.5)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-25" data-name="Group 7214">
+          <line id="Line_66-25" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-25" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7216" data-name="Group 7216" transform="translate(313.5)">
+        <path id="Union_2-2" data-name="Union 2" d="M4.5,8.5v0ZM1,4.5A3.5,3.5,0,1,1,4.5,8,3.5,3.5,0,0,1,1,4.5Z" transform="translate(-6704 -16028)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-26" data-name="Group 7214">
+          <line id="Line_66-26" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-26" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7217" data-name="Group 7217" transform="translate(630.5)">
+        <path id="Union_2-3" data-name="Union 2" d="M4.5,8.5v0ZM1,4.5A3.5,3.5,0,1,1,4.5,8,3.5,3.5,0,0,1,1,4.5Z" transform="translate(-6704 -16028)" fill="none" stroke="#717171" stroke-width="2"/>
+        <g id="Group_7214-27" data-name="Group 7214">
+          <line id="Line_66-27" data-name="Line 66" x1="4" y2="4" transform="translate(-6699.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+          <line id="Line_67-27" data-name="Line 67" x2="4" y2="4" transform="translate(-6703.5 -15949.5)" fill="none" stroke="#707070" stroke-linecap="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g id="Group_7219" data-name="Group 7219" transform="translate(472.5 -134.5)">
+        <path id="Union_2-4" data-name="Union 2" d="M4.5,8.5v0ZM1,4.5A3.5,3.5,0,1,1,4.5,8,3.5,3.5,0,0,1,1,4.5Z" transform="translate(-6704 -16028)" fill="none" stroke="#717171" stroke-width="2"/>
+      </g>
+      <line id="Line_68" data-name="Line 68" x2="947" transform="translate(-6699.5 -16120.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_69" data-name="Line 69" y2="11" transform="translate(-6692.5 -15991.75)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_74" data-name="Line 74" y2="11" transform="translate(-6378.5 -15991.75)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_75" data-name="Line 75" y2="11" transform="translate(-6061.5 -15991.75)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_70" data-name="Line 70" x2="112" transform="translate(-6691.5 -15986.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_73" data-name="Line 73" x2="112" transform="translate(-6377.5 -15986.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_76" data-name="Line 76" x2="112" transform="translate(-6060.5 -15986.5)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_71" data-name="Line 71" y2="798.5" transform="translate(-6580.5 -15987)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_72" data-name="Line 72" y2="557" transform="translate(-6266.5 -15987)" fill="none" stroke="#707070" stroke-width="2"/>
+      <line id="Line_77" data-name="Line 77" y2="232" transform="translate(-5949.5 -15987)" fill="none" stroke="#707070" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

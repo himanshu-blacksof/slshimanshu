@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="630" height="242" viewBox="0 0 630 242">
+  <g id="enquiry" transform="translate(-286 -29375)">
+    <path id="BG" d="M26,0H604a26,26,0,0,1,26,26V242a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V26A26,26,0,0,1,26,0Z" transform="translate(286 29375)" fill="#4a4a4a"/>
+    <rect id="Title" width="161" height="13" rx="6.5" transform="translate(383 29528)" fill="#77777a"/>
+    <rect id="Title-2" data-name="Title" width="204" height="13" rx="6.5" transform="translate(383 29564)" fill="#5e5e5e"/>
+    <rect id="Title-3" data-name="Title" width="204" height="13" rx="6.5" transform="translate(383 29588)" fill="#5e5e5e"/>
+    <g id="Group_7019" data-name="Group 7019" transform="translate(-721 2656)">
+      <rect id="_3" data-name="3" width="24" height="11" rx="5.5" transform="translate(1565 26750)" fill="#858585"/>
+      <rect id="_2" data-name="2" width="24" height="11" rx="5.5" transform="translate(1530 26750)" fill="#858585"/>
+      <rect id="_1" data-name="1" width="23" height="11" rx="5.5" transform="translate(1495 26750)" fill="#858585"/>
+      <rect id="Rectangle_1568" data-name="Rectangle 1568" width="56" height="18" rx="9" transform="translate(1055 26746)" fill="#858585"/>
+    </g>
+    <path id="Rectangle_1604" data-name="Rectangle 1604" d="M35,0h95a35,35,0,0,1,35,35v87a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V35A35,35,0,0,1,35,0Z" transform="translate(627 29495)" fill="#858585"/>
+    <rect id="Title-4" data-name="Title" width="38" height="10" rx="5" transform="translate(339 29463)" fill="#5e5e5e"/>
+    <rect id="Title-5" data-name="Title" width="51" height="10" rx="5" transform="translate(389 29463)" fill="#858585"/>
+  </g>
+</svg>

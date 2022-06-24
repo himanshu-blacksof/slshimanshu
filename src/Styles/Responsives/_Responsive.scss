@@ -1,0 +1,1354 @@
+// tablet view responsive 800
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 9rem !important;
+    }
+
+    //navbar
+    .nav {
+        height: 90px;
+    }
+
+    .alignment__container2 {
+        width: 80%;
+    }
+
+    .work__container {
+        width: 90%;
+        display: block;
+        margin: 4rem auto;
+
+        &:hover {
+            .view__arrow {
+                a {
+                    // padding-top: .5rem;
+                }
+            }
+
+            .work__image {
+                img {
+                    transform: none;
+                }
+            }
+        }
+    }
+
+    .work__image {
+        width: 100% !important;
+        padding-right: 0rem;
+        padding-bottom: 2rem;
+    }
+
+    .work__text {
+        width: 100% !important;
+        padding-left: 0;
+    }
+
+    .view__arrow {
+        margin-top: .5rem !important;
+
+        a {
+            opacity: 1;
+        }
+
+        img {
+            width: 25px !important;
+        }
+    }
+
+
+
+    // home page responsive 800 *******
+
+    .master__container {
+        width: 90%;
+        margin: 10rem auto 0;
+    }
+
+    // about us and page heading 
+
+    .page__heading {
+        display: block;
+
+        h2 {
+            padding: 0rem;
+        }
+    }
+
+    .sub__heading {
+        width: 100%;
+        padding: 0rem;
+        margin-top: 4%;
+
+        p {
+            width: 100%;
+            padding: 0rem;
+        }
+    }
+
+    .page__heading__container {
+        width: 85%;
+        height: fit-content;
+        // height: 60vh;
+    }
+
+    .page__info__paragraph {
+        width: 85%;
+        margin: 0rem auto;
+
+        p {
+            padding-top: 0rem;
+        }
+    }
+
+    .para__info__image {
+        width: 100%;
+        margin: 7rem auto 5rem;
+    }
+
+    .main__heading {
+        h1 {
+            font-size: 8rem;
+            margin: 3rem auto;
+        }
+    }
+
+    .mini__paragraph {
+        width: 85%;
+        margin: 2rem auto 5rem;
+
+        p {
+            width: 80%;
+        }
+    }
+
+    .life__at__blacksof__container {
+        margin: 0;
+        width: 90%;
+
+        h2 {
+            font-size: 4rem;
+            margin-left: 3rem;
+        }
+    }
+
+    .life__blacksof__text {
+        width: 100%;
+        margin-left: 3rem;
+
+        h2 {
+            font-size: 4rem;
+            margin-left: 0;
+        }
+
+        p {
+            margin-top: 2rem;
+        }
+    }
+
+    // our culture
+
+    .our__culture__container {
+        width: 100%;
+    }
+
+    .our__culture {
+        display: block;
+    }
+
+    .our__culture__image {
+        width: 70%;
+    }
+
+    .our__culture__text {
+        width: 100%;
+        padding: 0rem;
+        margin-top: 3%;
+    }
+
+    li {
+        margin-left: 2rem;
+    }
+
+    //team membrs 
+
+    .team__image__container {
+        margin-top: 10%;
+    }
+
+    .card__container {
+        width: 40%;
+        cursor: pointer;
+        margin: 3rem 2%;
+    }
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+
+    .close__button {
+        width: 20px;
+    }
+
+    .overlay__content {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .about__team__member {
+        width: 100%;
+        padding: 1rem;
+        margin-top: 4%;
+
+        h5 {
+            font-size: 1.87rem;
+            padding: 0rem;
+            font-weight: bolder;
+        }
+
+        h6 {
+            padding: 0rem;
+            font-size: 1.4rem;
+            margin-top: 2%;
+
+        }
+
+        p {
+            padding: 1.5rem 0;
+        }
+    }
+
+    .card__image__popup {
+        width: 60% !important;
+    }
+
+    .image__border {
+        width: 100%;
+        margin-right: 0rem;
+    }
+
+
+
+    //join us
+
+    .accordion__row__container {
+        margin: 2rem auto;
+    }
+
+    .uncolapse {
+        height: 55vh;
+    }
+
+    .accordion__row {
+        img {
+            width: 30px;
+        }
+    }
+
+    .form__heading {
+        margin-top: 20rem;
+    }
+
+    // contact us
+
+    .contact__container {
+        margin-top: 8%;
+        flex-direction: column;
+    }
+
+    .connect__headings {
+        margin-top: 15rem;
+        height: fit-content;
+
+        h1 {
+            font-size: 6rem !important;
+        }
+    }
+
+    .contact__info {
+        width: 100%;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .mail {
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+
+        img {
+            width: 40px;
+        }
+
+        p {
+            font-size: 2rem;
+            padding-left: 2rem;
+
+        }
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+
+        img {
+            width: 40px;
+        }
+
+        p {
+            font-size: 2rem;
+            padding-left: 2rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+
+
+    // portfolio pages
+
+    .portfolio__heading__container {
+        display: block;
+        width: 80%;
+    }
+
+    .portfolio__heading {
+        display: block;
+        flex-direction: column;
+    }
+
+    .heading__bunch {
+        width: 100%;
+    }
+
+    .portfolio__para {
+        width: 100% !important;
+        padding-top: 0;
+        padding: 0;
+
+        p {
+            padding-top: 0rem !important;
+        }
+    }
+
+    //encompass
+
+    .encompass__logo {
+        width: 50%;
+    }
+
+    .logo__making {
+        width: 50%;
+    }
+
+    //ima2020
+
+    .ima2020__logo {
+        margin: 8rem auto;
+    }
+
+    // sinlesss
+
+    .sinless__logo {
+        width: 35%;
+    }
+
+    .website__button {
+        display: none;
+    }
+
+    // informatic press
+
+    .informatics__logo {
+        width: 50%;
+    }
+
+    .text__block {
+        width: 100% !important;
+        padding-right: 0rem;
+
+    }
+
+    .work {
+        margin-top: 20rem;
+    }
+
+
+    //Previous and Next Works
+    .prev_next_work_container {
+        flex-direction: column;
+    }
+
+    .prev_next_work_box_left {
+        width: 100% !important;
+        padding: 25% 0% !important;
+    }
+
+    .prev_next_work_box_right {
+        width: 100% !important;
+        padding: 25% 0% !important;
+        margin-top: 10%;
+    }
+
+    .prev_hr {
+        width: 100%;
+        background-color: grey;
+    }
+
+
+    //brebel portfolio 800
+
+    .big_heading {
+
+        h1 {
+            font-size: 5rem !important;
+        }
+    }
+
+    .arrow__styles {
+        display: none;
+    }
+
+    .d__none__sm {
+        display: none;
+    }
+
+
+
+    //SPINTLY PORFOLIO
+
+    .attendence__container {
+        .att__paragraph {
+            margin-top: 3%;
+            width: 100%;
+            float: none;
+
+            h2 {
+                padding-left: 3%;
+            }
+        }
+
+        h2 {
+            color: #ff6501;
+            font-family: Access__Regular;
+            font-size: 5rem;
+        }
+
+        h5 {
+            font-family: Access__Regular;
+            line-height: 1.5;
+        }
+    }
+
+    .grey__dashboards__container {
+        margin-top: 1%;
+
+        h3 {
+            padding-left: 3%;
+        }
+
+        &::before {
+            width: 100%;
+        }
+    }
+
+    .grey__dashboards__container__reverse {
+
+        h3 {
+            color: #ff6501;
+            font-family: Access__Regular;
+            padding-left: 4%;
+            float: none;
+        }
+
+        &::before {
+            width: 100%;
+        }
+    }
+
+
+
+
+    //SENSTRA PORTFOLIO CSS 800
+
+    .greenback {
+        h2 {
+            font-size: 3rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.2;
+        }
+    }
+
+    .website__section {
+        .text__box {
+            width: 70%;
+        }
+    }
+
+    //TAB VIEW MOLECULE 
+
+    .res__container {
+        flex-direction: column;
+    }
+
+    .res__container__reverse {
+        flex-direction: column-reverse;
+    }
+
+    .text__width__responsive {
+        width: 100%;
+        position: static;
+    }
+
+
+    //FOOTER CSS
+
+
+    .footer__container {
+        width: 80%;
+
+        hr {
+            width: 50%;
+            border: 1.5px solid black;
+        }
+
+        h3 {
+            padding-top: 2rem;
+        }
+    }
+
+    //chat Bot
+
+    .crisp-client .cc-kv6t .cc-1xry .cc-ge4v,
+    .crisp-client .cc-kv6t .cc-1xry .cc-unoo {
+        animation-name: bounce1 !important;
+        animation-duration: 1400ms;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+        right: 40px !important;
+        bottom: 40px !important;
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 6.5rem !important;
+    }
+
+    .nav {
+        height: 90px;
+    }
+
+
+    .navlinks {
+        display: none;
+    }
+
+
+    //mobile nav bar 
+
+    .mobile__nav {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: black;
+        // display: none;
+        z-index: 99;
+        opacity: 0;
+        display: none;
+        // transition: all 3s ease-in-out;
+
+    }
+
+    .display__mobile__nav {
+        display: block;
+        opacity: 1;
+        transition: all 3s ease-in-out;
+    }
+
+    .mobile__nav__link {
+        position: relative;
+        z-index: 10;
+        height: 100vh;
+        width: 100%;
+        display: block;
+    }
+
+    .cross {
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        color: #ff6501;
+        z-index: 10;
+
+        img {
+            width: 6rem;
+            padding: 1.5rem;
+        }
+
+    }
+
+    .mobile__navlinks {
+        width: 100%;
+        height: 80%;
+        display: grid;
+        place-content: center;
+
+        a {
+            overflow: hidden;
+            margin-bottom: 3rem;
+        }
+
+        h5 {
+            color: white;
+            font-size: 3.2rem;
+            text-align: center;
+            opacity: 0;
+        }
+
+    }
+
+    .logo {
+        overflow: hidden;
+        width: 60px;
+        border-radius: 1px;
+
+        img {
+            padding: 2px;
+        }
+    }
+
+    .hamburger__icon {
+        display: block;
+
+        img {
+            width: 30px;
+        }
+    }
+
+    .align_right {
+        width: 85%;
+        height: 100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .hamburger-react {
+            div {
+                width: 30px !important;
+                background-color: white !important;
+            }
+        }
+    }
+
+
+
+    .socials {
+        img {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    // home page responsive 600 *******
+
+
+    .home__slider {
+        margin-top: 10%;
+        height: fit-content;
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .master__container {
+        width: 80%;
+        margin: 5rem auto 0;
+    }
+
+    .slider__content__container {
+        display: block;
+        width: 80%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .carousel__item {
+        height: fit-content;
+    }
+
+    .home__image {
+        width: 100%;
+        padding: 0;
+    }
+
+    .slider__text {
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+
+        h2 {
+            font-size: 4rem;
+        }
+
+        h3 {
+            font-size: 1.85rem;
+            padding-right: 0%;
+            line-height: 1.3;
+        }
+
+        h5 {
+            font-size: 1.5rem;
+            line-height: 2rem;
+        }
+
+        p {
+            padding-right: 0%;
+        }
+    }
+
+
+    .carousel-indicators {
+        display: none;
+    }
+
+    // home footer
+
+    .home__footer {
+        height: fit-content;
+        margin: 10% 0%;
+    }
+
+    .make__something {
+        display: none;
+    }
+
+    .home__footer__container {
+        text-align: center;
+    }
+
+    .copyright__line {
+        display: block;
+        text-align: center;
+    }
+
+    // about us and page heading `
+
+    .page__heading {
+        display: block;
+        padding: 0rem;
+
+        h2 {
+            padding: 0rem;
+        }
+    }
+
+    .sub__heading {
+        width: 100%;
+        padding: 0rem;
+
+        // margin-top: 2%;
+        p {
+            width: 100%;
+        }
+    }
+
+    .page__heading__container {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .page__info__paragraph {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .para__info__image {
+        width: 100%;
+        margin: 7rem auto 5rem;
+    }
+
+    .main__heading {
+
+        h1 {
+            font-size: 8rem;
+            margin: 3rem auto;
+        }
+    }
+
+    .mini__paragraph {
+        width: 85%;
+        margin: 2rem auto 5rem;
+
+        p {
+            width: 80%;
+        }
+    }
+
+    // our culture
+
+    .our__culture__container {
+        width: 100%;
+    }
+
+    .our__culture {
+        display: block;
+
+    }
+
+    .our__culture__image {
+        width: 100%;
+    }
+
+    .our__culture__text {
+        width: 100%;
+        padding: 0rem;
+        margin-top: 3%;
+    }
+
+    li {
+        margin-left: 1.3rem;
+    }
+
+    .life__at__blacksof__container {
+        margin: 0;
+        width: 100%;
+
+        h2 {
+            font-size: 4rem;
+            margin-left: 0rem;
+        }
+    }
+
+    .life__blacksof__text {
+        width: 90%;
+        margin-left: 0rem;
+
+        h2 {
+            font-size: 4rem;
+            margin-left: 0;
+        }
+
+        p {
+            margin-top: 2rem;
+        }
+    }
+
+    // join us section
+
+    .accordion__row__container {
+        margin: 2rem auto;
+    }
+
+    .uncolapse {
+        height: 45vh;
+    }
+
+    .accordion__row {
+        img {
+            width: 30px;
+        }
+    }
+
+    .form__heading {
+        margin-top: 20rem;
+    }
+
+
+    // contact us page
+
+    .contact__container {
+        display: block;
+
+    }
+
+    .business__enquiries {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3%;
+        // margin-left: 0rem;
+    }
+
+    .connect__headings {
+        margin-top: 10rem;
+
+        h1 {
+            font-size: 4rem !important;
+        }
+    }
+
+    .contact__info {
+        width: 100%;
+        display: block;
+        margin-bottom: 5rem;
+    }
+
+    .mail {
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+
+        img {
+            width: 40px;
+        }
+
+        p {
+            font-size: 2rem;
+            padding-left: 2rem;
+
+        }
+    }
+
+    .phone {
+        display: flex;
+        align-items: center;
+        margin: 2rem;
+
+        img {
+            width: 40px;
+        }
+
+        p {
+            font-size: 2rem;
+            padding-left: 2rem;
+            padding-bottom: 1.5rem;
+        }
+    }
+
+
+
+
+
+    // work section
+
+    .work {
+        margin-top: 5rem;
+        width: 100%;
+    }
+
+    .work__container {
+        width: 80%;
+        display: block;
+        margin-top: 15% !important;
+
+        &:hover {
+            .view__arrow {
+                a {
+                    transition: none;
+                }
+            }
+
+            .work__image {
+                img {
+                    transform: none;
+                }
+            }
+        }
+    }
+
+    .work__image {
+        width: 100%;
+        padding-right: 0rem;
+        padding-bottom: 0rem !important;
+    }
+
+    .work__text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .view__arrow {
+        padding-top: 0rem !important;
+
+        a {
+            opacity: 1;
+        }
+
+        img {
+            width: 25px;
+            margin-top: 5px !important;
+        }
+    }
+
+
+    .work__box__margin {
+        margin-left: 0% !important;
+        margin-top: 0% !important;
+    }
+
+    //service List 
+    .service__list__container {
+        width: 100%;
+    }
+
+
+    // new portfolio container
+
+    .new__porfolio__container {
+        width: 100% !important;
+        grid-template-columns: 1fr !important;
+        gap: 5px !important;
+
+        .navLinks {
+            display: block;
+        }
+    }
+
+    .new__porfolio__half {
+        width: 100% !important;
+        margin-top: 2rem !important;
+
+    }
+
+    .new__porfolio__half__right {
+        width: 100% !important;
+        margin-left: 0% !important;
+    }
+
+    .tabs__container {
+
+        .navlinks {
+            display: flex;
+        }
+    }
+
+
+
+
+    // team section 600
+
+    .team__member__grid {
+        width: 90%;
+    }
+
+    .team__image__container {
+        margin-top: 10%;
+    }
+
+    .card__container {
+        cursor: pointer;
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .card__image {
+        width: 100%;
+        border: 1px solid gray;
+    }
+
+    .overlay {
+        // display: flex;
+        // flex-direction: column;
+        background-image: none;
+        padding: 3% 0%;
+    }
+
+    .overlay__content {
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .about__team__member {
+        width: 100%;
+        padding: 0rem;
+        text-align: center;
+
+        h5 {
+            font-size: 1.87rem;
+            padding: 0rem;
+            font-weight: bolder;
+        }
+
+        h6 {
+            padding: 0rem;
+            font-size: 1.4rem;
+        }
+
+        p {
+            padding: 1.5rem 0;
+            // display: none;
+        }
+    }
+
+    .card__image__popup {
+        width: 60%;
+
+    }
+
+
+    // portfolio pages
+
+    .portfolio__heading__container {
+        display: block;
+        // height: 46vh;
+        width: 80%;
+    }
+
+    .portfolio__heading {
+        display: block;
+    }
+
+    .heading__bunch {
+        width: 100%;
+    }
+
+    .portfolio__para {
+        width: 100%;
+        padding-top: 0;
+        padding: 0;
+    }
+
+    //encompass
+
+    .encompass__logo {
+        width: 50%;
+    }
+
+    .logo__making {
+        width: 50%;
+    }
+
+    //ima2020
+
+    .ima2020__logo {
+        margin: 8rem auto;
+    }
+
+    // sinlesss
+
+    .sinless__logo {
+        width: 35%;
+    }
+
+    .website__button {
+        display: none;
+    }
+
+    // informatic press
+
+    .informatics__logo {
+        width: 50%;
+    }
+
+
+
+    //Previous and Next Works
+
+    .prev_next_work_container {
+        flex-direction: column;
+    }
+
+    .prev_next_work_box_left {
+        width: 100% !important;
+        padding: 25% 0% !important;
+    }
+
+    .prev_next_work_box_right {
+        width: 100% !important;
+        padding: 25% 0% !important;
+
+
+    }
+
+    .prev_hr {
+        width: 100%;
+        background-color: grey;
+    }
+
+    //brebel portfolio 600
+
+    .big_heading {
+        h1 {
+            font-size: 3.5rem !important;
+        }
+    }
+
+    .left__box {
+        display: none;
+    }
+
+    .right__box {
+        width: 80%;
+        margin: 0 auto;
+        border: none;
+        border-radius: 5px;
+        padding: 10% 0%;
+    }
+
+    .arrow__styles {
+        display: none;
+    }
+
+    //SPINTLY PORFOLIO 600
+
+    .spintly__light__blue__container {
+        padding: 5rem 0rem;
+    }
+
+    .spintly__heading {
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        div {
+            width: 100%;
+        }
+
+        h1 {
+            color: #ffe7d9;
+            font-size: 8rem;
+        }
+
+        h3 {
+            position: static;
+            margin-left: 8%;
+            bottom: 8%;
+            color: #000 !important;
+            z-index: 1;
+
+        }
+    }
+
+    .attendence__container {
+        .att__paragraph {
+            margin-top: 2%;
+            width: 100%;
+            float: none;
+        }
+
+        h2 {
+            color: #ff6501;
+            font-family: Access__Regular;
+            font-size: 4rem;
+        }
+    }
+
+
+    //senstra PORTFOLIO CSS 600
+
+    .greenback {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.2;
+        }
+    }
+
+    .website__section {
+        .text__box {
+            width: 80%;
+        }
+    }
+
+
+
+
+    //TAB VIEW MOLECULE 
+    .responsive__section {
+        // margin-top: 6rem !important;
+    }
+
+    .res__container {
+        flex-direction: column;
+        margin-top: 5rem !important;
+    }
+
+    .res__container__reverse {
+        flex-direction: column !important;
+        margin-top: 5rem !important;
+
+    }
+
+    .half__left {
+        width: 100% !important;
+    }
+
+    .half__right {
+        width: 100% !important;
+        position: relative;
+
+    }
+
+    .text__width__responsive {
+        width: 100% !important;
+        position: static !important;
+        margin-top: 2rem;
+    }
+
+
+
+    //FOOTER CSS
+
+
+    .footer__container {
+        width: 90%;
+        margin: 5rem auto 5rem;
+        text-align: center;
+
+        hr {
+            width: 60%;
+            border: 1.5px solid black;
+        }
+
+        h3 {
+            padding-top: 2rem;
+        }
+    }
+
+
+    //chat BOt 600
+
+
+    .crisp-client .cc-kv6t[data-full-view=true] .cc-1xry .cc-unoo {
+        right: 30px !important;
+        bottom: 40px !important;
+    }
+
+
+
+
+
+
+    //utilities
+
+    .top__margin {
+        margin-top: 2.5rem;
+    }
+
+    .bottom__margin {
+        margin-top: 2.5rem;
+    }
+
+
+    .top__padding {
+        margin-top: 2.5rem;
+    }
+
+
+
+
+
+
+
+}

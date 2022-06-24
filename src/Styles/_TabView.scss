@@ -1,0 +1,48 @@
+
+// responsive section css
+
+.responsive__section{
+  color: #CFFE00;
+  opacity: 1;
+  margin-top: 10rem;
+}
+
+.res__container{
+  display: flex;
+  margin-top: 10rem;
+}
+.res__container__reverse{
+  display: flex;
+  margin-top: 10rem;
+  flex-direction: row-reverse;
+}
+
+.half__left{
+  width: 50%;  
+}
+.half__right{
+  width: 50%;
+  position: relative;
+}
+.text__width__responsive{
+  width: 40%;
+  position: absolute;
+  top:40%;
+  left: 30%;
+  & .arrow__position{
+    top:-50%;
+    left: -150%;
+  }
+  & .arrow__position__reverse{
+      bottom:30%;
+      left:100%;
+      transform: rotate(40deg);
+  }
+  & .arrow__position__reverse.arrow__styles{
+      width: 100%;
+  }
+  & .arrow__styles{
+    width: 150%;
+  }
+
+}

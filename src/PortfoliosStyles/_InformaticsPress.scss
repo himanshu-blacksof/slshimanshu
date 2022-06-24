@@ -1,0 +1,56 @@
+.informatics__logo{
+    width: 25%;
+    margin: 0 auto;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.tags{
+    width: 80%; 
+    margin: 5rem auto 0;
+    display: flex;
+
+    h5{
+        padding: 3.5rem 6.2rem;
+        background-color: #857C73;
+        color: white;
+        font-size: 1.87rem;
+    }
+}
+
+
+
+.text__block{
+    width: 50%;
+    float: right;
+    padding-right: 5rem;
+    margin: 5rem 0;
+}
+
+.book02{
+    width: 70%;
+    margin: 10rem auto;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.left__align{
+    width: 60%;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+.right__align{
+    float: right;
+    width: 60%;
+    img{
+        width: 100%;
+        object-fit: contain;
+    }
+}

@@ -1,0 +1,39 @@
+.pagerheading__atom__reverse{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  position: relative;
+  h4{
+    padding-left: 5px;
+  }
+  h3{
+    padding-right: 5px;
+  }
+}
+
+.pagerheading__atom{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  h4{
+    padding-right: 5px;
+  }
+  h3{
+    padding-left: 5px;
+  }
+}
+
+.pager__line{
+  position: absolute;
+  top: 50%;
+  height: 3px;
+  width: 100%;
+  z-index: 0;
+}
+

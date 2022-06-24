@@ -1,0 +1,16 @@
+
+.full__width{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.simple__width {
+    width: 80%; 
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .simple__width{
+        width: 80%;
+    }
+}

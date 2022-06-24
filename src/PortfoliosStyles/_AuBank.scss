@@ -1,0 +1,102 @@
+.au_banner{
+    padding: 160px 0px 150px;
+    height:140vh ;
+    min-height: 1000px;
+    background-image: 
+    url(../assets/au-bank-assets/bottom-right-bg.svg) , 
+    url(../assets/au-bank-assets/top-left-bg.svg), 
+    radial-gradient(closest-side at 50% 50%, #6E2466 0%, #380A47 100%);
+    background-position:  right  bottom, left top  , left top ;
+    background-size: calc(min( 500px, 90vw))  auto , calc(min( 500px, 90vw))  auto ,  100% 100% ;
+    background-repeat: no-repeat , no-repeat , no-repeat;
+    background-origin: border-box, border-box, content-box;
+    display: grid;
+    place-items: center;
+
+}
+.au_logo_wrapper{
+    height: 150px;
+    width: calc(min(85%, 350px));
+   img{
+       height: 100%;
+       width: 100%;
+   }
+}
+
+.au_color_palette {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 700px;
+    gap: 10px;
+    p {
+        padding:  15px 25px;
+        color: white ;
+        line-height: 50px;
+    }
+    
+   
+        margin: 100px 0px !important;
+        .left_section ,.right_section{
+            flex: 1 1 500px ;
+            min-height: 310px;
+            align-self: stretch;
+           
+        }
+        .right_section{
+            min-height: 700px;
+        }
+        .left_section {
+            background-color: #E5600D;
+        }
+        .right_section {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+
+            .upper_section{
+              
+                display: flex;
+                flex-wrap: wrap;
+                flex: 1 1 48%;
+                height: 45%;
+                gap: 10px;
+                .upper_left{
+                    flex: 1 1 300px;
+                  
+                    background-color: #451156;
+                }
+                .upper_right {
+                    flex: 1 1 300px;
+                   
+                    background-color:#EB8700;
+                }
+            }
+
+            .lower_section{
+                flex: 1 1 48%;
+                background-color: #FFCE35;
+               height: 55%;
+                
+              
+                
+            }
+        }
+   
+}
+.au_slides{
+    position: relative;
+    text-align: center;
+    h1{
+        position: absolute;
+        bottom: 50px;
+        left: 0;
+        right: 0;
+        color: white ;
+        font-family: "Access__Regular",sans-serif;
+
+    }
+}
+.img_bg_orange{
+    background-color:  #EB8700 ;
+}

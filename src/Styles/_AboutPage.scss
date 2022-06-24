@@ -1,0 +1,62 @@
+.page__info__paragraph {
+  width: 60%;
+  margin: 7rem auto;
+  p {
+    padding-top: 3rem;
+  }
+}
+
+.para__info__image {
+  width: 100%;
+  margin: 8rem auto 8rem;
+  animation: paragraph 1s 2s ;
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.image__padding{
+  padding:5% 10%;
+}
+
+.mini__paragraph {
+  width: 80%;
+  margin: 10rem auto 5rem;
+
+  p {
+    width: 40%;
+    font-weight: bold;
+  }
+}
+
+.our__culture__container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.life__at__blacksof__container {
+  width: 80%;
+  margin: 10rem;
+}
+
+.life__blacksof__text {
+  width: 50%;
+  margin-left: 45%;
+
+  h2 {
+    padding: 1rem 0;
+  }
+}
+
+@keyframes paragraph {
+  0%{
+    opacity: 0;
+    transform: translateY(100);
+  }
+
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

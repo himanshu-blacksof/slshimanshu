@@ -1,0 +1,32 @@
+.footer__container {
+  width: 70%;
+  margin: 14rem auto 7rem;
+  text-align: center;
+
+  hr {
+    width: 20%;
+    border: 2px solid black;
+    margin: 0 auto;
+  }
+
+  h3 {
+    padding-top: 2.5rem;
+    font-size: 1.875rem;
+    font-family: Playfair__Bolditalic;
+  }
+
+  h5 {
+    font-family: Access__Bold;
+    font-size: 1.1rem;
+  }
+}
+
+.footer__social {
+  padding: 3rem 0 1rem;
+  margin-left: 1.2rem;
+
+  img{
+    width: 40px;
+    height: 40px;
+  }
+}

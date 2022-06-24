@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1528.912" height="872.69" viewBox="0 0 1528.912 872.69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1379" data-name="Rectangle 1379" width="136" height="48" rx="24" transform="translate(1325 53)" fill="#00a651" opacity="0.2"/>
+    </clipPath>
+  </defs>
+  <g id="Group_7316" data-name="Group 7316" transform="translate(7119.04 3594.129)">
+    <path id="Subtraction_13" data-name="Subtraction 13" d="M1355.658,871.69H165.171A677.941,677.941,0,0,1,0,851.408H1520.833A678,678,0,0,1,1355.658,871.69Zm165.173-20.282H0V827.243H1520.832v24.163Zm-143.354-40.146H155.691V789.583l0-757.731A32.021,32.021,0,0,1,187.805,0H1345.36a32.021,32.021,0,0,1,32.116,31.852V789.583l0,21.677ZM181,117.629h0v542H1352v-542H181Z" transform="translate(-7115.001 -3593.629)" fill="#241a1b" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Exclusion_1" data-name="Exclusion 1" d="M1171.232,765.93H0V636.715H1171v-542H0V24A23.98,23.98,0,0,1,24,0H1147.232a23.98,23.98,0,0,1,24,24V765.929Z" transform="translate(-6933.616 -3570.715)" fill="#fff" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_7313" data-name="Group 7313" transform="translate(-7151 -4865)">
+      <g id="Group_7160" data-name="Group 7160" transform="translate(262 1329.225)">
+        <path id="Path_2" data-name="Path 2" d="M529.947,397.214a6.123,6.123,0,1,0,6.082,6.146,6.165,6.165,0,0,0-6.082-6.146Zm-.682,18.873a12.5,12.5,0,0,1-10.648-6.4,12.875,12.875,0,0,1,2.017-15.326,12.594,12.594,0,0,1,7.28-3.605,13.128,13.128,0,0,1,7.407.956A12.188,12.188,0,0,1,542.6,400.5a12.586,12.586,0,0,1-4.717,12.99A13.691,13.691,0,0,1,529.265,416.087Z" transform="translate(-470.987 -390.537)" fill-rule="evenodd"/>
+        <path id="Path_3" data-name="Path 3" d="M309.492,390.573h6.715v9.9h7.231v-9.891h6.742v25.483h-6.707v-9.478h-7.248v9.482h-6.732Z" transform="translate(-287.369 -390.518)" fill-rule="evenodd"/>
+        <path id="Path_4" data-name="Path 4" d="M777.5,396.278v5.962c1.33,0,2.618,0,3.908,0a2.636,2.636,0,0,0,2.731-1.921c.635-1.734-.477-3.9-2.15-4.02-1.483-.1-2.979-.02-4.489-.02ZM777.47,408.4v7.231h-6.744v-25.5c.15-.011.3-.029.443-.029,3.639,0,7.277-.037,10.913.011a9.123,9.123,0,0,1,2.153,18.045,12.828,12.828,0,0,1-2.476.229C780.353,408.425,778.943,408.4,777.47,408.4Z" transform="translate(-695.587 -390.091)" fill-rule="evenodd"/>
+        <path id="Path_5" data-name="Path 5" d="M136.288,407.147a6.556,6.556,0,0,0-2.88-5.058,16.963,16.963,0,0,0-5.177-2.037,29.256,29.256,0,0,1-2.935-1.013,1.249,1.249,0,0,1-.8-1.225,1.444,1.444,0,0,1,.91-1.42,4.33,4.33,0,0,1,1.434-.321,11.426,11.426,0,0,1,5.536,1.4l3.455,1.865V392.8c-.424-.256-.794-.507-1.187-.714a16.628,16.628,0,0,0-7.392-1.81,11.157,11.157,0,0,0-5.562,1.186,7.324,7.324,0,0,0-3.884,4.258,6.884,6.884,0,0,0,3.178,8.264,27.508,27.508,0,0,0,5.318,1.992,19.025,19.025,0,0,1,2.7,1.083,1.249,1.249,0,0,1,.654,1.559,1.578,1.578,0,0,1-1.354,1.221,10.2,10.2,0,0,1-2.5.113,10.688,10.688,0,0,1-5.141-1.72v0l-3.631-2.483v7.4c.424.249.8.494,1.193.7a17.6,17.6,0,0,0,6.631,1.857,15.176,15.176,0,0,0,6.559-.625,7.237,7.237,0,0,0,4.062-3.243A7.784,7.784,0,0,0,136.288,407.147Z" transform="translate(-117.026 -390.248)" fill-rule="evenodd"/>
+        <g id="Group_5" data-name="Group 5" transform="translate(98.69 0.051)">
+          <path id="Path_6" data-name="Path 6" d="M976.537,416.321a.974.974,0,0,1-.814-1.507l7.925-10.646a.953.953,0,0,0,0-1.14l-7.937-10.62a.976.976,0,0,1,.815-1.513h9.5a1.111,1.111,0,0,1,.918.483c1.2,1.738,6.709,9.611,8.177,11.707a.873.873,0,0,1-.007,1.015c-1.79,2.483-6.875,9.84-8.336,11.983a.554.554,0,0,1-.458.24Z" transform="translate(-975.548 -390.852)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_7" data-name="Path 7" d="M1156.775,525.768l-6.615-9.5-1.169,1.678,6.21,8.915a.958.958,0,0,0,1.573-1.1Z" transform="translate(-1129.076 -501.81)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_8" data-name="Path 8" d="M1138.227,546.923l-4.713-6.768-1.169,1.678,4.309,6.185a.958.958,0,0,0,1.573-1.1Z" transform="translate(-1114.341 -522.952)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_9" data-name="Path 9" d="M1116.676,563.946l-1.169,1.678,2.4,3.445a.959.959,0,0,0,1.574-1.1Z" transform="translate(-1099.436 -544.011)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_10" data-name="Path 10" d="M1156.939,392.151l-6.615,9.5-1.168-1.676,6.21-8.915a.959.959,0,0,1,1.574,1.1Z" transform="translate(-1129.221 -390.632)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_11" data-name="Path 11" d="M1138.391,392.037l-4.713,6.768-1.169-1.678,4.309-6.186a.959.959,0,0,1,1.573,1.1Z" transform="translate(-1114.486 -390.531)" fill="#e3334a" fill-rule="evenodd"/>
+          <path id="Path_12" data-name="Path 12" d="M1116.84,396.141l-1.169-1.678,2.4-3.445a.959.959,0,0,1,1.573,1.1Z" transform="translate(-1099.581 -390.599)" fill="#e3334a" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <text id="Already_Registered_" data-name="Already Registered?" transform="translate(1269 1347)" fill="#524fa1" font-size="14" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-74.802" y="0">ALREADY REGISTERED?</tspan></text>
+      <text id="About_Us" data-name="About Us" transform="translate(751 1347)" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-30.803" y="0">ABOUT US</tspan></text>
+      <text id="_Why_Shopx" data-name=" Why Shopx" transform="translate(646 1347)" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-38.929" y="0" xml:space="preserve"> WHY SHOPX</tspan></text>
+      <text id="Business" transform="translate(846 1347)" fill="#e3334a" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-28.906" y="0">BUSINESS</tspan></text>
+      <text id="CONTACT" transform="translate(942 1347)" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-29.66" y="0">CONTACT</tspan></text>
+      <rect id="Rectangle_1380" data-name="Rectangle 1380" width="136" height="48" rx="24" transform="translate(1015 1318)" fill="#cceddc"/>
+      <g id="Mask_Group_9" data-name="Mask Group 9" transform="translate(-310 1265)" clip-path="url(#clip-path)">
+        <g id="Group_6344" data-name="Group 6344" transform="translate(1281.8 69)">
+          <text id="TRy_Now" data-name="TRy Now" transform="translate(111.2 13)" fill="#00a651" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-28.847" y="0">TRY NOW</tspan></text>
+          <text id="Tyr_Now" data-name="Tyr Now" transform="translate(29.2 13)" fill="#00a651" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-28.977" y="0">TYR NOW</tspan></text>
+          <text id="Try_Now-2" data-name="Try Now" transform="translate(191.2 13)" fill="#00a651" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-28.847" y="0">TRY NOW</tspan></text>
+          <text id="Tyr_Now-2" data-name="Tyr Now" transform="translate(271.2 13)" fill="#00a651" font-size="13" font-family="Gilroy-Bold, Gilroy ☞" font-weight="700"><tspan x="-28.977" y="0">TYR NOW</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

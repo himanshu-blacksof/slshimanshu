@@ -1,0 +1,36 @@
+.error__wrapper {
+  // background-image: url('../assets/images/About_Img_1.png');
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 50%;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding: 5% 0%;
+
+  h1 {
+    font-family: Access__Regular;
+    font-weight: lighter;
+  }
+
+  h4 {
+    font-family: Access__Regular;
+    font-weight: 400;
+    margin-top: 1%;
+  }
+
+  h5 {
+    color: #999;
+    margin-top: 3%;
+    a {
+      cursor: pointer;
+      &:hover{
+        color: #999;
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="748" height="861" viewBox="0 0 748 861">
+  <g id="Group_7292" data-name="Group 7292" transform="translate(-602 -8863.5)">
+    <g id="Group_7247" data-name="Group 7247" transform="translate(7564 24780.5)">
+      <g id="Ellipse_773" data-name="Ellipse 773" transform="translate(-6691 -15845)" fill="none" stroke="#e3334a" stroke-linecap="round" stroke-width="6" stroke-dasharray="10 20">
+        <ellipse cx="238.5" cy="242" rx="238.5" ry="242" stroke="none"/>
+        <ellipse cx="238.5" cy="242" rx="235.5" ry="239" fill="none"/>
+      </g>
+      <g id="Ellipse_778" data-name="Ellipse 778" transform="translate(-6820 -15609)" fill="none" stroke="#00a651" stroke-linecap="round" stroke-width="6" stroke-dasharray="10 20">
+        <ellipse cx="238.5" cy="242" rx="238.5" ry="242" stroke="none"/>
+        <ellipse cx="238.5" cy="242" rx="235.5" ry="239" fill="none"/>
+      </g>
+      <g id="Ellipse_779" data-name="Ellipse 779" transform="translate(-6962 -15846)" fill="none" stroke="#fdb913" stroke-linecap="round" stroke-width="6" stroke-dasharray="10 20">
+        <ellipse cx="238.5" cy="241.5" rx="238.5" ry="241.5" stroke="none"/>
+        <ellipse cx="238.5" cy="241.5" rx="235.5" ry="238.5" fill="none"/>
+      </g>
+    </g>
+    <text id="Market_research" data-name="Market
+research" transform="translate(976 9253.5)" fill="#241a1b" font-size="24" font-family="Access-Bold, Access" font-weight="700"><tspan x="-40" y="0">Market</tspan><tspan x="-45" y="28">research</tspan></text>
+    <text id="Analysis_of_work_processes" data-name="Analysis of work processes" transform="translate(976 9718.5)" fill="#241a1b" font-size="24" font-family="Access-Bold, Access" font-weight="700"><tspan x="-141" y="0">Analysis of work processes</tspan></text>
+    <text id="Prototype_testing" data-name="Prototype testing" transform="translate(1201 8890.5)" fill="#241a1b" font-size="24" font-family="Access-Bold, Access" font-weight="700"><tspan x="-95" y="0">Prototype testing</tspan></text>
+    <text id="Information_Architecture" data-name="Information Architecture" transform="translate(752 8890.5)" fill="#241a1b" font-size="24" font-family="Access-Bold, Access" font-weight="700"><tspan x="-134" y="0">Information Architecture</tspan></text>
+  </g>
+</svg>

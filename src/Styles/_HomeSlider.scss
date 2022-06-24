@@ -1,0 +1,141 @@
+
+.homepage__container{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__slider {
+  width: 100%;
+  margin: 0% auto;
+  align-self: center;
+  // display: flex;
+  // align-items: center;
+  // height: 68vh;
+  // display: grid;
+  // place-content: center;
+}
+
+// .image__slider{
+//   width: 80%;
+//   margin: 0rem auto;
+// }
+
+.carousel-item{
+  transition: all 2s ease-in-out !important;
+  
+}       
+
+.carousel__item{
+  width: 100%;
+  margin: 0 auto;
+  .flicking-pagination{
+    bottom: 50%;
+    left: 10%;
+    width: fit-content;
+  }
+  .flicking-pagination-bullet{
+    background-color: gray;
+    display: flex;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+  }
+  .flicking-pagination-bullet-active{
+    background-color: #000;
+  }
+}
+
+.slider__content__container{
+  height: 60vh;
+  display: flex !important;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: 0rem 10%;
+
+}
+
+.home__image{
+  width: 40%;
+  margin-left: 8%;
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.slider__text{
+  width: 50%;
+  margin-left: 5rem;
+  align-self: center;
+  h2{
+    font-size: 3.75rem;
+  }
+  h3{
+    padding: 1rem 0;
+    padding-right: 15%;
+    font-size: 1.85rem;
+    font-family: Access__Regular;
+    font-weight: normal;
+    line-height: 2.5rem;
+  }
+  h5{
+    line-height: 1.85rem;
+    
+  }
+  p{
+    padding-right: 15%;
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+  }
+}
+
+
+.home__slider{
+  .image__slider{
+    .carousel-indicators li{
+      background-color: black;
+    }
+  }
+}
+.carousel-control-next-icon{
+  background-image: url(https://img.icons8.com/ios-filled/50/000000/more-than.png);
+  display: none;
+}
+
+.carousel-control-prev-icon{
+  background-image: url(https://img.icons8.com/ios-filled/50/000000/less-than.png);
+  rotate: 180deg;
+
+  display: none;
+}
+
+.carousel-indicators{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    right: inherit;
+    bottom: inherit;
+    z-index: 15;
+    display: block;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    list-style: none;
+    li{
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: none;
+      margin-bottom: 10px;
+    }
+}
+
+.carousel-control-prev{
+  display: none;
+}
+.carousel-control-next{
+  display: none;
+}

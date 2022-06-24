@@ -1,0 +1,460 @@
+.evre__main__container {
+    background: #16151a 0% 0% no-repeat padding-box;
+    padding: 8rem 0;
+}
+
+.evre__gen__heading__container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    h2 {
+        font-size: 4.5rem;
+        margin-top: 1.5rem;
+    }
+    h3 {
+        margin-top: 1.5rem;
+    }
+    p {
+        color: #fff;
+        margin-top: 2rem;
+        line-height: 1.6;
+        text-align: center;
+    }
+}
+
+.evre__gen__logo {
+    width: 4.4rem;
+}
+
+.evre__text__gradient {
+    background: -webkit-linear-gradient(#00FF7F, #006934);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+}
+
+.evre__gen__heading__image__box {
+    position: relative;
+    padding-bottom: 36%;
+    width: 100%;
+}
+
+.evre__gen__heading__image {
+    position: absolute;
+    top: -3rem;
+    left: 25%;
+}
+
+// cardsBanner
+
+.card__banner {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.card__black {
+    background: #0D0D0F;
+    color: white;
+    width: 45%;
+    padding: 2%;
+    height: 320px;
+
+}
+
+.card__grey {
+    background: #201e23;
+    color: white;
+    width: 45%;
+    padding: 2%;
+    height: 300px;
+}
+
+
+//Business Type 
+
+.evre__main__box {
+    width: 65%;
+    margin: 5% auto;
+    display: flex;
+    color: #6c6c6e;
+    h4 {
+        font-family: Access__Regular;
+        color: #fff;
+    }
+
+    p {
+        margin-top: 3%;
+    }
+}
+
+.evre__left__box {
+    margin-top: 5%;
+}
+
+.evre__right__box {
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
+
+.separator {
+    background-color: #6c6c6e;
+    width: 2px;
+    margin: 0 4%;
+}
+
+//Design Strategy
+
+.evre__design__strategy {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 5% auto;
+}
+
+.card__Images {
+    padding: 3% 2%;
+    width: 30%;
+}
+
+.dark__line {
+    background: #000;
+    width: 2px;
+}
+
+//Alook at the compettitors
+
+.evre__main__container__black {
+    background: #000 0% 0% no-repeat padding-box;
+    padding: 10rem 0;
+}
+
+.evre__flicking__carousels {
+    padding: 5% 0;
+    width: 100%;
+    position: relative;
+    & .flicking__slide {
+        padding: 13% 2.5%;
+        width: 100%;
+        text-align: center;
+    }
+
+    & .competitors_line {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: 0 auto;
+        z-index: 9;
+    }
+}
+
+
+// OUR ROLE
+
+.cards__4__container {
+    width: 80%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    transition: all .3s ease-in-out;
+}
+
+.cards__4 {
+    width: 23%;
+    height: 20vw;
+    background: #1a1c25;
+    border-radius: 30px !important;
+    padding: 0% 2%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background: linear-gradient(#00FF7F, #006934);
+
+        li {
+            color: #000;
+
+            &::marker {
+                color: #fff !important;
+            }
+        }
+
+        h4 {
+            color: #000;
+        }
+
+    }
+
+    li {
+        color: #fff;
+        font-size: 1.4rem;
+        margin-top: 20px !important;
+    }
+
+    h4 {
+        padding-bottom: 20px !important;
+    }
+}
+
+
+// USER SURVEY
+
+.user__survey__heading {
+    width: 80%;
+    h3 {
+        padding-right: 40%;
+    }
+
+    .para {
+        width: 60%;
+        padding-left: 20%;
+    }
+
+}
+
+.pos__bg__triangle {
+    position: absolute;
+    bottom: 0%;
+    right: 15%;
+}
+
+//User Interviews
+
+.black__banner {
+    width: 80%;
+    margin: 10% auto;
+    border-radius: 10px;
+    padding: 5%;
+    position: relative;
+}
+
+.black__banner__in {
+    p {
+        color: #fff;
+    }
+
+    hr {
+        margin: 2% auto;
+        background-color: #6c6c6e;
+        opacity: 0.5;
+    }
+}
+
+//Interviews
+
+.evre__small__cards__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.evre__small__cards {
+    padding-right: 5%;
+
+    .number__box {
+        background: linear-gradient(#00FF7F, #006934);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        vertical-align: middle;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
+    p {
+        color: #fff;
+        margin-top: 2rem;
+    }
+
+    h5 {
+        color: #6c6c6e;
+        margin-top: 2%;
+        line-height: 1.5;
+    }
+
+}
+
+.pos__bg__triangle__bottom {
+    position: absolute;
+    bottom: -8%;
+    left: -6%;
+}
+
+
+
+
+//user__personal__wrapper
+
+.user__personal__wrapper {
+    position: relative;
+}
+
+.user__personal__heading {
+    h3 {
+        font-size: 5rem !important;
+        z-index: 9;
+    }
+}
+
+
+
+.user__personal__head__para {
+    width: 70%;
+    margin: 5% auto;
+
+    h3 {
+        color: #fff
+    }
+
+    p {
+        margin-top: 2%;
+        padding-right: 30%;
+        color: #fff;
+        opacity: 0.5;
+    }
+}
+
+.cards__2__wrapper {
+    display: flex;
+}
+
+.cards__2 {
+    width: 50%;
+    margin: 2%;
+    background-color: #1a1d24;
+    padding: 1% 5%;
+    border-radius: 5%;
+    cursor: pointer;
+
+    &:hover {
+        outline: 2px solid #006934;
+        background: #000;
+    }
+}
+
+
+//EMPATHY MAP 
+
+.empathy__map__heading {
+    p {
+        text-align: center;
+    }
+}
+
+//wireframes
+
+.wireframes__boxes {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    height: fit-content;
+    overflow: hidden;
+}
+
+.wireframes__box {
+    width: 40%;
+    margin: 0 2%;
+    margin-top: 2%;
+
+    p {
+        color: #006934;
+    }
+}
+
+.first__box {
+    width: 80%;
+    margin: 10% auto;
+
+    p {
+        color: #fff;
+    }
+}
+
+.wireframes__box__images {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+.car__section__heading__small__cards {
+    width: 80%;
+    margin: 0 auto;
+
+    h3 {
+        text-align: left;
+        width: 55%;
+        background: -webkit-linear-gradient(#00FF7F, #006934);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        padding: 5px;
+    }
+}
+
+.car__section__image {
+    margin-left: 45%;
+    width: 55%;
+    margin-top: -2rem;
+}
+
+
+
+// thanks__for__watching
+
+.thanks__for__watching {
+    background-color: #000;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thanks__for__watching__icon {
+    max-height: 100%;
+    width: 12% !important;
+
+}
+
+
+
+
+
+
+.evre__top__margin {
+    margin-top: 10rem !important;
+}
+
+.evre__top__less__margin {
+    margin-top: 5rem !important;
+}
+
+.Dummy_Images {
+    height: 60vh;
+    width: 100%;
+    background-color: #006934;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+
+.padding_bottom {
+    padding-bottom: 0 !important;
+}
+
+// #16161A
+// #000000
+// #00FF7F - #006934

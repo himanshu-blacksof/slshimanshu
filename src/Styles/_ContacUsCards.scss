@@ -1,0 +1,22 @@
+
+
+.contactus__form{
+  padding: 2%;
+  margin: 2% ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+};
+
+.contactus__input{
+  border: 2px solid black;
+  text-align: center;
+  width: 20rem;
+};
+
+.btn{
+  width: 13rem;
+  padding: 1%;
+  border-radius: 8px;
+}
