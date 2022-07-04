@@ -1,16 +1,31 @@
-import React from "react";
-import PortfolioHeading from "../Components/PortfolioHeading";
-import Computer from "../assets/slsAssets/viasights.svg";
-import Logo from "../assets/slsAssets/sls_logo.svg";
-import Sun from "../assets/slsAssets/sunsight.svg";
-import Yalgaar from "../assets/slsAssets/yalgaar.svg";
-import Loc from "../assets/slsAssets/loc.svg";
-import Varde from "../assets/slsAssets/verde.svg";
-import Images from "../Components/Atoms/Images";
-import Man from "../assets/slsAssets/backpic.png";
-import Our from "../assets/slsAssets/ourattitude.png";
-import Flow from "../assets/slsAssets/flow.svg";
-import Container from "../assets/slsAssets/container.png";
+import React from 'react';
+import PortfolioHeading from '../Components/PortfolioHeading';
+import Computer from '../assets/slsAssets/viasights.svg';
+import Logo from '../assets/slsAssets/sls_logo.svg';
+import Sun from '../assets/slsAssets/sunsight.svg';
+import Yalgaar from '../assets/slsAssets/yalgaar.svg';
+import Loc from '../assets/slsAssets/loc.svg';
+import Varde from '../assets/slsAssets/verde.svg';
+import Images from '../Components/Atoms/Images';
+import Man from '../assets/slsAssets/backpic.png';
+import Our from '../assets/slsAssets/ourattitude.png';
+import Flow from '../assets/slsAssets/flow.svg';
+import Container from '../assets/slsAssets/container.png';
+import Bluecart from '../assets/slsAssets/bluecart.png';
+import Redcart from '../assets/slsAssets/redcart.png';
+import Browncart from '../assets/slsAssets/browncart.png';
+import Whitecart from '../assets/slsAssets/whitecart.png';
+import Collage from '../assets/slsAssets/collage.svg';
+import Gridback from '../assets/slsAssets/gridbackground.png';
+import Blue from '../assets/slsAssets/background_blue.png';
+import Gridbottom from '../assets/slsAssets/gridbottom.png';
+import Solar from '../assets/slsAssets/solar.png';
+import Solarwind from '../assets/slsAssets/solarandwind.png';
+import Tablet from '../assets/slsAssets/tablet.png';
+import Testing from '../assets/slsAssets/testing.png';
+import TestingCalibration from '../assets/slsAssets/testing_and_calibration.png';
+import Multiple from '../assets/slsAssets/multiplepics.png';
+import SystemLevel from '../assets/slsAssets/sytemlevelimg.svg';
 const Sls = () => {
   return (
     <>
@@ -20,12 +35,11 @@ const Sls = () => {
           subHeading="UI/UX"
           info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
         />
-
         <div className="MyStyle">
           <div className="MyImg ">
             <Images image={Logo} fullwidth />
           </div>
-          <div className="" style={{ display: "flex", alignItems: "center" }}>
+          <div className="" style={{ display: 'flex', alignItems: 'center' }}>
             <Images className="images" image={Computer} alt="logo" />
             <Images className="images" image={Sun} alt="sun" />
             <Images className="images" image={Yalgaar} alt="yal" />
@@ -138,19 +152,122 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <Images image={Container} fullwidth alt="container" />,{" "}
+      <Images image={Container} fullwidth alt="container" />,{' '}
       <section>
         <div className="backdown_container">
           <div className="all">
-            
             <h2 className="textcolor">Colour</h2>
             <p className="textp">
               Donsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua
             </p>
           </div>
+          <div className="all">
+            <div className="card">
+              <Images image={Bluecart} alt="cart" />
+              <Images image={Redcart} alt="cart" />
+              <Images image={Browncart} alt="cart" />
+              <Images image={Whitecart} alt="cart" />
+            </div>
+          </div>
         </div>
       </section>
+      <div className="art-container">
+        <div className="text-para">
+          <h4 className="color">All icons are drawn on a pixel-based grid</h4>
+          <p className="para-art">
+            Universal icon set is drawn on a pixel-based grid of 24px X 24px and
+            scaled-up linearly to different sizes. The grid contains 2px padding
+            for the surrounding live area.
+          </p>
+        </div>
+      </div>
+      <div className="collage">
+        <Images image={Collage} alt="collage" />
+      </div>
+      <div className="gridbackground">
+        <div>
+          <img className="gridback" src={Gridback} alt="grid" />
+        </div>
+        <div className="grid_text">
+          <h2>Grid System</h2>
+          <br></br>
+          <p>
+            Donsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua
+          </p>
+        </div>
+      </div>
+      <div className="subpara_wrapper">
+        <div className="textStyle">
+          <h3>Home</h3>
+        </div>
+        <div className="textStyleP">
+          <p>
+            CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi
+          </p>
+        </div>
+      </div>
+      <div className="background_blue">
+        <img className="img_container" src={Blue} alt="blue" />
+        <img className="img_containersecond" src={Gridbottom} alt="blue" />
+      </div>
+      <div className="subpara_wrapper">
+        <div className="textStyle">
+          <h3>Industries</h3>
+        </div>
+        <div className="textStyleP">
+          <p>
+            CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi
+          </p>
+        </div>
+      </div>
+      <div className="solar_container">
+        <Images image={Solar} fullwidth alt="solar" />
+      </div>
+      <div className="solarwind_container">
+        <img className="img_solar" src={Solarwind} alt="solar" />
+      </div>
+      <Images image={Tablet} fullwidth alt="tablet" />
+      <div className="subpara_wrapper">
+        <div className="textStyle">
+          <h3>Services</h3>
+        </div>
+        <div className="textStyleP">
+          <p>
+            CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi
+          </p>
+        </div>
+      </div>
+      <div className="testing_container">
+        <Images image={Testing} fullwidth alt="testing" />
+      </div>
+      <img
+        className="tesingCalibration"
+        src={TestingCalibration}
+        alt="tesingCalibration"
+      />
+      <Images image={Multiple} fullwidth alt="multiple" />
+      <div className="multiple_container">
+        <p>
+          CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+          labore.
+        </p>
+      </div>
+      <div className="system_container">
+        <img
+          className="img_system"
+          src={SystemLevel}
+          alt="system
+        "
+        />
+      </div>
     </>
   );
 };

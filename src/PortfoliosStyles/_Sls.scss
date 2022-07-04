@@ -1,141 +1,251 @@
-.MyStyle{
-    height: 100vh;
-    background-color: #0426A1;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    .images{
-        margin: 1rem;
-        margin-top: 10%;
-    }
+.MyStyle {
+  height: 1026px;
+  background-color: #0426a1;
+  background-size: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .images {
+    margin: 1rem;
+    // margin-top: 10%;
+  }
 }
-.MyImg{
- display:flex;
-    opacity: 1;
-    justify-content: center;
-    padding:2px;
-    width: 30%;
-    }
-.MyLogo{
-    
-    margin: auto;
-    opacity: 1;
-    margin-right:auto;
-    margin-left:auto;
-  display:block;
+.MyImg {
+  display: flex;
+  opacity: 1;
+  justify-content: center;
+  // padding:2px;
+  width: 30%;
+  height: 50%;
+  // margin-top:20%;
 }
-.subpara_wrapper{
-    display: flex;  
-    justify-content: center;
+.MyLogo {
+  margin: auto;
+  opacity: 1;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
 }
-.textStyle{ 
-    margin-top:11%;
-    margin-bottom: 8%;
+.subpara_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.textStyle {
+  margin-top: 11%;
+  margin-bottom: 8%;
   margin-left: 15%;
-    width: 50%;
+  width: 50%;
 }
-.textStyleP{
-    margin-top:8%;
-    margin-bottom: 8%;
-    margin-right: 15%;
-    margin:10%;
-    width: 60%;
+.textStyleP {
+  margin-top: 8%;
+  margin-bottom: 8%;
+  margin-right: 15%;
+  margin: 10%;
+  width: 60%;
 }
 
-.background_container{
-    background-color:#EEEEEE ;
-    display:flex;
+.background_container {
+  background-color: #eeeeee;
+  display: flex;
 }
-.style_container{
-    background-color: #FFFFFF;
-     margin-left:10%;
-    margin-top: -5%;
-    width: 30%;
-    padding:2rem;
-    margin-bottom: 5%;
+.style_container {
+  background-color: #ffffff;
+  margin-left: 10%;
+  margin-top: -5%;
+  width: 30%;
+  padding: 2rem;
+  margin-bottom: 5%;
 }
-.para_container{
-    margin-left:5%;
-    margin-top: 5%;
-    margin-bottom: 10%;
+.para_container {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
-.element_container{
-    background-color: #0426A1;
-    width: 140%;
-    color:#FFFFFF;
-    padding:1rem
-}
-.our_container{
-    margin-top: 5%;
-    margin-left: 1%;
-    margin-bottom: 10%;
-}
-.backgroundblack{
-    background-color: #171515;
-    margin-left: 15%;
-    margin-top: 10%;
-    width:30%;
-    padding:4rem;
-    margin-bottom: 15%;
-    height: 806px;
-  
-}
-.wordh3{
-    color:#FFFFFF;
-    size: 48px;
-     margin-top: 10%;
-    margin-left: 5%;
-}
-.backgroundblue{
-    background-color: #0426A1;
-    width: 30%;
-    padding:4rem;
-    margin-top: 20%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    height: 806px;
-}
-.wordp{
-    color:#FFFFFF;
-    size: 24px;
-    margin-top: 70%;
-    font-style: italic;
-    font-family:  Playfair__Bolditalic;
-}
-.circle{
-    height: 20px;
-    width: 20px;
-    background-color: #FFFFFF;
-    border-radius:50%;
-     margin-top: 2%;
-     margin-left: -10%;
-}
-.black_container{
-    background-color: #212121;
-    
-}
-.font{
-    color:#FFFFFF;
-}
-.flow{
-    width: 80%;
-    height: 1221px;
-    margin-bottom: 8%;
-}
-.backdown_container{
-    background-color: #EEEEEE;
-    display: flex;
-}
-.textcolor{
-    color: #0426a1;
+.element_container {
+  background-color: #0426a1;
+  width: 140%;
+  color: #ffffff;
   padding: 1rem;
 }
-.textp{
-    font-size: 18px;
+.our_container {
+  margin-top: 5%;
+  margin-left: 1%;
+  margin-bottom: 10%;
 }
-.all{
-    padding:20rem;
-    width: 60%;
+.backgroundblack {
+  background-color: #171515;
+  margin-left: 15%;
+  margin-top: 10%;
+  width: 30%;
+  padding: 4rem;
+  margin-bottom: 15%;
+  height: 806px;
+}
+.wordh3 {
+  color: #ffffff;
+  size: 48px;
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.backgroundblue {
+  background-color: #0426a1;
+  width: 30%;
+  padding: 4rem;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  height: 806px;
+}
+.wordp {
+  color: #ffffff;
+  size: 24px;
+  margin-top: 70%;
+  font-style: italic;
+  font-family: Playfair__Bolditalic;
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: 2%;
+  margin-left: -10%;
+}
+.black_container {
+  background-color: #212121;
+}
+.font {
+  color: #ffffff;
+}
+.flow {
+  width: 80%;
+  height: 1221px;
+  margin-bottom: 8%;
+}
+.backdown_container {
+  background-color: #eeeeee;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.textcolor {
+  color: #0426a1;
+  padding: 1rem;
+}
+.textp {
+  font-size: 18px;
+}
+.all {
+  flex-basis: 50%;
+  margin-left: 10%;
+}
+.card {
+  width: 385px;
+  height: 500px;
+  // float:right;
+  //  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  margin: 10px 15px;
+  display: flex;
+}
+.art-container {
+  margin-top: 15%;
+  margin-left: 15%;
+  justify-content: center;
+}
+.color {
+  color: #0426a1;
+  size: 54px;
+  font-style: bold;
+}
+.text-para {
+  width: 50%;
+  align-items: center;
+  padding: 1rem;
+  float: left;
+}
+.para-art {
+  font-size: 24px;
+  width: 50%;
+}
+.collage {
+  width: 120%;
+  margin-left: -5%;
+}
+.gridbackground {
+  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\slsAssets\gridsystem.png);
+  background-size: full-width;
+  height: 100vh;
+  display: flex;
+}
+.gridback {
+  margin-left: -15%;
+  width: 100%;
+  padding-top: 12%;
+}
+.grid_text {
+  padding: 5%;
+  margin-right: 10%;
+  margin-top: 3%;
+  color: #ffffff;
+}
+.background_blue {
+  background-color: #0426a1;
+  margin-top: 12%;
+}
+.img_container {
+  width: 100%;
+  align-items: center;
+  margin-top: -12%;
+}
+.img_containersecond {
+  width: 90%;
+  align-items: center;
+  margin-top: -3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-left: 5%;
+}
+.solar_container {
+  opacity: 0.5;
+}
+.solarwind_container {
+  background-color: #eeeeee;
+}
+.img_solar {
+  width: 72%;
+  margin-left: 14%;
+  margin-top: -26%;
+}
+.testing_container {
+  opacity: 100%;
+}
 
+.tesingCalibration {
+  width: 70%;
+  align-items: center;
+  margin-top: -40%;
+  margin-left: 10%;
+}
+.multiple_container {
+  margin-top: 10%;
+  font-size: 1.2rem;
+  width: 30%;
+  margin-left: 12%;
+}
+.system_container {
+  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\slsAssets\systemlevel.svg);
+  height: 100vh;
+  margin-top: 10%;
+}
+.img_system {
+  width: 40%;
+  height: 30%;
+  padding: 2rem;
+  align-items: center;
 }
