@@ -1,5 +1,5 @@
 .MyStyle {
-  height: 1026px;
+  height: 100vh;
   background-color: #0426a1;
   background-size: 100%;
   display: flex;
@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   .images {
     margin: 1rem;
     // margin-top: 10%;
@@ -19,7 +20,7 @@
   // padding:2px;
   width: 30%;
   height: 50%;
-  // margin-top:20%;
+  // margin-top: 20%;
 }
 .MyLogo {
   margin: auto;
@@ -164,14 +165,17 @@
   font-style: bold;
 }
 .text-para {
-  width: 50%;
-  align-items: center;
+  width: 25%;
+  align-items: left;
   padding: 1rem;
-  float: left;
 }
 .para-art {
   font-size: 24px;
-  width: 50%;
+  width: 37%;
+}
+.grid {
+  width: 15%;
+  display: flex;
 }
 .collage {
   width: 120%;
@@ -237,15 +241,4 @@
   font-size: 1.2rem;
   width: 30%;
   margin-left: 12%;
-}
-.system_container {
-  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\slsAssets\systemlevel.svg);
-  height: 100vh;
-  margin-top: 10%;
-}
-.img_system {
-  width: 40%;
-  height: 30%;
-  padding: 2rem;
-  align-items: center;
 }

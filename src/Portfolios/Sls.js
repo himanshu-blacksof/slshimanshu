@@ -11,21 +11,25 @@ import Man from '../assets/slsAssets/backpic.png';
 import Our from '../assets/slsAssets/ourattitude.png';
 import Flow from '../assets/slsAssets/flow.svg';
 import Container from '../assets/slsAssets/container.png';
-import Bluecart from '../assets/slsAssets/bluecart.png';
-import Redcart from '../assets/slsAssets/redcart.png';
-import Browncart from '../assets/slsAssets/browncart.png';
-import Whitecart from '../assets/slsAssets/whitecart.png';
+import Cards from '../assets/slsAssets/cards.png';
 import Collage from '../assets/slsAssets/collage.svg';
 import Gridback from '../assets/slsAssets/gridbackground.png';
-import Blue from '../assets/slsAssets/background_blue.png';
-import Gridbottom from '../assets/slsAssets/gridbottom.png';
+// import Blue from '../assets/slsAssets/background_blue.png';
+// import Gridbottom from '../assets/slsAssets/gridbottom.png';
 import Solar from '../assets/slsAssets/solar.png';
-import Solarwind from '../assets/slsAssets/solarandwind.png';
+// import Solarwind from '../assets/slsAssets/solarandwind.png';
 import Tablet from '../assets/slsAssets/tablet.png';
+import Slsimg from '../assets/slsAssets/systemlevelsolution.png';
 import Testing from '../assets/slsAssets/testing.png';
 import TestingCalibration from '../assets/slsAssets/testing_and_calibration.png';
 import Multiple from '../assets/slsAssets/multiplepics.png';
-import SystemLevel from '../assets/slsAssets/sytemlevelimg.svg';
+import System from '../assets/slsAssets/systemlevel.png';
+// import Grid from '../assets/slsAssets/grid.svg';
+import Thanks from '../assets/slsAssets/thanks.png';
+import Screens from '../assets/slsAssets/40screens.png';
+import About from '../assets/slsAssets/aboutus.png';
+import Responsive from '../assets/slsAssets/responsive.png';
+import Loccarto from '../assets/slsAssets/loccarto.png';
 const Sls = () => {
   return (
     <>
@@ -152,35 +156,24 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <Images image={Container} fullwidth alt="container" />,{' '}
-      <section>
-        <div className="backdown_container">
-          <div className="all">
-            <h2 className="textcolor">Colour</h2>
-            <p className="textp">
-              Donsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua
-            </p>
-          </div>
-          <div className="all">
-            <div className="card">
-              <Images image={Bluecart} alt="cart" />
-              <Images image={Redcart} alt="cart" />
-              <Images image={Browncart} alt="cart" />
-              <Images image={Whitecart} alt="cart" />
-            </div>
-          </div>
-        </div>
-      </section>
+      <Images image={Container} fullwidth alt="container" />
+      <Images image={Cards} fullwidth alt="cards" />
       <div className="art-container">
         <div className="text-para">
           <h4 className="color">All icons are drawn on a pixel-based grid</h4>
-          <p className="para-art">
-            Universal icon set is drawn on a pixel-based grid of 24px X 24px and
-            scaled-up linearly to different sizes. The grid contains 2px padding
-            for the surrounding live area.
-          </p>
         </div>
+        <p className="para-art">
+          Universal icon set is drawn on a pixel-based grid of 24px X 24px and
+          scaled-up linearly to different sizes. The grid contains 2px padding
+          for the surrounding live area.
+        </p>
+        <div className="grid">
+          <p>24 X 24 px Grid</p>
+          <p>2 px Safe padding</p>
+        </div>
+        {/* <div className="grid_img">
+            <Images image={Grid} alt="Grid " />
+          </div> */}
       </div>
       <div className="collage">
         <Images image={Collage} alt="collage" />
@@ -210,10 +203,11 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <div className="background_blue">
+      <Images image={Slsimg} fullwidth alt="Sls" />
+      {/* <div className="background_blue">
         <img className="img_container" src={Blue} alt="blue" />
         <img className="img_containersecond" src={Gridbottom} alt="blue" />
-      </div>
+      </div> */}
       <div className="subpara_wrapper">
         <div className="textStyle">
           <h3>Industries</h3>
@@ -226,12 +220,14 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <div className="solar_container">
+      <Images image={Solar} fullwidth alt="Solar" />
+
+      {/* <div className="solar_container">
         <Images image={Solar} fullwidth alt="solar" />
       </div>
       <div className="solarwind_container">
         <img className="img_solar" src={Solarwind} alt="solar" />
-      </div>
+      </div> */}
       <Images image={Tablet} fullwidth alt="tablet" />
       <div className="subpara_wrapper">
         <div className="textStyle">
@@ -260,14 +256,14 @@ const Sls = () => {
           labore.
         </p>
       </div>
-      <div className="system_container">
-        <img
-          className="img_system"
-          src={SystemLevel}
-          alt="system
-        "
-        />
-      </div>
+      <section>
+        <Images image={About} fullwidth alt="About us" />
+        <Images image={Responsive} fullwidth alt="Responsive" />
+        <Images image={Loccarto} fullwidth alt="loccarto" />
+        <Images image={Screens} fullwidth alt="sytemlevel" />
+        <Images image={System} alt="sytemlevel" />
+        <Images image={Thanks} fullwidth alt="thank you" />
+      </section>
     </>
   );
 };
