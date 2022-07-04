@@ -5,7 +5,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
 
   .images {
@@ -233,12 +233,37 @@
 .tesingCalibration {
   width: 70%;
   align-items: center;
-  margin-top: -40%;
-  margin-left: 10%;
+  margin-top: -50%;
+  margin-left: 15%;
 }
 .multiple_container {
   margin-top: 10%;
   font-size: 1.2rem;
   width: 30%;
   margin-left: 12%;
+}
+.grey_container {
+  background-color: #eeeeee;
+  flex-wrap: nowrap;
+  margin-top: 10%;
+  width: 130%;
+}
+.services_container1 {
+  width: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: -10%;
+}
+.services_container2 {
+  width: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-left: 5%;
+}
+.services_container3 {
+  width: 35%;
+  margin-top: -15%;
+}
+.services_container4 {
+  width: 20%;
 }

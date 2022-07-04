@@ -30,6 +30,11 @@ import Screens from '../assets/slsAssets/40screens.png';
 import About from '../assets/slsAssets/aboutus.png';
 import Responsive from '../assets/slsAssets/responsive.png';
 import Loccarto from '../assets/slsAssets/loccarto.png';
+import AI from '../assets/slsAssets/ai.png';
+import ESM from '../assets/slsAssets/ems.png';
+import Pcb from '../assets/slsAssets/pcb_design.png';
+import Softwaredev from '../assets/slsAssets/software_development.png';
+
 const Sls = () => {
   return (
     <>
@@ -249,6 +254,16 @@ const Sls = () => {
         src={TestingCalibration}
         alt="tesingCalibration"
       />
+      <div className="grey_container">
+        <img className="services_container1" src={AI} alt="ai" />
+        <img className="services_container2" src={ESM} alt="esm" />
+        <img className="services_container3" src={Pcb} alt="pcb" />
+        <img
+          className="services_container4"
+          src={Softwaredev}
+          alt="software_deveploment"
+        />
+      </div>
       <Images image={Multiple} fullwidth alt="multiple" />
       <div className="multiple_container">
         <p>
@@ -259,7 +274,7 @@ const Sls = () => {
       <section>
         <Images image={About} fullwidth alt="About us" />
         <Images image={Responsive} fullwidth alt="Responsive" />
-        <Images image={Loccarto} fullwidth alt="loccarto" />
+        <Images image={Loccarto} fullwidth alt="loccatro" />
         <Images image={Screens} fullwidth alt="sytemlevel" />
         <Images image={System} alt="sytemlevel" />
         <Images image={Thanks} fullwidth alt="thank you" />
