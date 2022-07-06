@@ -1,88 +1,86 @@
-.alignment__container2{
-    width: 70%;
-    margin: 0 auto;
+.alignment__container2 {
+  width: 70%;
+  margin: 0 auto;
 }
 
-.portfolio__heading__container{
-    width: 75%;
-    margin: auto;
-    margin-top: 10%;
-    margin-bottom: 12%;
-    display: grid;
-    place-content: center;
+.portfolio__heading__container {
+  width: 75%;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 12%;
+  display: grid;
+  place-content: center;
 }
 
-.portfolio__heading{
-    display: flex;
-    h4{
-        font-size: 3.75rem;
-        font-weight: bold;
-    }
-    h5{
-        padding-top: 0.5rem;
-        font-size: 1.5rem;
-    }
+.portfolio__heading {
+  display: flex;
+  h4 {
+    font-size: 3.75rem;
+    font-weight: bold;
+  }
+  h5 {
+    padding-top: 0.5rem;
+    font-size: 1.5rem;
+  }
 }
 
-.heading__bunch{
-    width: 40%;
+.heading__bunch {
+  width: 40%;
 }
 
-
-.portfolio__para{
-    width: 60%;
-    padding: 1rem;
-    padding-top: 7rem;
-    flex-direction: column;
-    p{
-        padding-top: 5rem;
-        font-size: 1.5rem;
-    }
+.portfolio__para {
+  width: 60%;
+  padding: 1rem;
+  padding-top: 7rem;
+  flex-direction: column;
+  p {
+    padding-top: 5rem;
+    font-size: 1.5rem;
+  }
 }
 
-.alignment__container{
-    width: 80%;
-    margin: 0  auto;
+.alignment__container {
+  width: 80%;
+  margin: 0 auto;
 }
 
+.img__max__width {
+  width: 100%;
+  img {
+    object-fit: contain;
+    min-width: 100%;
+    max-width: 100%;
+  }
+}
 
-.img__max__width{
+.big_heading {
+  width: 100%;
+  opacity: 0.2;
+  // font-size: 1rem;
+  h1 {
+    font-size: 8rem;
+  }
+}
+
+.full__img {
+  width: 100%;
+  img {
     width: 100%;
-    img{
-        object-fit: contain;
-        min-width: 100%;
-        max-width: 100%;
-    }
+    object-fit: contain;
+  }
 }
 
-.big_heading{
-    width: 100%;
-    opacity: .2;
-    // font-size: 1rem;
-    h1{
-        font-size: 8rem;
-    }
+.bottom__margin {
+  margin-bottom: 5rem !important;
 }
-
-.full__img{
-    width: 100%;
-        img{
-            width: 100%;
-            object-fit: contain;
-        }
+.top__margin {
+  margin-top: 5rem !important;
 }
-
-.bottom__margin{
-    margin-bottom: 5rem !important;
+.text__center {
+  text-align: center;
 }
-.top__margin{
-    margin-top: 5rem !important;
-}
-.text__center{
-    text-align: center
-}
-.br{
-    border: 2px solid red;
+.br {
+  border: 2px solid red;
 }
 
 @import './InformaticsPress';
@@ -101,3 +99,4 @@
 @import './AuBank';
 @import './ShopX';
 @import './Sls';
+@import './ShopXApp';
