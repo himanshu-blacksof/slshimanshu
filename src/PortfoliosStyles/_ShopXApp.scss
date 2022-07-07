@@ -14,19 +14,28 @@
 }
 .shopx_text {
   padding-top: 3rem;
-  width: 35%;
+  width: 30%;
   margin-left: 5%;
   color: #ffffff;
 }
+// .background_circle {
+//   background-color: #fdb913;
+//   border-radius: 10rem;
+//   height: 50vh;
+//   width: 50vw;
+//   justify-content: center;
+// }
 .barcode_wrapper {
-  width: 70%;
-  height: 40%;
-  margin-left: 20%;
+  background-color: #fdb913;
+  border-radius: 50%;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
   margin-top: 5%;
 }
 .shopx_barcode {
   max-width: 100%;
-  height: 70%;
+  height: 100%;
 }
 .cards_container {
   background-color: #fff5f6;
@@ -37,7 +46,7 @@
   padding-top: 10rem;
 }
 .heading_text {
-  width: 35%;
+  width: 30%;
   color: #ffffff;
 }
 .heading_img {
@@ -105,6 +114,7 @@
 .chart_wrapper {
   max-width: 100%;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
 .text_wrapper {
   width: 30%;
@@ -124,10 +134,88 @@ span {
 }
 .background_grid {
   background-color: #e3334a;
-  width: 90%;
+  width: 80%;
   margin: auto;
   border-radius: 2rem;
+  margin-top: -10%;
 }
 .grid_wrapper {
   text-align: center;
+}
+.circle_wrapper {
+  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\shopXappAssets\shopping.png);
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 10%;
+}
+.circle_red {
+  position: relative;
+  bottom: 14%;
+  margin-left: 7%;
+}
+.circle_yellow {
+  position: absolute;
+  top: 70%;
+  right: 0;
+  margin-right: 7%;
+}
+.para_wrapper {
+  text-align: center;
+  margin-top: 4rem;
+}
+.concept_wrapper {
+  padding-top: 5rem;
+  font-size: 9rem;
+}
+.concept_img {
+  margin-top: -2rem;
+  height: 20%;
+}
+.cong_wrapper {
+  display: flex;
+  justify-content: center;
+  // margin-top: 10%;
+}
+.concept_first {
+  width: 20%;
+  margin-top: 10%;
+}
+.concept_second {
+  width: 20%;
+  margin-left: 10rem;
+  margin-top: 20%;
+}
+.concept_third {
+  width: 22%;
+  padding: 3rem;
+}
+.american_women {
+  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\shopXappAssets\american.png);
+  background-size: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 10%;
+}
+.circle_yellow_second {
+  position: relative;
+  top: 65%;
+  left: 5%;
+}
+.circle_red_second {
+  position: absolute;
+  bottom: 85%;
+  right: 5%;
+}
+.scanner_wrapper {
+  display: flex;
+  margin-top: 10%;
+  width: 110%;
+  justify-content: center;
+  margin-left: 2rem;
+}
+.concept_fourth {
+  margin-left: 4rem;
 }

@@ -12,6 +12,23 @@ import RewardSecond from '../assets/shopXappAssets/rewards_second.png';
 import Chart from '../assets/shopXappAssets/chart.png';
 import Category from '../assets/shopXappAssets/category.png';
 import GridSystem from '../assets/shopXappAssets/gridSystem.svg';
+import Red from '../assets/shopXappAssets/redhalfcircle.svg';
+import Yellow from '../assets/shopXappAssets/yellowhalfcircle.svg';
+import Concept from '../assets/shopXappAssets/concept.png';
+import Concept_First from '../assets/shopXappAssets/Concept1.png';
+import Concept_Second from '../assets/shopXappAssets/concept2.png';
+import Concept_Third from '../assets/shopXappAssets/concept3.png';
+import Concept_Fourth from '../assets/shopXappAssets/concept4.png';
+import Concept_Fivth from '../assets/shopXappAssets/concept5.png';
+import Concept_Sixth from '../assets/shopXappAssets/concept6.png';
+import RedHalf from '../assets/shopXappAssets/redhalfcircle2.svg';
+import YellowHalf from '../assets/shopXappAssets/yellowhalfcircle2.svg';
+import ConceptCode from '../assets/shopXappAssets/conceptcode.png';
+import Barcode from '../assets/shopXappAssets/barcode.png';
+import Barcode_first from '../assets/shopXappAssets/barcode1.png';
+import Barcode_second from '../assets/shopXappAssets/barcode2.png';
+import Barcode_third from '../assets/shopXappAssets/barcode3.png';
+import Barcode_fourth from '../assets/shopXappAssets/barcode4.png';
 const ShopXApp = () => {
   return (
     <>
@@ -30,8 +47,10 @@ const ShopXApp = () => {
             <span> nostrud exercitation </span> ullamco.
           </p>
         </div>
-        <div className="barcode_wrapper">
-          <img className="shopx_barcode " src={ShopXbarcode} alt="barcode" />
+        <div className="background_circle">
+          <div className="barcode_wrapper">
+            <img className="shopx_barcode " src={ShopXbarcode} alt="barcode" />
+          </div>
         </div>
       </section>
       <section className="cards_container"></section>
@@ -104,7 +123,7 @@ const ShopXApp = () => {
         </div>
         <img className="chart_wrapper" src={Chart} alt="chart" />
       </section>
-      <section className="cart_conatiner">
+      <section className="cards_container">
         <div className="heading_wrapper">
           <h3 className="text_wrapper">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -153,6 +172,83 @@ const ShopXApp = () => {
           </div>
           <div className="grid_wrapper">
             <img className="chart_wrapper" src={GridSystem} alt="grid img" />
+          </div>
+        </div>
+      </section>
+      <section className="cards_container">
+        <div className="heading_wrapper">
+          <h3 className="text_wrapper">
+            Lorem dolor sit amet, adipiscing elit
+          </h3>
+        </div>
+        <div className="research_wrapper_black">
+          <div className="research">
+            <p>Application structure</p>
+          </div>
+          <div className="research_para_black">
+            <p>Enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+        <div className="circle_wrapper">
+          <img className="circle_red" src={Red} alt="shopping" />
+          <img className="circle_yellow" src={Yellow} alt="shopping" />
+        </div>
+        <div className="para_wrapper">
+          <p>Earn more point and unlock new scratch card</p>
+          <h1 className="concept_wrapper">CONCEPT</h1>
+
+          <img className="concept_img" src={Concept} alt="concept" />
+        </div>
+        <div className="cong_wrapper">
+          <div className="concept_first">
+            <img className="chart_wrapper" src={Concept_First} alt="concept" />
+          </div>
+          <div className="concept_second">
+            <img className="chart_wrapper" src={Concept_Second} alt="concept" />
+          </div>
+        </div>
+        <div className="cong_wrapper">
+          <div className="concept_third">
+            <img className="chart_wrapper" src={Concept_Third} alt="concept" />
+          </div>
+          <div className="concept_third">
+            <img className="chart_wrapper" src={Concept_Fourth} alt="concept" />
+          </div>
+          <div className="concept_third">
+            <img className="chart_wrapper" src={Concept_Fivth} alt="concept" />
+          </div>
+          <div className="concept_third">
+            <img className="chart_wrapper" src={Concept_Sixth} alt="concept" />
+          </div>
+        </div>
+        <div className="american_women">
+          <img
+            className="circle_yellow_second"
+            src={YellowHalf}
+            alt="shopping"
+          />
+          <img className="circle_red_second" src={RedHalf} alt="shopping" />
+        </div>
+        <div className="para_wrapper">
+          <p>Earn more point and unlock new scratch card</p>
+          <h1 className="concept_wrapper">CONCEPT</h1>
+          <img className="concept_img" src={ConceptCode} alt="concept" />
+        </div>
+        <div className="scanner_wrapper">
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={Barcode} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={Barcode_first} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={Barcode_second} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={Barcode_third} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={Barcode_fourth} alt="concept" />
           </div>
         </div>
       </section>
