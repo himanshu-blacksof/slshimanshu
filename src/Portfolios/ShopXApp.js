@@ -29,6 +29,13 @@ import Barcode_first from '../assets/shopXappAssets/barcode1.png';
 import Barcode_second from '../assets/shopXappAssets/barcode2.png';
 import Barcode_third from '../assets/shopXappAssets/barcode3.png';
 import Barcode_fourth from '../assets/shopXappAssets/barcode4.png';
+import Spinning_first from '../assets/shopXappAssets/spinning1.png';
+import Spinning_second from '../assets/shopXappAssets/spinning2.png';
+import Spinning_third from '../assets/shopXappAssets/spinning3.png';
+import Spinning_fourth from '../assets/shopXappAssets/spinning4.png';
+import Spinning_fivth from '../assets/shopXappAssets/spinning6.png';
+import RedhalfCircle from '../assets/shopXappAssets/redhalfcircle3.svg';
+import yellowhalfcircle from '../assets/shopXappAssets/yellowhalfcircle3.svg';
 const ShopXApp = () => {
   return (
     <>
@@ -250,6 +257,63 @@ const ShopXApp = () => {
           <div className="concept_fourth">
             <img className="chart_wrapper" src={Barcode_fourth} alt="concept" />
           </div>
+        </div>
+        <div className="spinning_wrapper">
+          <div className="concept_fourth">
+            <img
+              className='"chart_wrapper'
+              src={Spinning_first}
+              alt="spinning"
+            />
+          </div>
+          <div className="concept_fourth">
+            <img
+              className='"chart_wrapper'
+              src={Spinning_second}
+              alt="spinning"
+            />
+          </div>
+          <div className="concept_fourth">
+            <p className="spinning_para">
+              Dolore magna aliqua ut enim ad minim veniam, quis nostrud
+              exercitation ullamco.
+            </p>
+          </div>
+        </div>
+        <div className="spinning_wrapper">
+          <div className="concept_fourth">
+            <img
+              className='"chart_wrapper'
+              src={Spinning_third}
+              alt="spinning"
+            />
+          </div>
+          <div className="concept_fourth">
+            <img
+              className='"chart_wrapper'
+              src={Spinning_fourth}
+              alt="spinning"
+            />
+          </div>
+          <div className="concept_fourth">
+            <img
+              className='"chart_wrapper'
+              src={Spinning_fivth}
+              alt="spinning"
+            />
+          </div>
+        </div>
+        <div className="indian_women">
+          <img
+            className="red_indian_women"
+            src={RedhalfCircle}
+            alt="shopping"
+          />
+          <img
+            className="yellow_indian_women"
+            src={yellowhalfcircle}
+            alt="shopping"
+          />
         </div>
       </section>
     </>
