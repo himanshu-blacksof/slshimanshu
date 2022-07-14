@@ -18,13 +18,7 @@
   margin-left: 5%;
   color: #ffffff;
 }
-// .background_circle {
-//   background-color: #fdb913;
-//   border-radius: 10rem;
-//   height: 50vh;
-//   width: 50vw;
-//   justify-content: center;
-// }
+
 .barcode_wrapper {
   background-color: #fdb913;
   border-radius: 50%;
@@ -143,7 +137,7 @@ span {
   text-align: center;
 }
 .circle_wrapper {
-  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\shopXappAssets\shopping.png);
+  background-image: url(../assets/shopXappAssets/shopping.png);
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -192,7 +186,7 @@ span {
   padding: 3rem;
 }
 .american_women {
-  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\shopXappAssets\american.png);
+  background-image: url(../assets/shopXappAssets/american.png);
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -230,8 +224,40 @@ span {
   margin-left: 10%;
 }
 .indian_women {
-  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\shopXappAssets\indianwomen.png);
+  background-image: url(../assets/shopXappAssets/indianwomen.png);
   background-size: 100%;
   height: 100vh;
   background-repeat: no-repeat;
+  position: relative;
+  margin-top: 15%;
+}
+.yellow_indian_women {
+  position: absolute;
+  bottom: 85%;
+  right: 5%;
+}
+.red_indian_women {
+  position: relative;
+  top: 60%;
+  left: 5%;
+}
+.scanner_wrapper_left {
+  display: flex;
+  margin-left: -7%;
+}
+.concept_fivth {
+  margin-right: 4rem;
+}
+.store_container {
+  background-image: url(../assets/shopXappAssets/store.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: relative;
+  margin-top: 10%;
+}
+.circle_red_fourth {
+  position: absolute;
+  top: 60%;
+  right: 5%;
 }

@@ -35,7 +35,18 @@ import Spinning_third from '../assets/shopXappAssets/spinning3.png';
 import Spinning_fourth from '../assets/shopXappAssets/spinning4.png';
 import Spinning_fivth from '../assets/shopXappAssets/spinning6.png';
 import RedhalfCircle from '../assets/shopXappAssets/redhalfcircle3.svg';
-import yellowhalfcircle from '../assets/shopXappAssets/yellowhalfcircle3.svg';
+import Yellowhalfcircle from '../assets/shopXappAssets/yellowhalfcircle3.svg';
+import Puma from '../assets/shopXappAssets/puma.png';
+import PumaCode from '../assets/shopXappAssets/paythree1.png';
+import PumaCodeOne from '../assets/shopXappAssets/paythree2.png';
+import PumaCodeTwo from '../assets/shopXappAssets/paythree3.png';
+import PumaCodeThree from '../assets/shopXappAssets/paythree4.png';
+import PumaCodeFourth from '../assets/shopXappAssets/paythree5.png';
+import PumaCodeFivth from '../assets/shopXappAssets/paythree6.png';
+import PumaCodeSixth from '../assets/shopXappAssets/paythree7.png';
+import PumaCodeSeveth from '../assets/shopXappAssets/paythree8.png';
+import RedcircleFourth from '../assets/shopXappAssets/redcircle4.svg';
+import SuperMarket from '../assets/shopXappAssets/harshitasupermarket.png';
 const ShopXApp = () => {
   return (
     <>
@@ -311,9 +322,55 @@ const ShopXApp = () => {
           />
           <img
             className="yellow_indian_women"
-            src={yellowhalfcircle}
+            src={Yellowhalfcircle}
             alt="shopping"
           />
+        </div>
+        <div className="para_wrapper">
+          <p>Earn more point and unlock new scratch card</p>
+          <h1 className="concept_wrapper">CONCEPT</h1>
+          <img className="concept_img" src={Puma} alt="concept" />
+        </div>
+        <div className="scanner_wrapper">
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={PumaCode} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={PumaCodeOne} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={PumaCodeTwo} alt="concept" />
+          </div>
+          <div className="concept_fourth">
+            <img className="chart_wrapper" src={PumaCodeThree} alt="concept" />
+          </div>
+        </div>
+        <div className="scanner_wrapper_left">
+          <div className="concept_fivth">
+            <img className="chart_wrapper" src={PumaCodeFourth} alt="concept" />
+          </div>
+          <div className="concept_fivth">
+            <img className="chart_wrapper" src={PumaCodeFivth} alt="concept" />
+          </div>
+          <div className="concept_fivth">
+            <img className="chart_wrapper" src={PumaCodeSixth} alt="concept" />
+          </div>
+          <div className="concept_fivth">
+            <img className="chart_wrapper" src={PumaCodeSeveth} alt="concept" />
+          </div>
+        </div>
+        <div className="store_container">
+          <img className="circle_red" src={YellowHalf} alt="shopping" />
+          <img
+            className="circle_red_fourth"
+            src={RedcircleFourth}
+            alt="shopping"
+          />
+        </div>
+        <div className="para_wrapper">
+          <p>Earn more point and unlock new scratch card</p>
+          <h1 className="concept_wrapper">CONCEPT</h1>
+          <img className="concept_img" src={SuperMarket} alt="concept" />
         </div>
       </section>
     </>

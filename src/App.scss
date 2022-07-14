@@ -1,8 +1,7 @@
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 //css reset
@@ -115,11 +114,9 @@ section {
 body {
   line-height: 1;
   scroll-behavior: smooth;
-
 }
 
 ol,
-
 blockquote,
 q {
   quotes: none;
@@ -128,7 +125,7 @@ q {
 blockquote {
   &:before,
   &:after {
-    content: "";
+    content: '';
     content: none;
   }
 }
@@ -136,7 +133,7 @@ blockquote {
 q {
   &:before,
   &:after {
-    content: "";
+    content: '';
     content: none;
   }
 }
@@ -172,7 +169,7 @@ table {
   font-weight: bold;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -207,7 +204,7 @@ h5 {
   font-weight: normal;
 }
 
-h6{
+h6 {
   font-family: Access__Regular;
   font-size: 1rem;
   font-weight: normal;
@@ -220,7 +217,6 @@ p {
   line-height: 2.5rem;
 }
 
-
 a {
   color: black;
   text-decoration: none;
@@ -230,7 +226,7 @@ a {
   }
 }
 
-.service__list__container{
+.service__list__container {
   width: 80%;
   margin: 0 auto;
 }
@@ -249,11 +245,9 @@ a {
   margin: 5rem 0;
 }
 
-hr{
+hr {
   background-color: black;
 }
-
-
 
 // scroll bar
 body::-webkit-scrollbar {
@@ -294,36 +288,35 @@ html {
   html {
     font-size: 16px;
   }
-  
 }
 
-.cc-1c9v{
-
-  .crisp-client .cc-kv6t .cc-1ada, .crisp-client .cc-kv6t .cc-ew5j:before, .crisp-client .cc-kv6t .cc-ew5j:after{
+.cc-1c9v {
+  .crisp-client .cc-kv6t .cc-1ada,
+  .crisp-client .cc-kv6t .cc-ew5j:before,
+  .crisp-client .cc-kv6t .cc-ew5j:after {
     background-color: red !important;
   }
 }
 
 .crisp-client .cc-kv6t .cc-vuur,
-.crisp-client .cc-kv6t .cc-7rgf[data-active="true"] {
+.crisp-client .cc-kv6t .cc-7rgf[data-active='true'] {
   background: red !important;
 }
 
 // PAGE
-@import "./Styles/AboutPage";
+@import './Styles/AboutPage';
 @import './Styles//ContactPage';
 @import './Styles/TeamPage';
 @import './Styles/ErrorPage';
 
-
 //partials
-@import "./Styles/NavBar";
-@import "./Styles/HomeFooter.scss";
-@import "./Styles/HomeSlider";
-@import "./Styles/WorkPortfolios";
-@import "./Styles/Footer";
-@import "./Styles/PageHeading";
-@import "./Styles/OurCulture";
+@import './Styles/NavBar';
+@import './Styles/HomeFooter.scss';
+@import './Styles/HomeSlider';
+@import './Styles/WorkPortfolios';
+@import './Styles/Footer';
+@import './Styles/PageHeading';
+@import './Styles/OurCulture';
 @import './Styles/TeamCard';
 @import './Styles//Accordion';
 @import './Styles/Form';
@@ -335,8 +328,7 @@ html {
 @import './Styles/ContacUsCards';
 @import './Styles/Loader';
 @import './PortfoliosStyles/Main';
-@import "./Styles/test";
-
+@import './Styles/test';
 
 //Atoms Styles
 @import './Styles/AtomStyles/AllCards';
@@ -346,4 +338,3 @@ html {
 
 //portfolio Responsive
 @import './Styles/Responsives/PortfoliosResponsive';
-
