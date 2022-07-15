@@ -1,7 +1,7 @@
 import React from 'react';
 import PortfolioHeading from '../Components/PortfolioHeading';
-import Computer from '../assets/slsAssets/viasights.svg';
 import Logo from '../assets/slsAssets/sls_logo.svg';
+import Computer from '../assets/slsAssets/viasights.svg';
 import Sun from '../assets/slsAssets/sunsight.svg';
 import Yalgaar from '../assets/slsAssets/yalgaar.svg';
 import Loc from '../assets/slsAssets/loc.svg';
@@ -44,27 +44,25 @@ const Sls = () => {
           subHeading="UI/UX"
           info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
         />
-        <div className="MyStyle">
+        <div className="MyStyle ">
           <div className="MyImg ">
-            <Images image={Logo} fullwidth />
+            <img className="image" src={Logo} alt="" />
           </div>
-          <div className="" style={{ display: 'flex', alignItems: 'center' }}>
-            <Images className="images" image={Computer} alt="logo" />
-            <Images className="images" image={Sun} alt="sun" />
-            <Images className="images" image={Yalgaar} alt="yal" />
-            <Images className="images" image={Loc} alt="loc" />
-            <Images className="images" image={Varde} alt="Var" />
+          <div className="Logos_wrapper">
+            <img className="image" src={Computer} alt="logo" />
+            <img className="image" src={Sun} alt="sun" />
+            <img className="image" src={Yalgaar} alt="yal" />
+            <img className="image" src={Loc} alt="loc" />
+            <img className="image" src={Varde} alt="Var" />
           </div>
         </div>
 
         {/* subparagraph */}
-        <div className="subpara_wrapper ">
-          <div className="textStyle">
-            <h3>
-              Lorem ipsum<br></br> dolor sit amet
-            </h3>
+        <div className="subpara_wrapper  ">
+          <div className="textStyle ">
+            <h3>Lorem ipsum dolor sit amet</h3>
           </div>
-          <div className="textStyleP">
+          <div className="textStyleP ">
             <p>
               CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
               labore et dolore magna aliqua. Ut enim ad minim veniam, quis

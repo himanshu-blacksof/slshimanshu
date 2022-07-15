@@ -1,61 +1,60 @@
 .MyStyle {
-  height: 100vh;
   background-color: #0426a1;
-  background-size: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  // justify-content: center;
   align-items: center;
-
-  .images {
-    margin: 1rem;
-    // margin-top: 10%;
-  }
+  justify-content: center;
+  flex-direction: column;
+}
+.b {
+  border: 2px solid red;
 }
 .MyImg {
-  display: flex;
-  opacity: 1;
+  width: 25vw;
+  height: fit-content;
+  min-width: 30vw;
   justify-content: center;
-  // padding:2px;
-  width: 30%;
-  height: 50%;
-  // margin-top: 20%;
-}
-.MyLogo {
-  margin: auto;
-  opacity: 1;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-}
-.subpara_wrapper {
-  display: flex;
-  justify-content: center;
-}
-.textStyle {
-  margin-top: 11%;
-  margin-bottom: 8%;
-  margin-left: 15%;
-  width: 50%;
-}
-.textStyleP {
-  margin-top: 8%;
-  margin-bottom: 8%;
-  margin-right: 15%;
-  margin: 10%;
-  width: 60%;
+  margin: 7%;
 }
 
+.Logos_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20vw;
+  min-width: 10vw;
+  gap: 5rem;
+  padding-bottom: 5%;
+}
+.subpara_wrapper {
+  width: 70%;
+  margin: 10%;
+  display: flex;
+  place-content: center;
+  flex-wrap: nowrap;
+}
+.textStyle {
+  word-spacing: 1;
+  width: 30%;
+  justify-content: center;
+  margin: auto auto;
+}
+.textStyleP {
+  margin: auto auto;
+  margin-left: 10%;
+  width: 52%;
+}
 .background_container {
   background-color: #eeeeee;
   display: flex;
+  flex-wrap: wrap;
 }
 .style_container {
   background-color: #ffffff;
   margin-left: 10%;
   margin-top: -5%;
   width: 30%;
+  max-width: auto;
   padding: 2rem;
   margin-bottom: 5%;
 }
@@ -80,13 +79,13 @@
   margin-left: 15%;
   margin-top: 10%;
   width: 30%;
+  max-width: auto;
   padding: 4rem;
   margin-bottom: 15%;
-  height: 806px;
 }
 .wordh3 {
   color: #ffffff;
-  size: 48px;
+  size: 4rem;
   margin-top: 10%;
   margin-left: 5%;
 }
@@ -95,13 +94,13 @@
   width: 30%;
   padding: 4rem;
   margin-top: 20%;
+  max-width: auto;
   margin-left: 10%;
   margin-bottom: 10%;
-  height: 806px;
 }
 .wordp {
   color: #ffffff;
-  size: 24px;
+  size: 2rem;
   margin-top: 70%;
   font-style: italic;
   font-family: Playfair__Bolditalic;
@@ -266,4 +265,48 @@
 }
 .services_container4 {
   width: 20%;
+}
+@media only screen and (max-width: 1100px) {
+  .MyStyle {
+    height: 80vh;
+  }
+  .MyImg {
+    width: 60vw;
+  }
+
+  .Logos_wrapper {
+    flex-wrap: wrap;
+  }
+  .subpara_wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: auto auto;
+  }
+  .textStyle {
+    margin: 5%;
+    width: 40%;
+  }
+  .textStyleP {
+    margin-bottom: 5%;
+  }
+  .style_container {
+    width: 70%;
+  }
+  .background_container {
+    flex-direction: column;
+  }
+  .element_container {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .backgroundblack {
+    width: 50%;
+  }
+  .backgroundblue {
+    width: 50%;
+  }
+  .wordp {
+    margin-top: 30%;
+  }
 }
