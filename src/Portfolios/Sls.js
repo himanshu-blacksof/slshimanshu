@@ -116,7 +116,6 @@ const Sls = () => {
       </div>
       <div className="background_container">
         <div className="backgroundblack ">
-          <div className="circle"></div>
           <h3 className="wordh3">
             For 30 years, We set ourselves apart through our experts' expertise
             and experience.
@@ -130,8 +129,8 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <div className="black_container">
-        <div className="subpara_wrapper ">
+      <section className="black_container">
+        <div className="subpara_wrapper">
           <div className="textStyle">
             <h3 className="font">User Flow</h3>
           </div>
@@ -145,7 +144,7 @@ const Sls = () => {
           </div>
         </div>
         <Images className="flow" image={Flow} alt="flow" />
-      </div>
+      </section>
       <div className="subpara_wrapper">
         <div className="textStyle">
           <h3>Styleguide</h3>
@@ -174,9 +173,6 @@ const Sls = () => {
           <p>24 X 24 px Grid</p>
           <p>2 px Safe padding</p>
         </div>
-        {/* <div className="grid_img">
-            <Images image={Grid} alt="Grid " />
-          </div> */}
       </div>
       <div className="collage">
         <Images image={Collage} alt="collage" />
@@ -207,10 +203,6 @@ const Sls = () => {
         </div>
       </div>
       <Images image={Slsimg} fullwidth alt="Sls" />
-      {/* <div className="background_blue">
-        <img className="img_container" src={Blue} alt="blue" />
-        <img className="img_containersecond" src={Gridbottom} alt="blue" />
-      </div> */}
       <div className="subpara_wrapper">
         <div className="textStyle">
           <h3>Industries</h3>
@@ -224,13 +216,6 @@ const Sls = () => {
         </div>
       </div>
       <Images image={Solar} fullwidth alt="Solar" />
-
-      {/* <div className="solar_container">
-        <Images image={Solar} fullwidth alt="solar" />
-      </div>
-      <div className="solarwind_container">
-        <img className="img_solar" src={Solarwind} alt="solar" />
-      </div> */}
       <Images image={Tablet} fullwidth alt="tablet" />
       <div className="subpara_wrapper">
         <div className="textStyle">
@@ -264,7 +249,7 @@ const Sls = () => {
       </div>
       <Images image={Multiple} fullwidth alt="multiple" />
       <div className="multiple_container">
-        <p>
+        <p className="multiple_para">
           CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore.
         </p>

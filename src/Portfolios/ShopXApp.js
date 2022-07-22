@@ -47,6 +47,9 @@ import PumaCodeSixth from '../assets/shopXappAssets/paythree7.png';
 import PumaCodeSeveth from '../assets/shopXappAssets/paythree8.png';
 import RedcircleFourth from '../assets/shopXappAssets/redcircle4.svg';
 import SuperMarket from '../assets/shopXappAssets/harshitasupermarket.png';
+import ArrowOne from '../assets/shopXappAssets/arrow1.svg';
+import NewGrocery from '../assets/shopXappAssets/newGrocery.png';
+import ArrowTwo from '../assets/shopXappAssets/arrow2.svg';
 const ShopXApp = () => {
   return (
     <>
@@ -371,6 +374,21 @@ const ShopXApp = () => {
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img" src={SuperMarket} alt="concept" />
+        </div>
+        <div className="newgrocery_wrapper">
+          <div className="Arrow_first">
+            <img classname="Arrow_wrapper " src={ArrowOne} alt="newgrocery" />
+            <p className="Arrow_para_first">
+              Minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div>
+          <img src={NewGrocery} alt="newgrocery" />
+          <div className="Arrow_second">
+            <img className="Arrow_wrapper" src={ArrowTwo} alt="newgrocery" />
+            <p className="Arrow_para">
+              Enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+          </div>
         </div>
       </section>
     </>

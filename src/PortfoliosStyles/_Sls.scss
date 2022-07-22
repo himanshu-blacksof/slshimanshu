@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
 }
 .b {
   border: 2px solid red;
@@ -11,7 +12,6 @@
 .MyImg {
   width: 25vw;
   height: fit-content;
-  min-width: 30vw;
   justify-content: center;
   margin: 7%;
 }
@@ -20,15 +20,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
   width: 20vw;
   min-width: 10vw;
   gap: 5rem;
   padding-bottom: 5%;
 }
 .subpara_wrapper {
-  width: 70%;
-  margin: 10%;
+  width: 90%;
+  padding: 10%;
   display: flex;
   place-content: center;
   flex-wrap: nowrap;
@@ -79,7 +78,6 @@
   margin-left: 15%;
   margin-top: 10%;
   width: 30%;
-  max-width: auto;
   padding: 4rem;
   margin-bottom: 15%;
 }
@@ -96,6 +94,7 @@
   margin-top: 20%;
   max-width: auto;
   margin-left: 10%;
+  height: 90vh;
   margin-bottom: 10%;
 }
 .wordp {
@@ -105,14 +104,6 @@
   font-style: italic;
   font-family: Playfair__Bolditalic;
 }
-.circle {
-  height: 20px;
-  width: 20px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-top: 2%;
-  margin-left: -10%;
-}
 .black_container {
   background-color: #212121;
 }
@@ -120,8 +111,8 @@
   color: #ffffff;
 }
 .flow {
+  margin-top: -5%;
   width: 80%;
-  height: 1221px;
   margin-bottom: 8%;
 }
 .backdown_container {
@@ -145,8 +136,6 @@
 .card {
   width: 385px;
   height: 500px;
-  // float:right;
-  //  display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
@@ -175,10 +164,12 @@
 .grid {
   width: 15%;
   display: flex;
+  justify-content: space-around;
+  gap: 20%;
 }
 .collage {
-  width: 120%;
-  margin-left: -5%;
+  width: auto;
+  background-size: 100%;
 }
 .gridbackground {
   background-image: url(../assets/slsAssets/gridsystem.png);
@@ -243,9 +234,11 @@
 }
 .grey_container {
   background-color: #eeeeee;
-  flex-wrap: nowrap;
   margin-top: 10%;
-  width: 130%;
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: auto;
 }
 .services_container1 {
   width: 20%;
@@ -257,25 +250,48 @@
   width: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-left: 5%;
+  margin-left: 5%;
 }
 .services_container3 {
-  width: 35%;
-  margin-top: -15%;
+  width: 45%;
+  margin-top: -10%;
+  margin-bottom: 10%;
 }
 .services_container4 {
-  width: 20%;
+  width: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 @media only screen and (max-width: 1100px) {
   .MyStyle {
-    height: 80vh;
+    height: 70vh;
+  }
+  .services_container1 {
+    width: 50%;
+    margin: 10% auto;
+  }
+
+  .services_container2 {
+    width: 50%;
+    margin: auto;
+  }
+  .services_container3 {
+    width: 70%;
+    margin: 10% auto;
+  }
+  .services_container4 {
+    width: 50%;
   }
   .MyImg {
-    width: 60vw;
+    width: 50vw;
   }
 
   .Logos_wrapper {
     flex-wrap: wrap;
+    width: 40vw;
+  }
+  .para_container {
+    margin-left: 10%;
   }
   .subpara_wrapper {
     width: 100%;
@@ -283,11 +299,13 @@
     margin: auto auto;
   }
   .textStyle {
-    margin: 5%;
-    width: 40%;
+    margin: 2%;
+    width: 70%;
   }
   .textStyleP {
     margin-bottom: 5%;
+    margin-left: auto;
+    width: auto;
   }
   .style_container {
     width: 70%;
@@ -297,6 +315,58 @@
   }
   .element_container {
     width: auto;
+  }
+  .grey_container {
+    margin: auto auto;
+    flex-direction: column;
+  }
+  .services_container4 {
+    margin-left: 10%;
+  }
+  .backgroundblack {
+    width: 100%;
+  }
+  .wordh3 {
+    font-size: 1.4rem;
+    width: 100%;
+    line-height: 2;
+  }
+  .backgroundblue {
+    width: 100%;
+    height: 35vh;
+    margin-top: auto;
+    margin-left: 15%;
+    padding: 2rem;
+  }
+  .wordp {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 3%;
+    padding: auto;
+  }
+  .text-para {
+    width: 70%;
+    margin: 2%;
+  }
+  .para-art {
+    width: auto;
+    margin-right: 5%;
+    font-size: 1.4rem;
+  }
+  .grid {
+    flex-direction: row;
+    width: 70%;
+  }
+  .gridbackground {
+    flex-direction: column;
+    height: auto;
+  }
+  .grid_text {
+    margin-bottom: auto;
+  }
+  .multiple_para {
+    width: 170%;
+    margin: auto;
   }
 }
 @media only screen and (max-width: 800px) {

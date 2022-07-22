@@ -53,9 +53,11 @@
   margin-left: 15%;
   color: #ffffff;
   padding-top: 2rem;
+  // flex-wrap: wrap;
 }
 .research_para {
   width: 65%;
+  flex-wrap: wrap;
 }
 .strategy_wrapper {
   width: 70%;
@@ -260,4 +262,23 @@ span {
   position: absolute;
   top: 60%;
   right: 5%;
+}
+.newgrocery_wrapper {
+  display: flex;
+  margin-top: 15%;
+  justify-content: center;
+}
+.Arrow_first {
+  margin-top: 20%;
+}
+.Arrow_para_first {
+  width: 70%;
+  align-items: center;
+}
+.Arrow_second {
+  margin-top: 10%;
+  margin-left: 3%;
+}
+.Arrow_para {
+  width: 50%;
 }
