@@ -267,20 +267,22 @@
     height: 70vh;
   }
   .services_container1 {
-    width: 50%;
-    margin: 10% auto;
+    width: 60%;
+    margin-left: 16%;
   }
 
   .services_container2 {
-    width: 50%;
-    margin: auto;
+    width: 60%;
+    margin-left: 16%;
   }
   .services_container3 {
-    width: 70%;
-    margin: 10% auto;
+    width: 80%;
+    margin: 5% auto;
+    margin-left: 5%;
   }
   .services_container4 {
-    width: 50%;
+    width: 60%;
+    margin-left: 15%;
   }
   .MyImg {
     width: 50vw;
@@ -319,9 +321,6 @@
   .grey_container {
     margin: auto auto;
     flex-direction: column;
-  }
-  .services_container4 {
-    margin-left: 10%;
   }
   .backgroundblack {
     width: 100%;
@@ -363,6 +362,7 @@
   }
   .grid_text {
     margin-bottom: auto;
+    margin-left: 5%;
   }
   .multiple_para {
     width: 170%;
