@@ -79,6 +79,7 @@
   margin-top: 10%;
   width: 30%;
   padding: 4rem;
+  height: 78vh;
   margin-bottom: 15%;
 }
 .wordh3 {
@@ -94,13 +95,13 @@
   margin-top: 20%;
   max-width: auto;
   margin-left: 10%;
-  height: 90vh;
+  height: 80vh;
   margin-bottom: 10%;
 }
 .wordp {
   color: #ffffff;
   size: 2rem;
-  margin-top: 70%;
+  margin-top: 50%;
   font-style: italic;
   font-family: Playfair__Bolditalic;
 }
@@ -314,6 +315,7 @@
   }
   .background_container {
     flex-direction: column;
+    width: auto;
   }
   .element_container {
     width: auto;
@@ -324,6 +326,7 @@
   }
   .backgroundblack {
     width: 100%;
+    height: 35vh;
   }
   .wordh3 {
     font-size: 1.4rem;
@@ -336,6 +339,9 @@
     margin-top: auto;
     margin-left: 15%;
     padding: 2rem;
+  }
+  .flow {
+    width: 100vw;
   }
   .wordp {
     font-size: 1.4rem;
