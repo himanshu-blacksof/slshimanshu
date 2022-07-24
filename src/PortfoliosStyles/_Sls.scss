@@ -1,61 +1,59 @@
 .MyStyle {
-  height: 100vh;
   background-color: #0426a1;
-  background-size: 100%;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  // justify-content: center;
   align-items: center;
-
-  .images {
-    margin: 1rem;
-    // margin-top: 10%;
-  }
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.b {
+  border: 2px solid red;
 }
 .MyImg {
-  display: flex;
-  opacity: 1;
+  width: 25vw;
+  height: fit-content;
   justify-content: center;
-  // padding:2px;
-  width: 30%;
-  height: 50%;
-  // margin-top: 20%;
-}
-.MyLogo {
-  margin: auto;
-  opacity: 1;
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-}
-.subpara_wrapper {
-  display: flex;
-  justify-content: center;
-}
-.textStyle {
-  margin-top: 11%;
-  margin-bottom: 8%;
-  margin-left: 15%;
-  width: 50%;
-}
-.textStyleP {
-  margin-top: 8%;
-  margin-bottom: 8%;
-  margin-right: 15%;
-  margin: 10%;
-  width: 60%;
+  margin: 7%;
 }
 
+.Logos_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  min-width: 10vw;
+  gap: 5rem;
+  padding-bottom: 5%;
+}
+.subpara_wrapper {
+  width: 90%;
+  padding: 10%;
+  display: flex;
+  place-content: center;
+  flex-wrap: nowrap;
+}
+.textStyle {
+  word-spacing: 1;
+  width: 30%;
+  justify-content: center;
+  margin: auto auto;
+}
+.textStyleP {
+  margin: auto auto;
+  margin-left: 10%;
+  width: 52%;
+}
 .background_container {
   background-color: #eeeeee;
   display: flex;
+  flex-wrap: wrap;
 }
 .style_container {
   background-color: #ffffff;
   margin-left: 10%;
   margin-top: -5%;
   width: 30%;
+  max-width: auto;
   padding: 2rem;
   margin-bottom: 5%;
 }
@@ -81,12 +79,12 @@
   margin-top: 10%;
   width: 30%;
   padding: 4rem;
+  height: 78vh;
   margin-bottom: 15%;
-  height: 806px;
 }
 .wordh3 {
   color: #ffffff;
-  size: 48px;
+  size: 4rem;
   margin-top: 10%;
   margin-left: 5%;
 }
@@ -95,24 +93,17 @@
   width: 30%;
   padding: 4rem;
   margin-top: 20%;
+  max-width: auto;
   margin-left: 10%;
+  height: 80vh;
   margin-bottom: 10%;
-  height: 806px;
 }
 .wordp {
   color: #ffffff;
-  size: 24px;
-  margin-top: 70%;
+  size: 2rem;
+  margin-top: 50%;
   font-style: italic;
   font-family: Playfair__Bolditalic;
-}
-.circle {
-  height: 20px;
-  width: 20px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  margin-top: 2%;
-  margin-left: -10%;
 }
 .black_container {
   background-color: #212121;
@@ -121,8 +112,8 @@
   color: #ffffff;
 }
 .flow {
+  margin-top: -5%;
   width: 80%;
-  height: 1221px;
   margin-bottom: 8%;
 }
 .backdown_container {
@@ -146,8 +137,6 @@
 .card {
   width: 385px;
   height: 500px;
-  // float:right;
-  //  display: inline-block;
   border-radius: 10px;
   padding: 15px 25px;
   box-sizing: border-box;
@@ -176,13 +165,15 @@
 .grid {
   width: 15%;
   display: flex;
+  justify-content: space-around;
+  gap: 20%;
 }
 .collage {
-  width: 120%;
-  margin-left: -5%;
+  width: auto;
+  background-size: 100%;
 }
 .gridbackground {
-  background-image: url(C:\Users\Himanshu\Documents\blacksof-site-main\src\assets\slsAssets\gridsystem.png);
+  background-image: url(../assets/slsAssets/gridsystem.png);
   background-size: full-width;
   height: 100vh;
   display: flex;
@@ -244,9 +235,11 @@
 }
 .grey_container {
   background-color: #eeeeee;
-  flex-wrap: nowrap;
   margin-top: 10%;
-  width: 130%;
+  width: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: auto;
 }
 .services_container1 {
   width: 20%;
@@ -258,12 +251,138 @@
   width: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-left: 5%;
+  margin-left: 5%;
 }
 .services_container3 {
-  width: 35%;
-  margin-top: -15%;
+  width: 45%;
+  margin-top: -10%;
+  margin-bottom: 10%;
 }
 .services_container4 {
-  width: 20%;
+  width: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+@media only screen and (max-width: 1100px) {
+  .MyStyle {
+    height: 70vh;
+  }
+  .services_container1 {
+    width: 60%;
+    margin-left: 16%;
+  }
+
+  .services_container2 {
+    width: 60%;
+    margin-left: 16%;
+  }
+  .services_container3 {
+    width: 80%;
+    margin: 5% auto;
+    margin-left: 5%;
+  }
+  .services_container4 {
+    width: 60%;
+    margin-left: 15%;
+  }
+  .MyImg {
+    width: 50vw;
+  }
+
+  .Logos_wrapper {
+    flex-wrap: wrap;
+    width: 40vw;
+  }
+  .para_container {
+    margin-left: 10%;
+  }
+  .subpara_wrapper {
+    width: 100%;
+    flex-direction: column;
+    margin: auto auto;
+  }
+  .textStyle {
+    margin: 2%;
+    width: 70%;
+  }
+  .textStyleP {
+    margin-bottom: 5%;
+    margin-left: auto;
+    width: auto;
+  }
+  .style_container {
+    width: 70%;
+  }
+  .background_container {
+    flex-direction: column;
+    width: auto;
+  }
+  .element_container {
+    width: auto;
+  }
+  .grey_container {
+    margin: auto auto;
+    flex-direction: column;
+  }
+  .backgroundblack {
+    width: 100%;
+    height: 35vh;
+  }
+  .wordh3 {
+    font-size: 1.4rem;
+    width: 100%;
+    line-height: 2;
+  }
+  .backgroundblue {
+    width: 100%;
+    height: 35vh;
+    margin-top: auto;
+    margin-left: 15%;
+    padding: 2rem;
+  }
+  .flow {
+    width: 100vw;
+  }
+  .wordp {
+    font-size: 1.4rem;
+    width: 100%;
+    margin-top: 3%;
+    padding: auto;
+  }
+  .text-para {
+    width: 70%;
+    margin: 2%;
+  }
+  .para-art {
+    width: auto;
+    margin-right: 5%;
+    font-size: 1.4rem;
+  }
+  .grid {
+    flex-direction: row;
+    width: 70%;
+  }
+  .gridbackground {
+    flex-direction: column;
+    height: auto;
+  }
+  .grid_text {
+    margin-bottom: auto;
+    margin-left: 5%;
+  }
+  .multiple_para {
+    width: 170%;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .backgroundblack {
+    width: 50%;
+  }
+  .backgroundblue {
+    width: 50%;
+  }
+  .wordp {
+    margin-top: 30%;
+  }
 }
