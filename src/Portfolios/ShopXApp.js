@@ -1,7 +1,7 @@
 import React from 'react';
 //component
 import PortfolioHeading from '../Components/PortfolioHeading';
-
+import Images from '../Components/Atoms/Images';
 //Images
 import ShopX from '../assets/shopXappAssets/shopx.svg';
 import ShopXbarcode from '../assets/shopXappAssets/shopxBarcode.png';
@@ -50,6 +50,12 @@ import SuperMarket from '../assets/shopXappAssets/harshitasupermarket.png';
 import ArrowOne from '../assets/shopXappAssets/arrow1.svg';
 import NewGrocery from '../assets/shopXappAssets/newGrocery.png';
 import ArrowTwo from '../assets/shopXappAssets/arrow2.svg';
+import Shopxhand from '../assets/shopXappAssets/shopxhand.png';
+import Grid from '../assets/shopXappAssets/grid.png';
+import Mainscreen from '../assets/shopXappAssets/mainscreen.png';
+import Multidevice from '../assets/shopXappAssets/multidevice.png';
+import Mural from '../assets/shopXappAssets/Mural-Wall-Mockup-Scene.png';
+import Thank from '../assets/shopXappAssets/thnks.svg';
 const ShopXApp = () => {
   return (
     <>
@@ -389,6 +395,65 @@ const ShopXApp = () => {
               Enim ad minim veniam, quis nostrud exercitation ullamco.
             </p>
           </div>
+        </div>
+      </section>
+      <Images
+        className="shopxhand"
+        image={Shopxhand}
+        fullwidth
+        alt="Shopxhand"
+      />
+      <div className="supersaver">
+        <h3 className="text_super">Save at Supersaver Stores near you</h3>
+        <Images className="grid" image={Grid} fullwidth alt="img" />
+      </div>
+      <section className="cards_container">
+        <div className="heading_wrapper">
+          <h3 className="text_wrapper">Sit amet,</h3>
+          <h3 className="text_wrapper"> adipiscing elit</h3>
+        </div>
+        <div className="research_wrapper_black">
+          <div className="research">
+            <p>Main Screen</p>
+          </div>
+          <div className="research_para_black">
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+          </div>
+        </div>
+        <Images image={Mainscreen} fullwidth alt="img" />
+      </section>
+      <div className="multidevice">
+        <div className="text_screen">
+          <div>
+            <strong>125+</strong>
+            <h3 className="screens">Screens</h3>
+          </div>
+          <div>
+            <strong>77</strong>
+            <h3 className="screens">Hours</h3>
+          </div>
+        </div>
+        <div className="text_days">
+          <strong>49</strong>
+          <h3 className="screens">Days</h3>
+        </div>
+        <Images
+          className="multidevice_wrapper "
+          image={Multidevice}
+          fullwidth
+          alt="img"
+        />
+        <Images
+          className="multidevice_wrapper "
+          image={Mural}
+          fullwidth
+          alt="img"
+        />
+      </div>
+      <section className="cards_container">
+        <div className="thank_wrapper">
+          <h3>Thanks for </h3>
+          <h3>watching</h3>
         </div>
       </section>
     </>

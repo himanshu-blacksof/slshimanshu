@@ -277,8 +277,59 @@ span {
 }
 .Arrow_second {
   margin-top: 10%;
-  margin-left: 3%;
+  margin-left: 30%;
 }
 .Arrow_para {
   width: 50%;
+}
+.shopxhand {
+  background-color: #241a1b;
+}
+.supersaver {
+  background-color: #e3334a;
+}
+.text_super {
+  font-size: 4rem;
+  text-align: center;
+  color: #fff5f6;
+  margin: auto;
+  padding: 8rem 0;
+  width: 30%;
+}
+.grid {
+  display: block;
+}
+.multidevice {
+  background-color: #241a1b;
+  position: relative;
+}
+.multidevice_wrapper {
+  padding-top: 10%;
+}
+strong {
+  color: #e3334a;
+  font-size: 2.7rem;
+}
+.screens {
+  color: #ffffff;
+  font-size: 2.7rem;
+}
+.text_screen {
+  display: flex;
+  position: absolute;
+  padding-top: 11%;
+  padding-left: 17%;
+  gap: 13%;
+}
+.text_days {
+  position: absolute;
+  padding-top: 19%;
+  padding-left: 17%;
+}
+.thank_wrapper {
+  background-image: url(../assets/shopXappAssets/thnks.svg);
+  text-align: center;
+  height: 80vh;
+  color: #fff5f6;
+  margin: auto auto;
 }
