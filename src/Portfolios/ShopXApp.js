@@ -66,29 +66,28 @@ const ShopXApp = () => {
           info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
         />
       </div>
-      <section className="main_container">
-        <div className="shopx_wrapper ">
+      <section className="main_container ">
+        <div className="shopx_wrapper  ">
           <img className="shopx_logo" src={ShopX} alt="shopx" />
           <p className="shopx_text  ">
             Dolore magna aliqua ut enim ad minim veniam, quis
             <span> nostrud exercitation </span> ullamco.
           </p>
         </div>
-        <div className="background_circle">
+        <div className="background_circle ">
           <div className="barcode_wrapper">
             <img className="shopx_barcode " src={ShopXbarcode} alt="barcode" />
           </div>
         </div>
       </section>
-      <section className="cards_container"></section>
-      <section className="main_container">
-        <div className="heading_wrapper ">
+      <section className="main_container ">
+        <div className="heading_wrapper  ">
           <h3 className="heading_text ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             <img className="heading_img" src={Heading} alt="img" />
           </h3>
         </div>
-        <div className="research_wrapper">
+        <div className="research_wrapper ">
           <div className="research">
             <p>Research</p>
           </div>
@@ -104,11 +103,11 @@ const ShopXApp = () => {
         </div>
       </section>
       <section className="cards_container">
-        <div className="reward_wrapper">
+        <div className="reward_wrapper ">
           <div className="reward_img_wrapper">
             <img className="reward-img " src={Reward} alt="rewards" />
           </div>
-          <div className="rewards_right">
+          <div className="rewards_right ">
             <h4>Rewards...</h4>
             <p>
               ed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -119,7 +118,7 @@ const ShopXApp = () => {
           </div>
         </div>
         <div className="reward_wrapper">
-          <div className="rewardsecond_left">
+          <div className="rewardsecond_left ">
             <h4>Rewards...</h4>
             <p>
               ed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -134,7 +133,7 @@ const ShopXApp = () => {
         </div>
       </section>
       <section className="main_container">
-        <div className="expertation_wrapper">
+        <div className="expertation_wrapper ">
           <h3>Ut enim ad minim veniam, quis nostrud exercitation</h3>
         </div>
         <div className="research_wrapper">
@@ -216,11 +215,11 @@ const ShopXApp = () => {
             <p>Enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </div>
         </div>
-        <div className="circle_wrapper">
+        <div className="circle_wrapper ">
           <img className="circle_red" src={Red} alt="shopping" />
           <img className="circle_yellow" src={Yellow} alt="shopping" />
         </div>
-        <div className="para_wrapper">
+        <div className="para_wrapper ">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
 
@@ -248,7 +247,7 @@ const ShopXApp = () => {
             <img className="chart_wrapper" src={Concept_Sixth} alt="concept" />
           </div>
         </div>
-        <div className="american_women">
+        <div className="american_women ">
           <img
             className="circle_yellow_second"
             src={YellowHalf}
@@ -281,14 +280,14 @@ const ShopXApp = () => {
         <div className="spinning_wrapper">
           <div className="concept_fourth">
             <img
-              className='"chart_wrapper'
+              className="chart_wrapper"
               src={Spinning_first}
               alt="spinning"
             />
           </div>
           <div className="concept_fourth">
             <img
-              className='"chart_wrapper'
+              className="chart_wrapper"
               src={Spinning_second}
               alt="spinning"
             />
@@ -303,21 +302,21 @@ const ShopXApp = () => {
         <div className="spinning_wrapper">
           <div className="concept_fourth">
             <img
-              className='"chart_wrapper'
+              className="chart_wrapper"
               src={Spinning_third}
               alt="spinning"
             />
           </div>
           <div className="concept_fourth">
             <img
-              className='"chart_wrapper'
+              className="chart_wrapper"
               src={Spinning_fourth}
               alt="spinning"
             />
           </div>
           <div className="concept_fourth">
             <img
-              className='"chart_wrapper'
+              className="chart_wrapper"
               src={Spinning_fivth}
               alt="spinning"
             />
@@ -388,7 +387,7 @@ const ShopXApp = () => {
               Minim veniam, quis nostrud exercitation ullamco.
             </p>
           </div>
-          <img src={NewGrocery} alt="newgrocery" />
+          {/* <img src={NewGrocery} alt="newgrocery" /> */}
           <div className="Arrow_second">
             <img className="Arrow_wrapper" src={ArrowTwo} alt="newgrocery" />
             <p className="Arrow_para">

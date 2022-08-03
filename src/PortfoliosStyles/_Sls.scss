@@ -236,10 +236,11 @@
 .grey_container {
   background-color: #eeeeee;
   margin-top: 10%;
-  width: auto;
+  width: 100%;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: no-wrap;
   margin-bottom: auto;
+  overflow: hidden;
 }
 .services_container1 {
   width: 20%;
