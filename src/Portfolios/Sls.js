@@ -34,6 +34,7 @@ import AI from '../assets/slsAssets/ai.png';
 import ESM from '../assets/slsAssets/ems.png';
 import Pcb from '../assets/slsAssets/pcb_design.png';
 import Softwaredev from '../assets/slsAssets/software_development.png';
+import Rectangle from '../assets/slsAssets/rectangle.svg';
 
 const Sls = () => {
   return (
@@ -161,17 +162,26 @@ const Sls = () => {
       <Images image={Container} fullwidth alt="container" />
       <Images image={Cards} fullwidth alt="cards" />
       <div className="art-container">
-        <div className="text-para">
-          <h4 className="color">All icons are drawn on a pixel-based grid</h4>
+        <div className="first_grid">
+          <div className="text-para">
+            <h4 className="color">All icons are drawn on a pixel-based grid</h4>
+          </div>
+          <p className="para-art">
+            Universal icon set is drawn on a pixel-based grid of 24px X 24px and
+            scaled-up linearly to different sizes. The grid contains 2px padding
+            for the surrounding live area.
+          </p>
+          <div className="grid">
+            <p>
+              <b>24 X 24 px</b> <b className="gap">2 px Safe</b>
+            </p>
+            <p>
+              Grid <em className="gap_second">padding</em>
+            </p>
+          </div>
         </div>
-        <p className="para-art">
-          Universal icon set is drawn on a pixel-based grid of 24px X 24px and
-          scaled-up linearly to different sizes. The grid contains 2px padding
-          for the surrounding live area.
-        </p>
-        <div className="grid">
-          <p>24 X 24 px Grid</p>
-          <p>2 px Safe padding</p>
+        <div className="second_grid">
+          <img className=" rectangle_grid" src={Rectangle} alt="flow" />
         </div>
       </div>
       <div className="collage">

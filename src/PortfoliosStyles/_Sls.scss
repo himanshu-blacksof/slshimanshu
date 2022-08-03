@@ -147,26 +147,48 @@
   margin-top: 15%;
   margin-left: 15%;
   justify-content: center;
+  display: flex;
+}
+.first_grid {
+  width: 100%;
+  margin-top: 7%;
 }
 .color {
   color: #0426a1;
   size: 54px;
   font-style: bold;
+  font-size: 2.7rem;
+}
+b {
+  font-weight: bold;
 }
 .text-para {
-  width: 25%;
+  width: 45%;
   align-items: left;
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 .para-art {
   font-size: 24px;
-  width: 37%;
+  width: 50%;
 }
 .grid {
-  width: 15%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   gap: 20%;
+}
+.second_grid {
+  margin-right: 10%;
+  margin-bottom: 20%;
+}
+.rectangle_grid {
+  width: 30vw;
+}
+.gap {
+  padding-left: 3rem;
+}
+.gap_second {
+  padding-left: 7rem;
 }
 .collage {
   width: auto;
@@ -289,7 +311,10 @@
   .MyImg {
     width: 50vw;
   }
-
+  .art-container {
+    flex-direction: column;
+    padding: auto;
+  }
   .Logos_wrapper {
     flex-wrap: wrap;
     width: 40vw;
@@ -301,6 +326,10 @@
     width: 100%;
     flex-direction: column;
     margin: auto auto;
+  }
+  .rectangle_grid {
+    width: 50vw;
+    padding-top: 3rem;
   }
   .textStyle {
     margin: 2%;
