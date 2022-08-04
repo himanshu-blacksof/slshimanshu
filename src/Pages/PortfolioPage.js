@@ -20,6 +20,7 @@ import AuBank from '../Portfolios/AuBank';
 import ShopX from '../Portfolios/ShopX/ShopX';
 import Sls from '../Portfolios/Sls';
 import ShopXApp from '../Portfolios/ShopXApp';
+import RudoWealth from '../Portfolios/Rudo';
 const ResourcesPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -78,6 +79,9 @@ const ResourcesPage = () => {
         </Route>
         <Route path="/work/shopxapp">
           <ShopXApp />
+        </Route>
+        <Route path="/work/rudo">
+          <RudoWealth />
         </Route>
 
         <Route path="*">

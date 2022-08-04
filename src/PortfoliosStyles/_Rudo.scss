@@ -1,0 +1,59 @@
+.saving_container {
+  //   background-image: linear-gradient(
+  //     to bottom,
+  //     rgba(26, 26, 27, 0),
+  //     rgb(14, 11, 11)
+  //   );
+  background-color: #000000;
+}
+.saving {
+  color: #e75553;
+  font-size: 8rem;
+  margin-left: 10%;
+  font-style: normal;
+  width: 25%;
+  padding: 12% 0;
+}
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #e75553;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: aliceblue;
+  background-image: url();
+  border-radius: 50%;
+}
+.text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: rotateText 10s linear infinite;
+}
+@keyframes rotateText {
+  0% {
+    transform: rotate(360);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+.text span {
+  position: absolute;
+  left: 50%;
+  font-size: 2rem;
+  transform-origin: 0 100px;
+}
+.rudo_wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

@@ -55,7 +55,10 @@ import Grid from '../assets/shopXappAssets/grid.png';
 import Mainscreen from '../assets/shopXappAssets/mainscreen.png';
 import Multidevice from '../assets/shopXappAssets/multidevice.png';
 import Mural from '../assets/shopXappAssets/Mural-Wall-Mockup-Scene.png';
-import Thank from '../assets/shopXappAssets/thnks.svg';
+import CoffeeThank from '../assets/shopXappAssets/thankyoublade1.png';
+import Coin from '../assets/shopXappAssets/thankyoublade2.svg';
+import Brand from '../assets/shopXappAssets/thankyoublade3.png';
+import Coin_one from '../assets/shopXappAssets/thankyoublade4.svg';
 const ShopXApp = () => {
   return (
     <>
@@ -381,19 +384,19 @@ const ShopXApp = () => {
           <img className="concept_img" src={SuperMarket} alt="concept" />
         </div>
         <div className="newgrocery_wrapper">
-          <div className="Arrow_first">
+          {/* <div className="Arrow_first">
             <img classname="Arrow_wrapper " src={ArrowOne} alt="newgrocery" />
             <p className="Arrow_para_first">
               Minim veniam, quis nostrud exercitation ullamco.
             </p>
-          </div>
-          {/* <img src={NewGrocery} alt="newgrocery" /> */}
-          <div className="Arrow_second">
+          </div> */}
+          <img className="newgrocery" src={NewGrocery} alt="newgrocery" />
+          {/* <div className="Arrow_second">
             <img className="Arrow_wrapper" src={ArrowTwo} alt="newgrocery" />
             <p className="Arrow_para">
               Enim ad minim veniam, quis nostrud exercitation ullamco.
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
       <Images
@@ -453,6 +456,10 @@ const ShopXApp = () => {
         <div className="thank_wrapper">
           <h3>Thanks for </h3>
           <h3>watching</h3>
+          <img className="coffeecard " src={CoffeeThank} alt="img " />
+          <img className="coin " src={Coin} alt="img " />
+          <img className="brand " src={Brand} alt="img " />
+          <img className="coin_two " src={Coin_one} alt="img " />
         </div>
       </section>
     </>
