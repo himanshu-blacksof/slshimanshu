@@ -1,9 +1,41 @@
+@font-face {
+  font-family: 'Epilogue';
+  src: url(../assets/fonts/Epilogue-Bold.ttf);
+  font-weight: 'normal';
+}
+
+@font-face {
+  font-family: 'Epilogue-light';
+  src: url(../assets/fonts/Epilogue-Light.ttf);
+  font-weight: 'normal';
+}
+
+@font-face {
+  font-family: 'Epilogue-Medium';
+  src: url(../assets/fonts/Epilogue-Medium.ttf);
+  font-weight: 'normal';
+}
+@font-face {
+  font-family: 'Epilogue-regural';
+  src: url(../assets/fonts/Epilogue-Regular.ttf);
+  font-weight: 'normal';
+}
+
+h1 {
+  font-family: 'Epilogue';
+}
+h2 {
+  font-family: 'Epilogue-regural';
+}
+h3 {
+  font-family: 'Epilogue-regural';
+}
 .saving_container {
-  //   background-image: linear-gradient(
-  //     to bottom,
-  //     rgba(26, 26, 27, 0),
-  //     rgb(14, 11, 11)
-  //   );
+  background-image: linear-gradient(
+    to bottom,
+    rgba(26, 26, 27, 0),
+    rgb(14, 11, 11)
+  );
   background-color: #000000;
 }
 .saving {
@@ -14,46 +46,188 @@
   width: 25%;
   padding: 12% 0;
 }
-.circle {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+.main_design {
+  background-color: #000000;
+  overflow: hidden;
+}
+table {
+  border-collapse: collapse;
+  width: 45%;
+  margin: 10% auto;
+  font-size: 2rem;
+  color: aliceblue;
+}
+table th {
+  border: 2px solid #e75553;
+  color: #e75553;
+}
+.Logo_design {
   background-color: #e75553;
+}
+.animation {
+  display: flex;
+  margin: auto auto;
+  width: 80%;
+  justify-content: center;
+}
+.rudo_design {
+  align-items: center;
+  justify-content: center;
+  padding: auto auto;
+  width: 50%;
+  animation: changes 5s ease infinite;
+}
+.rudowealth_design {
+  align-items: center;
+  justify-content: center;
+  padding: auto auto;
+  width: 50%;
+  flex-wrap: wrap;
+  animation: animate 5s ease infinite;
+}
+.rudo_branding {
+  width: 70%;
+  align-items: center;
+  margin-left: 14%;
+  margin-top: 15%;
+  justify-content: center;
+  margin-bottom: 15%;
+}
+.rudo_branding_two {
+  width: 70%;
+  align-items: center;
+  margin-left: 14%;
+  margin-top: 50%;
+  justify-content: center;
+}
+@keyframes changes {
+  0% {
+    background-color: aliceblue;
+  }
+  100% {
+    background-color: #e75553;
+  }
+}
+@keyframes animate {
+  0% {
+    background-color: #e75553;
+  }
+  100% {
+    background-color: #1c1c1c;
+  }
+}
+.typo_design {
+  display: flex;
+  background-color: gray;
+  color: aliceblue;
+  width: 80%;
+  margin: auto;
+}
+.typo_img {
+  width: 50%;
+}
+.typo_img_wrapper {
+  width: 70%;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+.type_para {
+  width: 50%;
+  align-items: center;
+  margin: 10%;
+}
+.type_para h5 {
+  font-size: 30px;
+}
+.circle_container {
+  display: flex;
+  width: 80%;
+  margin: auto auto;
+}
+.epilogue {
+  width: 50%;
+  color: black;
+  padding: 15% 0;
+  background-color: bisque;
+  padding-left: 6%;
+}
+.background_color {
+  background-color: #e75553;
+  width: 50%;
+  position: relative;
+}
+.logo_container {
+  position: absolute;
+  top: 33%;
+  left: 40%;
+  width: 20%;
+  align-items: center;
+}
+.circle {
+  width: 60%;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
+  left: 20%;
+  top: 11%;
+  animation: mylogo 10s infinite linear;
 }
-.name {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: aliceblue;
-  background-image: url();
-  border-radius: 50%;
+.circle #round {
+  fill: #000000 !important;
 }
-.text {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  animation: rotateText 10s linear infinite;
-}
-@keyframes rotateText {
+@keyframes mylogo {
   0% {
-    transform: rotate(360);
+    transform: rotate(0deg);
   }
   100% {
-    transform: rotate(0);
+    transform: rotate(360deg);
   }
 }
-.text span {
-  position: absolute;
-  left: 50%;
-  font-size: 2rem;
-  transform-origin: 0 100px;
+.b {
+  border: 2px solid red;
 }
-.rudo_wrapper {
+.color {
+  color: aliceblue;
+  margin-left: 10%;
+  line-height: 11rem;
+}
+.color h1 {
+  font-size: 170px;
+}
+.multicolor {
+  margin-top: 10%;
+}
+.rudo_card {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10% 0;
+}
+.webdesign {
+  color: aliceblue;
+  width: 85%;
+  margin: auto auto;
+  text-align: center;
+  line-height: 7rem;
+}
+.webdesign strong {
+  font-size: 90px;
+}
+.star {
+  display: flex;
+}
+.star_text {
+  color: aliceblue;
+  width: 40%;
   align-items: center;
+  float: left;
+  margin-left: 10%;
+  margin: 10% 5%;
+  word-spacing: 1.3rem;
+}
+.star_img {
+  width: 40%;
+  float: right;
+  margin-left: 10%;
 }
