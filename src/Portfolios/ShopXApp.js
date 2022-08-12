@@ -47,9 +47,7 @@ import PumaCodeSixth from '../assets/shopXappAssets/paythree7.png';
 import PumaCodeSeveth from '../assets/shopXappAssets/paythree8.png';
 import RedcircleFourth from '../assets/shopXappAssets/redcircle4.svg';
 import SuperMarket from '../assets/shopXappAssets/harshitasupermarket.png';
-import ArrowOne from '../assets/shopXappAssets/arrow1.svg';
 import NewGrocery from '../assets/shopXappAssets/newGrocery.png';
-import ArrowTwo from '../assets/shopXappAssets/arrow2.svg';
 import Shopxhand from '../assets/shopXappAssets/shopxhand.png';
 import Grid from '../assets/shopXappAssets/grid.png';
 import Mainscreen from '../assets/shopXappAssets/mainscreen.png';
@@ -59,6 +57,8 @@ import CoffeeThank from '../assets/shopXappAssets/thankyoublade1.png';
 import Coin from '../assets/shopXappAssets/thankyoublade2.svg';
 import Brand from '../assets/shopXappAssets/thankyoublade3.png';
 import Coin_one from '../assets/shopXappAssets/thankyoublade4.svg';
+import Applicationchart from '../assets/shopXappAssets/application chart.png';
+import Colorcode from '../assets/shopXappAssets/Colorcode.png';
 const ShopXApp = () => {
   return (
     <>
@@ -169,6 +169,7 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
+        <img className="colorcode" src={Colorcode} alt="Shopxhand" />
         <div className="heading_wrapper">
           <h3 className="text_wrapper">Dolor sit amet, adipiscing elit</h3>
         </div>
@@ -199,6 +200,7 @@ const ShopXApp = () => {
               </p>
             </div>
           </div>
+
           <div className="grid_wrapper">
             <img className="chart_wrapper" src={GridSystem} alt="grid img" />
           </div>
@@ -214,10 +216,15 @@ const ShopXApp = () => {
           <div className="research">
             <p>Application structure</p>
           </div>
-          <div className="research_para_black">
+          <div className="research_para_black ">
             <p>Enim ad minim veniam, quis nostrud exercitation ullamco.</p>
           </div>
         </div>
+        <img
+          className="applictionchart"
+          src={Applicationchart}
+          alt="Shopxhand"
+        />
         <div className="circle_wrapper ">
           <img className="circle_red" src={Red} alt="shopping" />
           <img className="circle_yellow" src={Yellow} alt="shopping" />
@@ -384,19 +391,7 @@ const ShopXApp = () => {
           <img className="concept_img" src={SuperMarket} alt="concept" />
         </div>
         <div className="newgrocery_wrapper">
-          {/* <div className="Arrow_first">
-            <img classname="Arrow_wrapper " src={ArrowOne} alt="newgrocery" />
-            <p className="Arrow_para_first">
-              Minim veniam, quis nostrud exercitation ullamco.
-            </p>
-          </div> */}
           <img className="newgrocery" src={NewGrocery} alt="newgrocery" />
-          {/* <div className="Arrow_second">
-            <img className="Arrow_wrapper" src={ArrowTwo} alt="newgrocery" />
-            <p className="Arrow_para">
-              Enim ad minim veniam, quis nostrud exercitation ullamco.
-            </p>
-          </div> */}
         </div>
       </section>
       <Images
