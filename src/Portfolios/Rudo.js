@@ -25,6 +25,8 @@ import Assets_fourth from '../assets/rudo Assets/Frame 2342.png';
 import UX from '../assets/rudo Assets/ux.png';
 import Chart from '../assets/rudo Assets/image (2).png';
 import Star from '../assets/rudo Assets/star.png';
+import Workprocess from '../assets/rudo Assets/workprocess.png';
+import Signup from '../assets/rudo Assets/Frame 2322.png';
 const Rudo = () => {
   return (
     <>
@@ -182,6 +184,36 @@ const Rudo = () => {
           </div>
           <div className="star_img">
             <Images image={Star} alt="img" />
+          </div>
+        </div>
+      </section>
+      <div className="workprocess">
+        <Images image={Workprocess} fullwidth alt="img" />
+      </div>
+      <section className="main_design">
+        <h4 className="text_color ">
+          RuDO Web design. RuDO Wealth. Web design .
+          <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design. . Web
+          design
+        </h4>
+        <Images image={Signup} fullwidth alt="img" />
+      </section>
+      <section className="main_design">
+        <div className="table_wrapper">
+          <table>
+            <tr>
+              <th>RUDO</th>
+              <th>
+                <b>Questioner</b>
+              </th>
+              <th>#Financial Wellness Test</th>
+            </tr>
+          </table>
+        </div>
+        <div className="Financial_wrapper">
+          <div className="blue_container">
+            <h3 className="know_container">#Financial Wellness Test</h3>
+            <h3>Know what your financial fitness is !</h3>
           </div>
         </div>
       </section>

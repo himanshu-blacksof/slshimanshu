@@ -30,6 +30,9 @@ h2 {
 h3 {
   font-family: 'Epilogue-regural';
 }
+h4 {
+  font-size: 64px;
+}
 .saving_container {
   background-image: linear-gradient(
     to bottom,
@@ -61,6 +64,7 @@ table th {
   border: 2px solid #e75553;
   color: #e75553;
 }
+
 .Logo_design {
   background-color: #e75553;
 }
@@ -230,4 +234,33 @@ table th {
   width: 40%;
   float: right;
   margin-left: 10%;
+}
+.Ui_design {
+  background-color: #e75553;
+  margin: auto;
+  height: 100vh;
+}
+.text_color {
+  color: aliceblue;
+  width: 130%;
+  margin-left: -11%;
+  overflow: hidden;
+}
+.RUDO_TEXT {
+  font-size: 64px;
+}
+.Financial_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blue_container {
+  background-color: #1c96a0;
+  text-align: center;
+  justify-content: space-around;
+  height: 80vh;
+}
+.know_container {
+  color: aliceblue;
+  padding: auto auto;
+  text-decoration: underline;
 }
