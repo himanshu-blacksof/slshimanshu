@@ -27,6 +27,15 @@ import Chart from '../assets/rudo Assets/image (2).png';
 import Star from '../assets/rudo Assets/star.png';
 import Workprocess from '../assets/rudo Assets/workprocess.png';
 import Signup from '../assets/rudo Assets/Frame 2322.png';
+import FinancialTest from '../assets/rudo Assets/Frame 2390.png';
+import Problem from '../assets/rudo Assets/problem.png';
+import Instruction from '../assets/rudo Assets/Frame 2358.png';
+import Onboarding from '../assets/rudo Assets/FFT_Screens01.png';
+import Instruction_two from '../assets/rudo Assets/FFT_Screens02.png';
+import Questionnaire from '../assets/rudo Assets/FFT_Screens03.png';
+import SignUp from '../assets/rudo Assets/FFT_Screens04.png';
+import Result from '../assets/rudo Assets/FFT_Screens05.png';
+import Mobile from '../assets/rudo Assets/Mobile Responsive_iPhone 13.png';
 const Rudo = () => {
   return (
     <>
@@ -214,6 +223,103 @@ const Rudo = () => {
           <div className="blue_container">
             <h3 className="know_container">#Financial Wellness Test</h3>
             <h3>Know what your financial fitness is !</h3>
+          </div>
+          <div>
+            <Images image={FinancialTest} fullwidth alt="img" />
+          </div>
+        </div>
+      </section>
+      <section className="main_design">
+        <div className="Financial_wrapper">
+          <div className="problem">
+            <h3>
+              <strong>Problem</strong>
+            </h3>
+            <h5>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </h5>
+          </div>
+          <div className="problem">
+            <h3>
+              <strong>Solution</strong>
+            </h3>
+            <h5>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </h5>
+          </div>
+        </div>
+        <Images image={Problem} fullwidth alt="img" />
+      </section>
+      <section className="main_design ">
+        <div className=" instruction_container">
+          <Images image={Instruction} alt="img" />
+        </div>
+        <div className="onboarding_wrapper ">
+          <div className="dots">1</div>
+          <h3>Onboarding</h3>
+          <h5>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </h5>
+          <Images image={Onboarding} alt="img" />
+        </div>
+      </section>
+      <section className="main_design">
+        <div className="Financial_wrapper">
+          <div className="instruction_wrapper">
+            <div className="dots">1</div>
+            <h3>Instruction</h3>
+            <h5>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </h5>
+          </div>
+          <Images image={Instruction_two} alt="img" />
+        </div>
+        <div className="onboarding_wrapper ">
+          <div className="dots">1️</div>
+          <h3>Questionnaire</h3>
+          <h5>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </h5>
+          <div className="questionnaire">
+            <Images image={Questionnaire} fullwidth alt="img" />
+          </div>
+        </div>
+
+        <div className="Financial_wrapper">
+          <Images image={SignUp} alt="img" />
+          <div className="instruction_wrapper">
+            <div className="dots">1</div>
+            <h3>SignUp</h3>
+            <h5>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+            </h5>
+          </div>
+        </div>
+        <div className="onboarding_wrapper ">
+          <div className="dots">1</div>
+          <h3>Result</h3>
+          <h5>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy
+          </h5>
+          <Images image={Result} alt="img" />
+        </div>
+        <div className="mobileresponsive">
+          <div className="mobile_text">
+            <h3>Mobile Responsive</h3>
+          </div>
+          <div className="mobile">
+            <img src={Mobile} alt="img" />
           </div>
         </div>
       </section>
