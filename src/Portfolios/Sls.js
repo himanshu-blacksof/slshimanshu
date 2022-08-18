@@ -228,7 +228,6 @@ const Sls = () => {
         </div>
       </div>
       <Images image={Solar} fullwidth alt="Solar" />
-      <Images image={Tablet} fullwidth alt="tablet" />
       <div className="subpara_wrapper">
         <div className="textStyle">
           <h3>Services</h3>
