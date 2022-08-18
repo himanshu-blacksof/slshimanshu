@@ -57,8 +57,6 @@ const Sls = () => {
             <img className="image" src={Varde} alt="Var" />
           </div>
         </div>
-
-        {/* subparagraph */}
         <div className="subpara_wrapper  ">
           <div className="textStyle ">
             <h3>Lorem ipsum dolor sit amet</h3>

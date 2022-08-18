@@ -30,9 +30,7 @@ h2 {
 h3 {
   font-family: 'Epilogue-regural';
 }
-h4 {
-  font-size: 64px;
-}
+
 .saving_container {
   background-image: linear-gradient(
     to bottom,
@@ -124,12 +122,10 @@ table th {
   display: flex;
   background-color: gray;
   color: aliceblue;
-  width: 80%;
+  max-width: 80%;
   margin: auto;
 }
-.typo_img {
-  width: 50%;
-}
+
 .typo_img_wrapper {
   width: 70%;
   margin-top: 30%;
@@ -145,20 +141,20 @@ table th {
 }
 .circle_container {
   display: flex;
-  width: 80%;
   margin: auto auto;
+  width: 80%;
 }
 .epilogue {
-  width: 50%;
   color: black;
-  padding: 15% 0;
+  padding: 15% 7%;
   background-color: bisque;
-  padding-left: 6%;
+  width: 50%;
+  font-size: 60px;
 }
 .background_color {
   background-color: #e75553;
-  width: 50%;
   position: relative;
+  width: 50%;
 }
 .logo_container {
   position: absolute;
@@ -245,6 +241,7 @@ table th {
   width: 130%;
   margin-left: -11%;
   overflow: hidden;
+  font-size: 64px;
 }
 .RUDO_TEXT {
   font-size: 64px;
@@ -277,6 +274,7 @@ table th {
 }
 .problem {
   margin: 12%;
+  line-height: 2rem;
 }
 .problem h5 {
   color: aliceblue;
@@ -378,4 +376,14 @@ table th {
   color: aliceblue;
   line-height: 8rem;
   margin-top: 4%;
+}
+@media only screen and (max-width: 1100px) {
+  .epilogue {
+    font-size: 2rem;
+  }
+  .forms_wrapper {
+    flex-direction: column;
+  }
+  .mobile_one {
+  }
 }

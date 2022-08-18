@@ -103,11 +103,11 @@ const Rudo = () => {
           <div className="epilogue">
             <h2>*Epilogue</h2>
           </div>
-          <div className="background_color">
+          <div className="background_color ">
             <div className="logo">
-              <img className="logo_container" src={Rudologo} alt="img" />
+              <img className="logo_container " src={Rudologo} alt="img" />
             </div>
-            <img className="circle" src={Rudologo1} alt="img" />
+            <img className="circle " src={Rudologo1} alt="img" />
           </div>
         </div>
         <Images image={TextAa} alt="img" />
@@ -346,21 +346,21 @@ const Rudo = () => {
       </section>
       <section className="forms_container">
         <div className="forms_wrapper">
-          <div>
+          <div className="mobile_one">
             <img src={Mobile_one} alt="img" />
             <h4>Onboarding</h4>
           </div>
-          <div>
+          <div className="mobile_one">
             <img src={Mobile_three} alt="img" />
             <h4>Forms</h4>
           </div>
-          <div>
+          <div className="mobile_one">
             <img src={Mobile_two} alt="img" />
             <h4>Result</h4>
           </div>
         </div>
       </section>
-      <section className="main_design ">
+      <section className="main_design">
         <div className="table_wrapper">
           <table>
             <tr>
