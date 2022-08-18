@@ -249,6 +249,9 @@ table th {
 .RUDO_TEXT {
   font-size: 64px;
 }
+.Vedio_container {
+  margin-top: 10%;
+}
 .Financial_wrapper {
   display: flex;
 }
@@ -261,6 +264,12 @@ table th {
   color: aliceblue;
   padding: auto auto;
   text-decoration: underline;
+  font-size: 45px;
+  line-height: 4rem;
+}
+.know_text {
+  font-size: 45px;
+  line-height: 4rem;
 }
 .red_container {
   background-color: #e75553;
@@ -321,11 +330,11 @@ table th {
 .mobileresponsive {
   width: 70%;
   background-color: #1c96a0;
-  border-radius: 30px;
-  margin: auto;
+  border-radius: 35px;
+  margin: 15% auto;
   display: flex;
   position: relative;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .mobile_text {
   padding: 10% 5%;
@@ -335,5 +344,38 @@ table th {
   position: absolute;
   right: 0%;
   bottom: 5%;
-  width: 50%;
+}
+.mobile_img {
+  width: 70%;
+}
+.forms_container {
+  background-color: #e75553;
+  padding: 10% 0;
+}
+.forms_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.forms_wrapper h4 {
+  text-align: center;
+  margin-top: 5%;
+  font-size: 30px;
+}
+.bag_container {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+}
+.thanks_container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40%;
+  margin: 15% auto;
+}
+.thanks_container h2 {
+  color: aliceblue;
+  line-height: 8rem;
+  margin-top: 4%;
 }

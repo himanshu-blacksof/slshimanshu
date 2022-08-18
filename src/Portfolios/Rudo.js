@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 //Components
 import PortfolioHeading from '../Components/PortfolioHeading';
 import Images from '../Components/Atoms/Images';
@@ -14,6 +15,7 @@ import RudoBranding2 from '../assets/rudo Assets/Frame.svg';
 import Typo from '../assets/rudo Assets/image.png';
 import TextAa from '../assets/rudo Assets/image (1).png';
 import Rudologo from '../assets/rudo Assets/Icon_white.svg';
+import Rudologo2 from '../assets/rudo Assets/redIcon.svg';
 import Rudologo1 from '../assets/rudo Assets/Component 8.svg';
 import Pallate from '../assets/rudo Assets/Mask group.svg';
 import Multicolor from '../assets/rudo Assets/multicolor.png';
@@ -26,7 +28,6 @@ import UX from '../assets/rudo Assets/ux.png';
 import Chart from '../assets/rudo Assets/image (2).png';
 import Star from '../assets/rudo Assets/star.png';
 import Workprocess from '../assets/rudo Assets/workprocess.png';
-import Signup from '../assets/rudo Assets/Frame 2322.png';
 import FinancialTest from '../assets/rudo Assets/Frame 2390.png';
 import Problem from '../assets/rudo Assets/problem.png';
 import Instruction from '../assets/rudo Assets/Frame 2358.png';
@@ -36,6 +37,15 @@ import Questionnaire from '../assets/rudo Assets/FFT_Screens03.png';
 import SignUp from '../assets/rudo Assets/FFT_Screens04.png';
 import Result from '../assets/rudo Assets/FFT_Screens05.png';
 import Mobile from '../assets/rudo Assets/Mobile Responsive_iPhone 13.png';
+import Mobile_one from '../assets/rudo Assets/FFT_Mobile Responsive01.png';
+import Mobile_two from '../assets/rudo Assets/FFT_Mobile Responsive02.png';
+import Mobile_three from '../assets/rudo Assets/FFT_Mobile Responsive03.png';
+import Vedio from '../assets/rudo Assets/Comp.mp4';
+import Fit from '../assets/rudo Assets/Socialmedia_gif.png';
+import Until from '../assets/rudo Assets/Socialmedia_all.png';
+import Pencil from '../assets/rudo Assets/Mockups01.png';
+import Bag from '../assets/rudo Assets/Mockups02.png';
+import Tshirt from '../assets/rudo Assets/Mockups03.png';
 const Rudo = () => {
   return (
     <>
@@ -200,12 +210,23 @@ const Rudo = () => {
         <Images image={Workprocess} fullwidth alt="img" />
       </div>
       <section className="main_design">
-        <h4 className="text_color ">
-          RuDO Web design. RuDO Wealth. Web design .
-          <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design. . Web
-          design
-        </h4>
-        <Images image={Signup} fullwidth alt="img" />
+        <div className="Vedio_container ">
+          <h4 className="text_color ">
+            RuDO Web design. RuDO Wealth. Web design .
+            <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design. .
+            Web design
+          </h4>
+          <ReactPlayer
+            url={Vedio}
+            loop
+            pip
+            playing
+            muted
+            playsinline
+            width="100vw"
+            height="100vh"
+          />
+        </div>
       </section>
       <section className="main_design">
         <div className="table_wrapper">
@@ -221,8 +242,8 @@ const Rudo = () => {
         </div>
         <div className="Financial_wrapper">
           <div className="blue_container">
-            <h3 className="know_container">#Financial Wellness Test</h3>
-            <h3>Know what your financial fitness is !</h3>
+            <h2 className="know_container ">#Financial Wellness Test</h2>
+            <h2 className="know_text">Know what your financial fitness is !</h2>
           </div>
           <div>
             <Images image={FinancialTest} fullwidth alt="img" />
@@ -319,8 +340,48 @@ const Rudo = () => {
             <h3>Mobile Responsive</h3>
           </div>
           <div className="mobile">
-            <img src={Mobile} alt="img" />
+            <img className="mobile_img" src={Mobile} alt="img" />
           </div>
+        </div>
+      </section>
+      <section className="forms_container">
+        <div className="forms_wrapper">
+          <div>
+            <img src={Mobile_one} alt="img" />
+            <h4>Onboarding</h4>
+          </div>
+          <div>
+            <img src={Mobile_three} alt="img" />
+            <h4>Forms</h4>
+          </div>
+          <div>
+            <img src={Mobile_two} alt="img" />
+            <h4>Result</h4>
+          </div>
+        </div>
+      </section>
+      <section className="main_design ">
+        <div className="table_wrapper">
+          <table>
+            <tr>
+              <th>RUDO</th>
+              <th>
+                <b>BRANDING</b>
+              </th>
+              <th>Social Media</th>
+            </tr>
+          </table>
+        </div>
+        <Images image={Fit} alt="img" />
+        <Images image={Until} fullwidth alt="img" />
+        <Images image={Pencil} fullwidth alt="img" />
+        <div className="bag_container">
+          <Images image={Bag} alt="img" />
+          <Images image={Tshirt} alt="img" />
+        </div>
+        <div className="thanks_container">
+          <img className="thanks_img" src={Rudologo2} alt="img" />
+          <h2>Thanks you for Watching!</h2>
         </div>
       </section>
     </>
