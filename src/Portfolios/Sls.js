@@ -164,7 +164,9 @@ const Sls = () => {
       <div className="art-container">
         <div className="first_grid">
           <div className="text-para">
-            <h4 className="color">All icons are drawn on a pixel-based grid</h4>
+            <h4 className="color_sls">
+              All icons are drawn on a pixel-based grid
+            </h4>
           </div>
           <p className="para-art">
             Universal icon set is drawn on a pixel-based grid of 24px X 24px and
