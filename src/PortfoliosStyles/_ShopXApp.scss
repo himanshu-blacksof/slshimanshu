@@ -22,25 +22,22 @@
 .barcode_wrapper {
   background-color: #fdb913;
   border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  margin-left: 25%;
-  margin-top: 5%;
+  width: 600px;
+  height: 600px;
+  margin: auto auto;
 }
 .shopx_barcode {
-  max-width: 100%;
-  height: 100%;
+  width: 100%;
+  margin: 50px 0;
 }
 .cards_container {
   background-color: #fff5f6;
 }
 .heading_wrapper {
-  margin-left: 15%;
-  width: 100%;
-  padding-top: 10rem;
+  padding: 5% 15%;
 }
 .heading_text {
-  width: 30%;
+  width: 40%;
   color: #ffffff;
 }
 .heading_img {
@@ -111,7 +108,7 @@
   margin-bottom: 10%;
 }
 .text_wrapper {
-  width: 30%;
+  width: 38%;
 }
 .research_wrapper_black {
   display: flex;
@@ -274,10 +271,9 @@ span {
   align-items: center;
 }
 
-.applictionchart {
-  margin-left: 12%;
-  margin-top: 10%;
-  align-items: center;
+.applicationchart {
+  justify-content: center;
+  margin: 5% 10%;
 }
 .shopxhand {
   background-color: #241a1b;
@@ -356,6 +352,12 @@ strong {
   .shopx_text {
     width: 100%;
   }
+  .colorcode {
+    width: 80vw;
+  }
+  .heading_wrapper {
+    padding: 15px;
+  }
   .heading_text {
     width: 100%;
   }
@@ -372,6 +374,9 @@ strong {
   .concept_third {
     width: 80%;
     margin: auto auto;
+  }
+  .barcode_wrapper {
+    margin: 0%;
   }
   .circle_red {
     width: 15%;
@@ -418,6 +423,10 @@ strong {
     width: 90%;
     margin: 7%;
   }
+  .barcode_wrapper {
+    width: 200px;
+    height: 200px;
+  }
   .heading_wrapper {
     width: 90%;
     margin-left: 5%;
@@ -456,6 +465,48 @@ strong {
   }
   .Arrow_second {
     display: none;
+  }
+  .applicationchart {
+    width: 80vw;
+    margin-left: 8%;
+  }
+  .newgrocery {
+    width: 80vw;
+  }
+  .thank_wrapper {
+    height: 50vh;
+    width: 100%;
+  }
+  .brand {
+    left: 0;
+  }
+  .text_screen {
+    padding: 0%;
+    margin: 2% 3%;
+  }
+  .text_super {
+    width: 100%;
+  }
+  .circle_red {
+    bottom: 26%;
+  }
+  .circle_red_fourth {
+    top: 72%;
+    width: 15vw;
+  }
+  .store_container {
+    height: 16vh;
+  }
+  .indian_women {
+    height: 16vh;
+  }
+  .red_indian_women {
+    width: 15vw;
+    top: 70%;
+  }
+  .yellow_indian_women {
+    width: 15vw;
+    bottom: 70%;
   }
 }
 .b {

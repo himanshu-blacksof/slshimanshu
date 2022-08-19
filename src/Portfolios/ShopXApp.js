@@ -201,7 +201,7 @@ const ShopXApp = () => {
             </div>
           </div>
 
-          <div className="grid_wrapper">
+          <div className="grid_wrapper ">
             <img className="chart_wrapper" src={GridSystem} alt="grid img" />
           </div>
         </div>
@@ -221,7 +221,7 @@ const ShopXApp = () => {
           </div>
         </div>
         <img
-          className="applictionchart"
+          className="applicationchart "
           src={Applicationchart}
           alt="Shopxhand"
         />
@@ -388,10 +388,10 @@ const ShopXApp = () => {
         <div className="para_wrapper">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
-          <img className="concept_img" src={SuperMarket} alt="concept" />
+          <img className="concept_img " src={SuperMarket} alt="concept" />
         </div>
-        <div className="newgrocery_wrapper">
-          <img className="newgrocery" src={NewGrocery} alt="newgrocery" />
+        <div className="newgrocery_wrapper ">
+          <img className="newgrocery " src={NewGrocery} alt="newgrocery" />
         </div>
       </section>
       <Images
@@ -435,13 +435,13 @@ const ShopXApp = () => {
           <h3 className="screens">Days</h3>
         </div>
         <Images
-          className="multidevice_wrapper "
+          className="multidevice_wrapper"
           image={Multidevice}
           fullwidth
           alt="img"
         />
         <Images
-          className="multidevice_wrapper "
+          className="multidevice_wrapper"
           image={Mural}
           fullwidth
           alt="img"
@@ -453,7 +453,7 @@ const ShopXApp = () => {
           <h3>watching</h3>
           <img className="coffeecard " src={CoffeeThank} alt="img " />
           <img className="coin " src={Coin} alt="img " />
-          <img className="brand " src={Brand} alt="img " />
+          <img className="brand  " src={Brand} alt="img " />
           <img className="coin_two " src={Coin_one} alt="img " />
         </div>
       </section>

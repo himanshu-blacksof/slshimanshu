@@ -99,13 +99,13 @@ const Rudo = () => {
             </h5>
           </div>
         </div>
-        <div className="circle_container ">
+        <div className="circle_container">
           <div className="epilogue">
             <h2>*Epilogue</h2>
           </div>
           <div className="background_color ">
             <div className="logo">
-              <img className="logo_container " src={Rudologo} alt="img" />
+              <img className="logo_container" src={Rudologo} alt="img" />
             </div>
             <img className="circle " src={Rudologo1} alt="img" />
           </div>
@@ -123,7 +123,7 @@ const Rudo = () => {
           </table>
         </div>
         <div className="color">
-          <h1>COLOUR</h1>
+          <h1 className="illustration">COLOUR</h1>
           <img src={Pallate} alt="img" />
         </div>
         <div className="multicolor">
@@ -141,8 +141,8 @@ const Rudo = () => {
           </table>
         </div>
         <div className="color">
-          <h1>CUSTOM</h1>
-          <h1>ILLUSTRATION</h1>
+          <h1 className="illustration">CUSTOM</h1>
+          <h1 className="illustration">ILLUSTRATION</h1>
         </div>
         <div className="multicolor">
           <Images image={Assets_img} alt="img" />
@@ -209,26 +209,28 @@ const Rudo = () => {
       <div className="workprocess">
         <Images image={Workprocess} fullwidth alt="img" />
       </div>
-      <section className="main_design">
-        <div className="Vedio_container ">
+      <section className="main_design ">
+        <div className="Vedio_container  ">
           <h4 className="text_color ">
             RuDO Web design. RuDO Wealth. Web design .
             <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design. .
             Web design
           </h4>
-          <ReactPlayer
-            url={Vedio}
-            loop
-            pip
-            playing
-            muted
-            playsinline
-            width="100vw"
-            height="100vh"
-          />
+          <div className="reactplayer">
+            <ReactPlayer
+              url={Vedio}
+              loop
+              pip
+              playing
+              muted
+              playsinline
+              width="100vw"
+              height="100vh"
+            />
+          </div>
         </div>
       </section>
-      <section className="main_design">
+      <section className="main_design ">
         <div className="table_wrapper">
           <table>
             <tr>
@@ -250,7 +252,7 @@ const Rudo = () => {
           </div>
         </div>
       </section>
-      <section className="main_design">
+      <section className="main_design ">
         <div className="Financial_wrapper">
           <div className="problem">
             <h3>
@@ -277,7 +279,7 @@ const Rudo = () => {
         </div>
         <Images image={Problem} fullwidth alt="img" />
       </section>
-      <section className="main_design ">
+      <section className="main_design b ">
         <div className=" instruction_container">
           <Images image={Instruction} alt="img" />
         </div>
@@ -291,9 +293,9 @@ const Rudo = () => {
           <Images image={Onboarding} alt="img" />
         </div>
       </section>
-      <section className="main_design">
-        <div className="Financial_wrapper">
-          <div className="instruction_wrapper">
+      <section className="main_design ">
+        <div className="Financial_wrapper ">
+          <div className="instruction_wrapper ">
             <div className="dots">1</div>
             <h3>Instruction</h3>
             <h5>
@@ -310,7 +312,7 @@ const Rudo = () => {
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy
           </h5>
-          <div className="questionnaire">
+          <div className="questionnaire ">
             <Images image={Questionnaire} fullwidth alt="img" />
           </div>
         </div>
@@ -344,9 +346,9 @@ const Rudo = () => {
           </div>
         </div>
       </section>
-      <section className="forms_container">
+      <section className="forms_container ">
         <div className="forms_wrapper">
-          <div className="mobile_one">
+          <div className="mobile_one ">
             <img src={Mobile_one} alt="img" />
             <h4>Onboarding</h4>
           </div>
@@ -379,7 +381,7 @@ const Rudo = () => {
           <Images image={Bag} alt="img" />
           <Images image={Tshirt} alt="img" />
         </div>
-        <div className="thanks_container">
+        <div className="thanks_container ">
           <img className="thanks_img" src={Rudologo2} alt="img" />
           <h2>Thanks you for Watching!</h2>
         </div>
