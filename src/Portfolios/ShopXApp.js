@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 //component
 import PortfolioHeading from '../Components/PortfolioHeading';
 import Images from '../Components/Atoms/Images';
@@ -60,6 +62,9 @@ import Coin_one from '../assets/shopXappAssets/thankyoublade4.svg';
 import Applicationchart from '../assets/shopXappAssets/application chart.png';
 import Colorcode from '../assets/shopXappAssets/Colorcode.png';
 const ShopXApp = () => {
+  useEffect(function () {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
       <div className="portfolio__container">
@@ -90,7 +95,7 @@ const ShopXApp = () => {
             <img className="heading_img" src={Heading} alt="img" />
           </h3>
         </div>
-        <div className="research_wrapper ">
+        <div className="research_wrapper">
           <div className="research">
             <p>Research</p>
           </div>
@@ -121,7 +126,7 @@ const ShopXApp = () => {
           </div>
         </div>
         <div className="reward_wrapper">
-          <div className="rewardsecond_left ">
+          <div className="rewardsecond_left">
             <h4>Rewards...</h4>
             <p>
               ed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -455,6 +460,10 @@ const ShopXApp = () => {
           <img className="coin " src={Coin} alt="img " />
           <img className="brand  " src={Brand} alt="img " />
           <img className="coin_two " src={Coin_one} alt="img " />
+        </div>
+        <div className="Thank_mobile" data-aos="fade-up">
+          <h3>Thanks for</h3>
+          <h3>watching</h3>
         </div>
       </section>
     </>

@@ -3,7 +3,7 @@
 }
 .shopx_wrapper {
   width: 80%;
-  margin-left: 10%;
+  margin: auto;
   padding-top: 5rem;
 }
 .shopx_logo {
@@ -46,26 +46,23 @@
 .research_wrapper {
   display: flex;
   width: 60%;
-  margin-left: 15%;
+  margin: auto;
   color: #ffffff;
-  padding-top: 2rem;
 }
 .research_para {
   width: 65%;
   flex-wrap: wrap;
 }
 .strategy_wrapper {
-  width: 70%;
-  height: 40%;
-  margin-left: 20%;
-  margin-top: 10%;
-  padding-bottom: 5%;
+  margin: auto;
+  width: 90%;
+  padding: 10%;
 }
 .reward_wrapper {
   width: 80%;
   display: flex;
   justify-content: center;
-  margin-left: 10%;
+  margin: auto;
 }
 .reward_img_wrapper {
   width: 40%;
@@ -84,11 +81,11 @@
   padding-left: 4rem;
 }
 .rewardsecond_left {
-  width: 45%;
+  width: 60%;
   height: 30%;
-  margin-top: 10%;
+  margin: 5% 0;
   text-align: right;
-  padding-right: 5rem;
+  padding: 0 10rem;
 }
 .rewardSecondimg_wrapper {
   width: 35%;
@@ -96,11 +93,10 @@
   margin-bottom: 10%;
 }
 .expertation_wrapper {
-  width: 30%;
-  margin-left: 43%;
-  padding-top: 10%;
+  width: 40%;
+  margin: auto auto;
+  padding: 3rem;
   color: #ffffff;
-  margin-bottom: 5rem;
 }
 .chart_wrapper {
   max-width: 100%;
@@ -113,9 +109,7 @@
 .research_wrapper_black {
   display: flex;
   width: 60%;
-  margin-left: 15%;
-  padding-top: 2rem;
-  margin-top: 2rem;
+  margin: auto auto;
 }
 .research_para_black {
   width: 65%;
@@ -209,7 +203,7 @@ span {
   flex-wrap: wrap;
 }
 .concept_fourth {
-  margin-left: 4rem;
+  margin: auto;
 }
 .spinning_wrapper {
   display: flex;
@@ -348,6 +342,10 @@ strong {
   bottom: 10%;
   right: 0;
 }
+.Thank_mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 1100px) {
   .shopx_text {
     width: 100%;
@@ -372,7 +370,7 @@ strong {
     margin: auto auto;
   }
   .concept_third {
-    width: 80%;
+    width: 84%;
     margin: auto auto;
   }
   .barcode_wrapper {
@@ -395,9 +393,9 @@ strong {
     bottom: 75%;
   }
   .research_wrapper {
-    width: 100%;
+    width: 80%;
     flex-direction: column;
-    margin-left: 0%;
+    margin: auto;
   }
   .research_para {
     width: 100%;
@@ -408,8 +406,11 @@ strong {
   }
   .reward_wrapper {
     flex-direction: column;
-    width: 100%;
-    margin-left: 0%;
+    width: 90%;
+    margin: auto;
+  }
+  .thank_wrapper {
+    display: none;
   }
   .rewards_right {
     width: 100%;
@@ -417,15 +418,17 @@ strong {
   }
   .rewardsecond_left {
     width: 100%;
-    margin-top: 10%;
+    margin-top: 10% auto;
+    padding: 0%;
   }
   .expertation_wrapper {
     width: 90%;
-    margin: 7%;
+    margin: auto;
   }
   .barcode_wrapper {
     width: 200px;
     height: 200px;
+    margin: auto;
   }
   .heading_wrapper {
     width: 90%;
@@ -436,6 +439,8 @@ strong {
   }
   .research_wrapper_black {
     flex-direction: column;
+    width: 80%;
+    margin: auto;
   }
   .research_para_black {
     width: 100%;
@@ -455,6 +460,21 @@ strong {
     flex-direction: column;
     margin: auto auto;
     width: 80%;
+  }
+  .Thank_mobile {
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 40px 0;
+    animation: fadeIn 5s;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
   }
   .spinning_para {
     width: 100%;
