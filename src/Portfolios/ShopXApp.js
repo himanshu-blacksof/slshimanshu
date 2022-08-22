@@ -61,6 +61,7 @@ import Brand from '../assets/shopXappAssets/thankyoublade3.png';
 import Coin_one from '../assets/shopXappAssets/thankyoublade4.svg';
 import Applicationchart from '../assets/shopXappAssets/application chart.png';
 import Colorcode from '../assets/shopXappAssets/Colorcode.png';
+import Background from '../assets/shopXappAssets/shopping.png';
 const ShopXApp = () => {
   useEffect(function () {
     Aos.init({ duration: 1000 });
@@ -231,13 +232,17 @@ const ShopXApp = () => {
           alt="Shopxhand"
         />
         <div className="circle_wrapper ">
-          <img className="circle_red" src={Red} alt="shopping" />
-          <img className="circle_yellow" src={Yellow} alt="shopping" />
+          <img
+            className="background_container"
+            src={Background}
+            alt="shopping"
+          />
+          <img className="circle_red " src={Red} alt="shopping" />
+          <img className="circle_yellow " src={Yellow} alt="shopping" />
         </div>
         <div className="para_wrapper ">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
-
           <img className="concept_img" src={Concept} alt="concept" />
         </div>
         <div className="cong_wrapper">
@@ -275,21 +280,39 @@ const ShopXApp = () => {
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img" src={ConceptCode} alt="concept" />
         </div>
-        <div className="scanner_wrapper">
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={Barcode} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={Barcode_first} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={Barcode_second} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={Barcode_third} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={Barcode_fourth} alt="concept" />
+        <div className="scanner_container">
+          <div className="scanner_wrapper ">
+            <div className="concept_fourth">
+              <img className="chart_wrapper" src={Barcode} alt="concept" />
+            </div>
+            <div className="concept_fourth">
+              <img
+                className="chart_wrapper"
+                src={Barcode_first}
+                alt="concept"
+              />
+            </div>
+            <div className="concept_fourth">
+              <img
+                className="chart_wrapper"
+                src={Barcode_second}
+                alt="concept"
+              />
+            </div>
+            <div className="concept_fourth">
+              <img
+                className="chart_wrapper"
+                src={Barcode_third}
+                alt="concept"
+              />
+            </div>
+            <div className="concept_fourth ">
+              <img
+                className="chart_wrapper"
+                src={Barcode_fourth}
+                alt="concept"
+              />
+            </div>
           </div>
         </div>
         <div className="spinning_wrapper">
@@ -354,18 +377,24 @@ const ShopXApp = () => {
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img" src={Puma} alt="concept" />
         </div>
-        <div className="scanner_wrapper">
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={PumaCode} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={PumaCodeOne} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={PumaCodeTwo} alt="concept" />
-          </div>
-          <div className="concept_fourth">
-            <img className="chart_wrapper" src={PumaCodeThree} alt="concept" />
+        <div className="scanner_container">
+          <div className="scanner_wrapper">
+            <div className="concept_fourth">
+              <img className="chart_wrapper" src={PumaCode} alt="concept" />
+            </div>
+            <div className="concept_fourth">
+              <img className="chart_wrapper" src={PumaCodeOne} alt="concept" />
+            </div>
+            <div className="concept_fourth">
+              <img className="chart_wrapper" src={PumaCodeTwo} alt="concept" />
+            </div>
+            <div className="concept_fourth">
+              <img
+                className="chart_wrapper"
+                src={PumaCodeThree}
+                alt="concept"
+              />
+            </div>
           </div>
         </div>
         <div className="scanner_wrapper_left">
@@ -382,7 +411,7 @@ const ShopXApp = () => {
             <img className="chart_wrapper" src={PumaCodeSeveth} alt="concept" />
           </div>
         </div>
-        <div className="store_container">
+        <div className="store_container ">
           <img className="circle_red" src={YellowHalf} alt="shopping" />
           <img
             className="circle_red_fourth"
@@ -394,9 +423,9 @@ const ShopXApp = () => {
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img " src={SuperMarket} alt="concept" />
-        </div>
-        <div className="newgrocery_wrapper ">
-          <img className="newgrocery " src={NewGrocery} alt="newgrocery" />
+          <div className="newgrocery_wrapper ">
+            <img className="newgrocery " src={NewGrocery} alt="newgrocery" />
+          </div>
         </div>
       </section>
       <Images

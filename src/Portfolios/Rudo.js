@@ -244,7 +244,7 @@ const Rudo = () => {
         </div>
         <div className="Financial_wrapper">
           <div className="blue_container">
-            <h2 className="know_container ">#Financial Wellness Test</h2>
+            <h2 className="know_container">#Financial Wellness Test</h2>
             <h2 className="know_text">Know what your financial fitness is !</h2>
           </div>
           <div>

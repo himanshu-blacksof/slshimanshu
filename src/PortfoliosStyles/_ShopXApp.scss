@@ -87,6 +87,7 @@
   text-align: right;
   padding: 0 10rem;
 }
+
 .rewardSecondimg_wrapper {
   width: 35%;
   height: fit-content;
@@ -127,24 +128,22 @@ span {
 .grid_wrapper {
   text-align: center;
 }
+
+.background_container {
+  width: 100%;
+}
 .circle_wrapper {
-  background-image: url(../assets/shopXappAssets/shopping.png);
-  background-size: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
   position: relative;
-  margin-top: 10%;
 }
 .circle_red {
-  position: relative;
-  bottom: 14%;
-  margin-left: 7%;
+  position: absolute;
+  bottom: 75%;
+  left: 5%;
 }
 .circle_yellow {
   position: absolute;
-  top: 70%;
-  right: 0;
-  margin-right: 7%;
+  top: 77%;
+  right: 5%;
 }
 .para_wrapper {
   text-align: center;
@@ -155,8 +154,7 @@ span {
   font-size: 9rem;
 }
 .concept_img {
-  margin-top: -2rem;
-  height: 20%;
+  margin-top: -4rem;
 }
 .cong_wrapper {
   display: flex;
@@ -200,7 +198,10 @@ span {
   width: 110%;
   justify-content: center;
   margin-left: 2rem;
-  flex-wrap: wrap;
+  gap: 2rem;
+}
+.scanner_container {
+  overflow: hidden;
 }
 .concept_fourth {
   margin: auto;
@@ -209,6 +210,7 @@ span {
   display: flex;
   margin-top: 4rem;
   margin-left: 5rem;
+  gap: 2rem;
 }
 .spinning_para {
   width: 35%;
@@ -242,32 +244,34 @@ span {
 }
 .store_container {
   background-image: url(../assets/shopXappAssets/store.png);
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 10%;
+  height: 80vh;
+  width: 100%;
 }
 .colorcode {
   justify-content: center;
   margin: 10% auto;
   display: block;
+  width: 80%;
 }
 .circle_red_fourth {
   position: absolute;
-  top: 60%;
+  top: 50%;
   right: 5%;
 }
 .newgrocery_wrapper {
   display: flex;
-  margin-top: 15%;
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
 }
-
 .applicationchart {
   justify-content: center;
   margin: 5% 10%;
+  width: 80%;
 }
 .shopxhand {
   background-color: #241a1b;
@@ -316,10 +320,9 @@ strong {
 .thank_wrapper {
   background-image: url(../assets/shopXappAssets/thnks.svg);
   text-align: center;
-  height: 80vh;
+  width: 100%;
   color: #fff5f6;
   position: relative;
-  width: auto;
   padding-top: 30%;
 }
 .coffeecard {
@@ -345,7 +348,10 @@ strong {
 .Thank_mobile {
   display: none;
 }
-
+.newgrocery {
+  width: 90%;
+  padding: 10% auto;
+}
 @media only screen and (max-width: 1100px) {
   .shopx_text {
     width: 100%;
@@ -377,12 +383,10 @@ strong {
     margin: 0%;
   }
   .circle_red {
-    width: 15%;
-    bottom: 25%;
+    display: none;
   }
   .circle_yellow {
-    width: 15%;
-    top: 73%;
+    display: none;
   }
   .circle_yellow_second {
     width: 15%;
@@ -418,7 +422,7 @@ strong {
   }
   .rewardsecond_left {
     width: 100%;
-    margin-top: 10% auto;
+    margin-top: 10%;
     padding: 0%;
   }
   .expertation_wrapper {

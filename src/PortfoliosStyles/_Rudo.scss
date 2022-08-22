@@ -437,4 +437,21 @@ table th {
   .text_color {
     display: none;
   }
+  .thanks_container {
+    width: 100%;
+    margin: 10% auto;
+  }
+  .blue_container {
+    width: 100%;
+  }
+  .know_container {
+    font-size: 25px;
+    margin: auto;
+  }
+  .Financial_wrapper {
+    flex-direction: column;
+  }
+  .know_text {
+    font-size: 30px;
+  }
 }
