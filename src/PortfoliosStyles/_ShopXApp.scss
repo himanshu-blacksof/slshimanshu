@@ -459,6 +459,7 @@ strong {
   .scanner_wrapper {
     width: 70%;
     margin: auto auto;
+    flex-direction: column;
   }
   .spinning_wrapper {
     flex-direction: column;
@@ -520,6 +521,11 @@ strong {
   }
   .store_container {
     height: 16vh;
+  }
+  .scanner_wrapper_left {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
   }
   .indian_women {
     height: 16vh;
