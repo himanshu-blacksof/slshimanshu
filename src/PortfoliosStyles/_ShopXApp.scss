@@ -18,13 +18,15 @@
   margin-left: 5%;
   color: #ffffff;
 }
-
+.background_circle {
+  padding: 10% auto;
+}
 .barcode_wrapper {
   background-color: #fdb913;
   border-radius: 50%;
-  width: 600px;
-  height: 600px;
-  margin: auto auto;
+  width: 700px;
+  height: 700px;
+  margin: auto;
 }
 .shopx_barcode {
   width: 100%;
@@ -134,16 +136,19 @@ span {
 }
 .circle_wrapper {
   position: relative;
+  margin: 10% 0;
 }
 .circle_red {
   position: absolute;
-  bottom: 75%;
+  bottom: 80%;
   left: 5%;
+  width: 10%;
 }
 .circle_yellow {
   position: absolute;
-  top: 77%;
+  top: 84%;
   right: 5%;
+  width: 10%;
 }
 .para_wrapper {
   text-align: center;
@@ -175,22 +180,20 @@ span {
   padding: 3rem;
 }
 .american_women {
-  background-image: url(../assets/shopXappAssets/american.png);
-  background-size: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
   position: relative;
-  margin-top: 10%;
+  margin: 10% 0;
 }
 .circle_yellow_second {
-  position: relative;
-  top: 65%;
+  position: absolute;
+  top: 85%;
   left: 5%;
+  width: 10%;
 }
 .circle_red_second {
   position: absolute;
-  bottom: 85%;
+  bottom: 80%;
   right: 5%;
+  width: 10%;
 }
 .scanner_wrapper {
   display: flex;
@@ -218,22 +221,20 @@ span {
   margin-left: 10%;
 }
 .indian_women {
-  background-image: url(../assets/shopXappAssets/indianwomen.png);
-  background-size: 100%;
-  height: 100vh;
-  background-repeat: no-repeat;
   position: relative;
-  margin-top: 15%;
+  margin: 10% 0%;
 }
 .yellow_indian_women {
   position: absolute;
-  bottom: 85%;
+  bottom: 80%;
   right: 5%;
+  width: 10%;
 }
 .red_indian_women {
-  position: relative;
-  top: 60%;
+  position: absolute;
+  top: 82%;
   left: 5%;
+  width: 10%;
 }
 .scanner_wrapper_left {
   display: flex;
@@ -243,13 +244,8 @@ span {
   margin-right: 4rem;
 }
 .store_container {
-  background-image: url(../assets/shopXappAssets/store.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
   position: relative;
-  margin-top: 10%;
-  height: 80vh;
-  width: 100%;
+  margin: 10% 0%;
 }
 .colorcode {
   justify-content: center;
@@ -259,8 +255,9 @@ span {
 }
 .circle_red_fourth {
   position: absolute;
-  top: 50%;
+  top: 83%;
   right: 5%;
+  width: 10%;
 }
 .newgrocery_wrapper {
   display: flex;
@@ -274,7 +271,11 @@ span {
   width: 80%;
 }
 .shopxhand {
+  margin-left: -18%;
+}
+.Shopxhand_wrapper {
   background-color: #241a1b;
+  overflow: hidden;
 }
 .supersaver {
   background-color: #e3334a;
@@ -318,32 +319,42 @@ strong {
   padding-left: 17%;
 }
 .thank_wrapper {
-  background-image: url(../assets/shopXappAssets/thnks.svg);
-  text-align: center;
-  width: 100%;
   color: #fff5f6;
   position: relative;
-  padding-top: 30%;
+  text-align: center;
+  overflow: hidden;
+  padding: 10% 0;
+}
+.thanku_circle {
+  width: 100%;
+  height: 50vh;
+}
+.thankyou_circle {
+  width: 100%;
 }
 .coffeecard {
   position: absolute;
   bottom: 20%;
   right: 80%;
+  width: 20%;
 }
 .coin {
   position: absolute;
-  top: 0;
+  top: 20%;
   right: 68%;
+  width: 10%;
 }
 .brand {
   position: absolute;
-  top: 0;
+  top: 20%;
   left: 68%;
+  width: 20%;
 }
 .coin_two {
   position: absolute;
   bottom: 10%;
   right: 0;
+  width: 10%;
 }
 .Thank_mobile {
   display: none;

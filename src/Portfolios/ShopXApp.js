@@ -62,6 +62,10 @@ import Coin_one from '../assets/shopXappAssets/thankyoublade4.svg';
 import Applicationchart from '../assets/shopXappAssets/application chart.png';
 import Colorcode from '../assets/shopXappAssets/Colorcode.png';
 import Background from '../assets/shopXappAssets/shopping.png';
+import Background_one from '../assets/shopXappAssets/american.png';
+import Background_two from '../assets/shopXappAssets/indianwomen.png';
+import Background_three from '../assets/shopXappAssets/store.png';
+import Thankyou from '../assets/shopXappAssets/thnks.svg';
 const ShopXApp = () => {
   useEffect(function () {
     Aos.init({ duration: 1000 });
@@ -269,6 +273,11 @@ const ShopXApp = () => {
         </div>
         <div className="american_women ">
           <img
+            className="background_container"
+            src={Background_one}
+            alt="shopping"
+          />
+          <img
             className="circle_yellow_second"
             src={YellowHalf}
             alt="shopping"
@@ -362,6 +371,11 @@ const ShopXApp = () => {
         </div>
         <div className="indian_women">
           <img
+            className="background_container"
+            src={Background_two}
+            alt="shopping"
+          />
+          <img
             className="red_indian_women"
             src={RedhalfCircle}
             alt="shopping"
@@ -412,6 +426,11 @@ const ShopXApp = () => {
           </div>
         </div>
         <div className="store_container ">
+          <img
+            className="background_container"
+            src={Background_three}
+            alt="shopping"
+          />
           <img className="circle_red" src={YellowHalf} alt="shopping" />
           <img
             className="circle_red_fourth"
@@ -428,12 +447,9 @@ const ShopXApp = () => {
           </div>
         </div>
       </section>
-      <Images
-        className="shopxhand"
-        image={Shopxhand}
-        fullwidth
-        alt="Shopxhand"
-      />
+      <div className="Shopxhand_wrapper">
+        <img className="shopxhand" src={Shopxhand} alt="Shopxhand" />
+      </div>
       <div className="supersaver">
         <h3 className="text_super">Save at Supersaver Stores near you</h3>
         <Images className="grid" image={Grid} fullwidth alt="img" />
@@ -483,6 +499,9 @@ const ShopXApp = () => {
       </div>
       <section className="cards_container">
         <div className="thank_wrapper">
+          <div className="thanku_circle">
+            <img className="thankyou_circle" src={Thankyou} alt="img " />
+          </div>
           <h3>Thanks for </h3>
           <h3>watching</h3>
           <img className="coffeecard " src={CoffeeThank} alt="img " />
