@@ -93,9 +93,14 @@ const ShopXApp = () => {
           </div>
         </div>
       </section>
+      <section className="card_section">
+        <div className="card_container b">
+          <h1>Cards </h1>
+        </div>
+      </section>
       <section className="main_container ">
         <div className="heading_wrapper  ">
-          <h3 className="heading_text ">
+          <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             <img className="heading_img" src={Heading} alt="img" />
           </h3>
@@ -146,7 +151,7 @@ const ShopXApp = () => {
         </div>
       </section>
       <section className="main_container">
-        <div className="expertation_wrapper ">
+        <div className="expertation_wrapper">
           <h3>Ut enim ad minim veniam, quis nostrud exercitation</h3>
         </div>
         <div className="research_wrapper">
@@ -369,48 +374,58 @@ const ShopXApp = () => {
             />
           </div>
         </div>
-        <div className="indian_women">
-          <img
-            className="background_container"
-            src={Background_two}
-            alt="shopping"
-          />
-          <img
-            className="red_indian_women"
-            src={RedhalfCircle}
-            alt="shopping"
-          />
-          <img
-            className="yellow_indian_women"
-            src={Yellowhalfcircle}
-            alt="shopping"
-          />
-        </div>
-        <div className="para_wrapper">
-          <p>Earn more point and unlock new scratch card</p>
-          <h1 className="concept_wrapper">CONCEPT</h1>
-          <img className="concept_img" src={Puma} alt="concept" />
-        </div>
-        <div className="scanner_container">
-          <div className="scanner_wrapper">
-            <div className="concept_fourth">
-              <img className="chart_wrapper" src={PumaCode} alt="concept" />
-            </div>
-            <div className="concept_fourth">
-              <img className="chart_wrapper" src={PumaCodeOne} alt="concept" />
-            </div>
-            <div className="concept_fourth">
-              <img className="chart_wrapper" src={PumaCodeTwo} alt="concept" />
-            </div>
-            <div className="concept_fourth">
-              <img
-                className="chart_wrapper"
-                src={PumaCodeThree}
-                alt="concept"
-              />
+        <section className="indian_womenSection">
+          <div className="indian_women">
+            <img
+              className="background_container"
+              src={Background_two}
+              alt="shopping"
+            />
+            <img
+              className="red_indian_women"
+              src={RedhalfCircle}
+              alt="shopping"
+            />
+            <img
+              className="yellow_indian_women"
+              src={Yellowhalfcircle}
+              alt="shopping"
+            />
+          </div>
+          <div className="para_wrapper ">
+            <p>Earn more point and unlock new scratch card</p>
+            <h1 className="concept_wrapper">CONCEPT</h1>
+            <img className="concept_img" src={Puma} alt="concept" />
+          </div>
+          <div className="scanner_container">
+            <div className="scanner_wrapper">
+              <div className="concept_fourth">
+                <img className="chart_wrapper" src={PumaCode} alt="concept" />
+              </div>
+              <div className="concept_fourth">
+                <img
+                  className="chart_wrapper"
+                  src={PumaCodeOne}
+                  alt="concept"
+                />
+              </div>
+              <div className="concept_fourth">
+                <img
+                  className="chart_wrapper"
+                  src={PumaCodeTwo}
+                  alt="concept"
+                />
+              </div>
+              <div className="concept_fourth">
+                <img
+                  className="chart_wrapper"
+                  src={PumaCodeThree}
+                  alt="concept"
+                />
+              </div>
             </div>
           </div>
-        </div>
+        </section>
         <div className="scanner_wrapper_left">
           <div className="concept_fivth">
             <img className="chart_wrapper" src={PumaCodeFourth} alt="concept" />

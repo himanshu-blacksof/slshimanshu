@@ -18,6 +18,14 @@
   margin-left: 5%;
   color: #ffffff;
 }
+.card_section {
+  background-color: #fff5f6;
+}
+.card_container {
+  text-align: center;
+  align-items: center;
+  padding: 5% 0%;
+}
 .background_circle {
   padding: 10% auto;
 }
@@ -27,6 +35,10 @@
   width: 700px;
   height: 700px;
   margin: auto;
+  overflow: hidden;
+}
+.indian_womenSection {
+  background-color: #f1f6ff;
 }
 .shopx_barcode {
   width: 100%;
@@ -37,9 +49,9 @@
 }
 .heading_wrapper {
   padding: 5% 15%;
+  width: 64%;
 }
-.heading_text {
-  width: 40%;
+.heading_wrapper h3 {
   color: #ffffff;
 }
 .heading_img {
@@ -272,6 +284,7 @@ span {
 }
 .shopxhand {
   margin-left: -18%;
+  width: 135%;
 }
 .Shopxhand_wrapper {
   background-color: #241a1b;
@@ -400,12 +413,10 @@ strong {
     display: none;
   }
   .circle_yellow_second {
-    width: 15%;
-    top: 65%;
+    display: none;
   }
   .circle_red_second {
-    width: 15%;
-    bottom: 75%;
+    display: none;
   }
   .research_wrapper {
     width: 80%;
@@ -437,7 +448,7 @@ strong {
     padding: 0%;
   }
   .expertation_wrapper {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
   .barcode_wrapper {
@@ -451,6 +462,7 @@ strong {
   }
   .text_wrapper {
     width: 100%;
+    color: #241a1b !important;
   }
   .research_wrapper_black {
     flex-direction: column;
@@ -483,6 +495,15 @@ strong {
     align-items: center;
     padding: 40px 0;
     animation: fadeIn 5s;
+  }
+  .red_indian_women {
+    display: none;
+  }
+  .yellow_indian_women {
+    display: none;
+  }
+  .circle_red_fourth {
+    display: none;
   }
   @keyframes fadeIn {
     from {
