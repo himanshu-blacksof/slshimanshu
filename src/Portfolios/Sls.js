@@ -1,4 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import PortfolioHeading from '../Components/PortfolioHeading';
 import Logo from '../assets/slsAssets/sls_logo.svg';
 import Computer from '../assets/slsAssets/viasights.svg';
@@ -37,6 +39,9 @@ import Softwaredev from '../assets/slsAssets/software_development.png';
 import Rectangle from '../assets/slsAssets/rectangle.svg';
 
 const Sls = () => {
+  useEffect(function () {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <>
       <div className="portfolio__container">
@@ -47,9 +52,9 @@ const Sls = () => {
         />
         <div className="MyStyle ">
           <div className="MyImg ">
-            <img className="image" src={Logo} alt="" />
+            <img className="image" data-aos="fade-up" src={Logo} alt="" />
           </div>
-          <div className="Logos_wrapper">
+          <div className="Logos_wrapper" data-aos="fade-up">
             <img className="image" src={Computer} alt="logo" />
             <img className="image" src={Sun} alt="sun" />
             <img className="image" src={Yalgaar} alt="yal" />
@@ -57,7 +62,7 @@ const Sls = () => {
             <img className="image" src={Varde} alt="Var" />
           </div>
         </div>
-        <div className="subpara_wrapper  ">
+        <div className="subpara_wrapper " data-aos="fade-up">
           <div className="textStyle ">
             <h3>Lorem ipsum dolor sit amet</h3>
           </div>
@@ -71,10 +76,10 @@ const Sls = () => {
           </div>
         </div>
         <div>
-          <Images image={Man} fullwidth alt="background" />
+          <Images image={Man} data-aos="fade-up" fullwidth alt="background" />
         </div>
         <div className="background_container">
-          <div className="style_container">
+          <div className="style_container" data-aos="fade-up">
             <h4>WHAT WE CAN HANDLE</h4>
             <br></br>
             <br></br>
@@ -90,7 +95,7 @@ const Sls = () => {
               labore et dolore magna aliqua. Ut enim ad minim veniam.
             </p>
           </div>
-          <div className="para_container">
+          <div className="para_container" data-aos="fade-up">
             <p>E-commerce shipments</p>
             <br></br>
             <p>Door to door services with import & export</p>
@@ -110,10 +115,10 @@ const Sls = () => {
           </div>
         </div>
       </div>
-      <div className="our_container">
+      <div className="our_container" data-aos="fade-up">
         <Images image={Our} alt="our" />
       </div>
-      <div className="background_container">
+      <div className="background_container" data-aos="fade-up">
         <div className="backgroundblack ">
           <h3 className="wordh3">
             For 30 years, We set ourselves apart through our experts' expertise
@@ -129,7 +134,7 @@ const Sls = () => {
         </div>
       </div>
       <section className="black_container">
-        <div className="subpara_wrapper">
+        <div className="subpara_wrapper" data-aos="fade-up">
           <div className="textStyle">
             <h3 className="font">User Flow</h3>
           </div>
@@ -144,7 +149,7 @@ const Sls = () => {
         </div>
         <Images className="flow" image={Flow} alt="flow" />
       </section>
-      <div className="subpara_wrapper">
+      <div className="subpara_wrapper" data-aos="fade-up">
         <div className="textStyle">
           <h3>Styleguide</h3>
         </div>
@@ -159,7 +164,7 @@ const Sls = () => {
       </div>
       <Images image={Container} fullwidth alt="container" />
       <Images image={Cards} fullwidth alt="cards" />
-      <div className="art-container">
+      <div className="art-container" data-aos="fade-up">
         <div className="first_grid">
           <div className="text-para">
             <h4 className="color_sls">
@@ -187,7 +192,7 @@ const Sls = () => {
       <div className="collage">
         <Images image={Collage} alt="collage" />
       </div>
-      <div className="gridbackground">
+      <div className="gridbackground" data-aos="fade-up">
         <div>
           <img className="gridback" src={Gridback} alt="grid" />
         </div>
@@ -200,7 +205,7 @@ const Sls = () => {
           </p>
         </div>
       </div>
-      <div className="subpara_wrapper">
+      <div className="subpara_wrapper" data-aos="fade-up">
         <div className="textStyle">
           <h3>Home</h3>
         </div>
@@ -213,7 +218,7 @@ const Sls = () => {
         </div>
       </div>
       <Images image={Slsimg} fullwidth alt="Sls" />
-      <div className="subpara_wrapper">
+      <div className="subpara_wrapper" data-aos="fade-up">
         <div className="textStyle">
           <h3>Industries</h3>
         </div>
@@ -226,7 +231,7 @@ const Sls = () => {
         </div>
       </div>
       <Images image={Solar} fullwidth alt="Solar" />
-      <div className="subpara_wrapper">
+      <div className="subpara_wrapper" data-aos="fade-up">
         <div className="textStyle">
           <h3>Services</h3>
         </div>
@@ -246,7 +251,7 @@ const Sls = () => {
         src={TestingCalibration}
         alt="tesingCalibration"
       />
-      <div className="grey_container">
+      <div className="grey_container" data-aos="fade-up">
         <img className="services_container1" src={AI} alt="ai" />
         <img className="services_container2" src={ESM} alt="esm" />
         <img className="services_container3" src={Pcb} alt="pcb" />
@@ -257,13 +262,13 @@ const Sls = () => {
         />
       </div>
       <Images image={Multiple} fullwidth alt="multiple" />
-      <div className="multiple_container">
+      <div className="multiple_container" data-aos="fade-up">
         <p className="multiple_para">
           CFDonsectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore.
         </p>
       </div>
-      <section>
+      <section data-aos="fade-up">
         <Images image={About} fullwidth alt="About us" />
         <Images image={Responsive} fullwidth alt="Responsive" />
         <Images image={Loccarto} fullwidth alt="loccatro" />

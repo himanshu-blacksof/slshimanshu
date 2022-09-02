@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
+
 //component
 import PortfolioHeading from '../Components/PortfolioHeading';
 import Images from '../Components/Atoms/Images';
@@ -79,16 +80,16 @@ const ShopXApp = () => {
           info="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
         />
       </div>
-      <section className="main_container ">
-        <div className="shopx_wrapper  ">
+      <section className="main_container " data-aos="fade-up">
+        <div className="shopx_wrapper " data-aos="fade-up">
           <img className="shopx_logo" src={ShopX} alt="shopx" />
-          <p className="shopx_text  ">
+          <p className="shopx_text " data-aos="fade-up">
             Dolore magna aliqua ut enim ad minim veniam, quis
             <span> nostrud exercitation </span> ullamco.
           </p>
         </div>
         <div className="background_circle ">
-          <div className="barcode_wrapper">
+          <div className="barcode_wrapper ">
             <img className="shopx_barcode " src={ShopXbarcode} alt="barcode" />
           </div>
         </div>
@@ -99,13 +100,13 @@ const ShopXApp = () => {
         </div>
       </section>
       <section className="main_container ">
-        <div className="heading_wrapper  ">
+        <div className="heading_wrapper  " data-aos="fade-up">
           <h3>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
             <img className="heading_img" src={Heading} alt="img" />
           </h3>
         </div>
-        <div className="research_wrapper">
+        <div className="research_wrapper" data-aos="fade-up">
           <div className="research">
             <p>Research</p>
           </div>
@@ -116,12 +117,12 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <div className="strategy_wrapper">
+        <div className="strategy_wrapper" data-aos="fade-up">
           <img className="shopx_barcode " src={Strategy} alt="strategy" />
         </div>
       </section>
-      <section className="cards_container">
-        <div className="reward_wrapper ">
+      <section className="cards_container" data-aos="fade-up">
+        <div className="reward_wrapper " data-aos="fade-up">
           <div className="reward_img_wrapper">
             <img className="reward-img " src={Reward} alt="rewards" />
           </div>
@@ -145,16 +146,19 @@ const ShopXApp = () => {
               dicta sunt explicabo.
             </p>
           </div>
-          <div className="rewardSecondimg_wrapper">
+          <div className="rewardSecondimg_wrapper" data-aos="fade-up">
             <img className="reward-img" src={RewardSecond} alt="rewards" />
           </div>
         </div>
       </section>
       <section className="main_container">
-        <div className="expertation_wrapper">
-          <h3>Ut enim ad minim veniam, quis nostrud exercitation</h3>
+        <div className="expertation_wrapper" data-aos="fade-up">
+          <h3>
+            Ut enim ad minim <br />
+            veniam, quis nostrud <br /> exercitation
+          </h3>
         </div>
-        <div className="research_wrapper">
+        <div className="research_wrapper" data-aos="fade-up">
           <div className="research">
             <p>Project Overview</p>
           </div>
@@ -165,15 +169,20 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <img className="chart_wrapper" src={Chart} alt="chart" />
+        <img
+          className="chart_wrapper"
+          data-aos="fade-up"
+          src={Chart}
+          alt="chart"
+        />
       </section>
-      <section className="cards_container">
-        <div className="heading_wrapper">
+      <section className="cards_container" data-aos="fade-up">
+        <div className="heading_wrapper" data-aos="fade-up">
           <h3 className="text_wrapper">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </h3>
         </div>
-        <div className="research_wrapper_black">
+        <div className="research_wrapper_black" data-aos="fade-up">
           <div className="research">
             <p>Project Overview</p>
           </div>
@@ -184,11 +193,19 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <img className="colorcode" src={Colorcode} alt="Shopxhand" />
-        <div className="heading_wrapper">
-          <h3 className="text_wrapper">Dolor sit amet, adipiscing elit</h3>
+        <img
+          className="colorcode"
+          data-aos="fade-up"
+          src={Colorcode}
+          alt="Shopxhand"
+        />
+        <div className="heading_wrapper" data-aos="fade-up">
+          <h3 className="text_wrapper">
+            Dolor sit amet,
+            <br /> adipiscing elit
+          </h3>
         </div>
-        <div className="research_wrapper_black">
+        <div className="research_wrapper_black" data-aos="fade-up">
           <div className="research">
             <p>Design elements</p>
           </div>
@@ -199,35 +216,40 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <img className="chart_wrapper" src={Category} alt="category" />
-        <div className="background_grid">
-          <div className="expertation_wrapper">
-            <h3>Ut enim ad minim veniam, quis nostrud exercitation</h3>
+        <img
+          className="chart_wrapper"
+          data-aos="fade-up"
+          src={Category}
+          alt="category"
+        />
+        <div className="background_grid" data-aos="fade-up">
+          <div className="expertation_wrapper" data-aos="fade-up">
+            <h3>
+              Sit amet,
+              <br /> adipiscing elit
+            </h3>
           </div>
-          <div className="research_wrapper">
+          <div className="research_wrapper" data-aos="fade-up">
             <div className="research">
-              <p>Project Overview</p>
+              <p>Grid System</p>
             </div>
             <div className="research_para">
-              <p>
-                Dolore magna aliqua ut enim ad minim veniam, quis nostrud
-                exercitation ullamco.
-              </p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
             </div>
           </div>
 
-          <div className="grid_wrapper ">
+          <div className="grid_wrapper " data-aos="fade-up">
             <img className="chart_wrapper" src={GridSystem} alt="grid img" />
           </div>
         </div>
       </section>
-      <section className="cards_container">
-        <div className="heading_wrapper">
+      <section className="cards_container" data-aos="fade-up">
+        <div className="heading_wrapper" data-aos="fade-up">
           <h3 className="text_wrapper">
             Lorem dolor sit amet, adipiscing elit
           </h3>
         </div>
-        <div className="research_wrapper_black">
+        <div className="research_wrapper_black" data-aos="fade-up">
           <div className="research">
             <p>Application structure</p>
           </div>
@@ -237,10 +259,11 @@ const ShopXApp = () => {
         </div>
         <img
           className="applicationchart "
+          data-aos="fade-up"
           src={Applicationchart}
           alt="Shopxhand"
         />
-        <div className="circle_wrapper ">
+        <div className="circle_wrapper " data-aos="fade-up">
           <img
             className="background_container"
             src={Background}
@@ -249,12 +272,12 @@ const ShopXApp = () => {
           <img className="circle_red " src={Red} alt="shopping" />
           <img className="circle_yellow " src={Yellow} alt="shopping" />
         </div>
-        <div className="para_wrapper ">
+        <div className="para_wrapper " data-aos="fade-up">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img" src={Concept} alt="concept" />
         </div>
-        <div className="cong_wrapper">
+        <div className="cong_wrapper" data-aos="fade-up">
           <div className="concept_first">
             <img className="chart_wrapper" src={Concept_First} alt="concept" />
           </div>
@@ -262,7 +285,7 @@ const ShopXApp = () => {
             <img className="chart_wrapper" src={Concept_Second} alt="concept" />
           </div>
         </div>
-        <div className="cong_wrapper">
+        <div className="cong_wrapper" data-aos="fade-up">
           <div className="concept_third">
             <img className="chart_wrapper" src={Concept_Third} alt="concept" />
           </div>
@@ -276,7 +299,7 @@ const ShopXApp = () => {
             <img className="chart_wrapper" src={Concept_Sixth} alt="concept" />
           </div>
         </div>
-        <div className="american_women ">
+        <div className="american_women " data-aos="fade-up">
           <img
             className="background_container"
             src={Background_one}
@@ -289,12 +312,12 @@ const ShopXApp = () => {
           />
           <img className="circle_red_second" src={RedHalf} alt="shopping" />
         </div>
-        <div className="para_wrapper">
+        <div className="para_wrapper" data-aos="fade-up">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img" src={ConceptCode} alt="concept" />
         </div>
-        <div className="scanner_container">
+        <div className="scanner_container" data-aos="fade-up">
           <div className="scanner_wrapper ">
             <div className="concept_fourth">
               <img className="chart_wrapper" src={Barcode} alt="concept" />
@@ -329,7 +352,7 @@ const ShopXApp = () => {
             </div>
           </div>
         </div>
-        <div className="spinning_wrapper">
+        <div className="spinning_wrapper" data-aos="fade-up">
           <div className="concept_fourth">
             <img
               className="chart_wrapper"
@@ -351,7 +374,7 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <div className="spinning_wrapper">
+        <div className="spinning_wrapper" data-aos="fade-up">
           <div className="concept_fourth">
             <img
               className="chart_wrapper"
@@ -374,7 +397,7 @@ const ShopXApp = () => {
             />
           </div>
         </div>
-        <section className="indian_womenSection">
+        <section className="indian_womenSection" data-aos="fade-up">
           <div className="indian_women">
             <img
               className="background_container"
@@ -392,12 +415,12 @@ const ShopXApp = () => {
               alt="shopping"
             />
           </div>
-          <div className="para_wrapper ">
+          <div className="para_wrapper " data-aos="fade-up">
             <p>Earn more point and unlock new scratch card</p>
             <h1 className="concept_wrapper">CONCEPT</h1>
             <img className="concept_img" src={Puma} alt="concept" />
           </div>
-          <div className="scanner_container">
+          <div className="scanner_container" data-aos="fade-up">
             <div className="scanner_wrapper">
               <div className="concept_fourth">
                 <img className="chart_wrapper" src={PumaCode} alt="concept" />
@@ -426,7 +449,7 @@ const ShopXApp = () => {
             </div>
           </div>
         </section>
-        <div className="scanner_wrapper_left">
+        <div className="scanner_wrapper_left" data-aos="fade-up">
           <div className="concept_fivth">
             <img className="chart_wrapper" src={PumaCodeFourth} alt="concept" />
           </div>
@@ -440,7 +463,7 @@ const ShopXApp = () => {
             <img className="chart_wrapper" src={PumaCodeSeveth} alt="concept" />
           </div>
         </div>
-        <div className="store_container ">
+        <div className="store_container " data-aos="fade-up">
           <img
             className="background_container"
             src={Background_three}
@@ -453,7 +476,7 @@ const ShopXApp = () => {
             alt="shopping"
           />
         </div>
-        <div className="para_wrapper">
+        <div className="para_wrapper" data-aos="fade-up">
           <p>Earn more point and unlock new scratch card</p>
           <h1 className="concept_wrapper">CONCEPT</h1>
           <img className="concept_img " src={SuperMarket} alt="concept" />
@@ -462,14 +485,14 @@ const ShopXApp = () => {
           </div>
         </div>
       </section>
-      <div className="Shopxhand_wrapper">
+      <div className="Shopxhand_wrapper" data-aos="fade-up">
         <img className="shopxhand" src={Shopxhand} alt="Shopxhand" />
       </div>
       <div className="supersaver">
         <h3 className="text_super">Save at Supersaver Stores near you</h3>
         <Images className="grid" image={Grid} fullwidth alt="img" />
       </div>
-      <section className="cards_container">
+      <section className="cards_container" data-aos="fade-up">
         <div className="heading_wrapper">
           <h3 className="text_wrapper">Sit amet,</h3>
           <h3 className="text_wrapper"> adipiscing elit</h3>
@@ -484,7 +507,7 @@ const ShopXApp = () => {
         </div>
         <Images image={Mainscreen} fullwidth alt="img" />
       </section>
-      <div className="multidevice">
+      <div className="multidevice" data-aos="fade-up">
         <div className="text_screen">
           <div>
             <strong>125+</strong>
@@ -512,7 +535,7 @@ const ShopXApp = () => {
           alt="img"
         />
       </div>
-      <section className="cards_container">
+      <section className="cards_container" data-aos="fade-up">
         <div className="thank_wrapper">
           <div className="thanku_circle">
             <img className="thankyou_circle" src={Thankyou} alt="img " />
@@ -524,11 +547,12 @@ const ShopXApp = () => {
           <img className="brand  " src={Brand} alt="img " />
           <img className="coin_two " src={Coin_one} alt="img " />
         </div>
+
         <div className="Thank_mobile" data-aos="fade-up">
           <h3>Thanks for</h3>
           <h3>watching</h3>
         </div>
-      </section>
+      </section>{' '}
     </>
   );
 };

@@ -28,21 +28,24 @@
 }
 .background_circle {
   padding: 10% auto;
+  overflow: hidden;
+  margin: auto;
 }
 .barcode_wrapper {
   background-color: #fdb913;
   border-radius: 50%;
   width: 700px;
   height: 700px;
-  margin: auto;
-  overflow: hidden;
+  margin: 5% auto;
 }
 .indian_womenSection {
   background-color: #f1f6ff;
 }
 .shopx_barcode {
   width: 100%;
-  margin: 50px 0;
+  margin: auto;
+  display: block;
+  justify-content: center;
 }
 .cards_container {
   background-color: #fff5f6;
@@ -50,9 +53,11 @@
 .heading_wrapper {
   padding: 5% 15%;
   width: 64%;
-}
-.heading_wrapper h3 {
   color: #ffffff;
+}
+.heading_wrapper_right {
+  padding: 5% 15%;
+  width: 70%;
 }
 .heading_img {
   width: 25%;
@@ -101,17 +106,18 @@
   text-align: right;
   padding: 0 10rem;
 }
-
 .rewardSecondimg_wrapper {
   width: 35%;
   height: fit-content;
   margin-bottom: 10%;
 }
 .expertation_wrapper {
-  width: 40%;
-  margin: auto auto;
-  padding: 3rem;
+  width: 50%;
+  padding: 5% 0;
   color: #ffffff;
+  float: right;
+}
+.expertation_wrapper h3 {
 }
 .chart_wrapper {
   max-width: 100%;
@@ -119,7 +125,7 @@
   margin-bottom: 10%;
 }
 .text_wrapper {
-  width: 38%;
+  color: #241a1b;
 }
 .research_wrapper_black {
   display: flex;
@@ -299,7 +305,7 @@ span {
   color: #fff5f6;
   margin: auto;
   padding: 8rem 0;
-  width: 30%;
+  width: 40%;
 }
 .grid {
   display: block;
