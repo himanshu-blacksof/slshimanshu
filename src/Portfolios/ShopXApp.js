@@ -67,6 +67,12 @@ import Background_one from '../assets/shopXappAssets/american.png';
 import Background_two from '../assets/shopXappAssets/indianwomen.png';
 import Background_three from '../assets/shopXappAssets/store.png';
 import Thankyou from '../assets/shopXappAssets/thnks.svg';
+import Wallet from '../assets/shopXappAssets/Group 7563.png';
+import DownArrow from '../assets/shopXappAssets/Group 7565@2x.png';
+import SpecialOffer from '../assets/shopXappAssets/Group 7566@2x.png';
+import Friday from '../assets/shopXappAssets/Group 7567@2x.png';
+import Star from '../assets/shopXappAssets/Group 7569@2x.png';
+import DailySupersaver from '../assets/shopXappAssets/Group 7568@2x.png';
 const ShopXApp = () => {
   useEffect(function () {
     Aos.init({ duration: 1000 });
@@ -88,15 +94,38 @@ const ShopXApp = () => {
             <span> nostrud exercitation </span> ullamco.
           </p>
         </div>
-        <div className="background_circle ">
-          <div className="barcode_wrapper ">
-            <img className="shopx_barcode " src={ShopXbarcode} alt="barcode" />
-          </div>
-        </div>
+        <div className=" banner" data-aos="fade-up"></div>
       </section>
       <section className="card_section">
-        <div className="card_container b">
-          <h1>Cards </h1>
+        <div class="card_container  " data-aos="fade-up">
+          <div className="card_grid_container orange">
+            <h4>Sed ut perspiciatis unde omnis iste</h4>
+            <img className=" Wallet_wrapper " src={Wallet} alt="shopx" />
+          </div>
+          <div className="card_grid_container yellow">
+            <h4> Neque porro quisquam est, qui dolorem</h4>
+            <img className=" Wallet_wrapper " src={DownArrow} alt="shopx" />
+          </div>
+          <div className="card_grid_container pink">
+            <h4> eaque ipsa quae ab illo inventore</h4>
+            <img className=" Wallet_wrapper " src={SpecialOffer} alt="shopx" />
+          </div>
+          <div className="card_grid_container green">
+            <h4>eaque ipsa quae ab illo inventore</h4>
+            <img className=" Wallet_wrapper " src={Friday} alt="shopx" />
+          </div>
+          <div className="card_grid_container blue">
+            <h4> nostrum citationem ullam corporis</h4>
+            <img className=" Wallet_wrapper " src={Star} alt="shopx" />
+          </div>
+          <div className="card_grid_container lightblue">
+            <h4> nostrum citationem ullam corporis </h4>
+            <img
+              className=" Wallet_wrapper "
+              src={DailySupersaver}
+              alt="shopx"
+            />
+          </div>
         </div>
       </section>
       <section className="main_container ">
@@ -118,7 +147,7 @@ const ShopXApp = () => {
           </div>
         </div>
         <div className="strategy_wrapper" data-aos="fade-up">
-          <img className="shopx_barcode " src={Strategy} alt="strategy" />
+          <img className="shopx_barcode" src={Strategy} alt="strategy" />
         </div>
       </section>
       <section className="cards_container" data-aos="fade-up">

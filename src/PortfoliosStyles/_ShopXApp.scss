@@ -22,33 +22,74 @@
   background-color: #fff5f6;
 }
 .card_container {
-  text-align: center;
+  display: grid;
   align-items: center;
-  padding: 5% 0%;
+  grid-template-columns: auto auto auto;
+  padding: 90px;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 40px;
 }
-.background_circle {
-  padding: 10% auto;
-  overflow: hidden;
-  margin: auto;
+.yellow {
+  background-color: #ffe992;
 }
-.barcode_wrapper {
-  background-color: #fdb913;
-  border-radius: 50%;
-  width: 700px;
-  height: 700px;
-  margin: 5% auto;
+.orange {
+  background-color: #ffcb9b;
 }
-.indian_womenSection {
-  background-color: #f1f6ff;
+.pink {
+  background-color: #ffa9a9;
+}
+.lightblue {
+  background-color: #45c1df;
+}
+.blue {
+  background-color: #4a8af5;
+}
+.green {
+  background-color: #76e6ba;
+}
+.card_grid_container {
+  width: 400px;
+  border-radius: 20px;
+  height: 250px;
+  line-height: 1.9rem;
+  display: flex;
+}
+.card_grid_container h4 {
+  width: 55%;
+  font-size: 26px;
+  padding: 30px 20px;
+}
+.Wallet_wrapper {
+  padding: 0 20px;
+  width: 60%;
+  padding-bottom: 30px;
+}
+.banner {
+  background-image: url(../assets/shopXappAssets/shopxBarcode.png),
+    radial-gradient(
+      circle at center,
+      #fdb913 0,
+      #fdb913 50%,
+      transparent 50%,
+      transparent 100%
+    ),
+    linear-gradient(to right, #e3334a, #e3334a);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-size: contain, 70% auto, 100% 100%;
+  background-position: center center, center center, center center;
+  place-content: center;
+  height: 96vh;
 }
 .shopx_barcode {
   width: 100%;
   margin: auto;
-  display: block;
-  justify-content: center;
 }
-.cards_container {
-  background-color: #fff5f6;
+.grid-item {
+  background-color: #ffcb9b;
+  text-align: center;
+  padding: 20px 0;
+  width: 300px;
 }
 .heading_wrapper {
   padding: 5% 15%;
@@ -395,6 +436,10 @@ strong {
   .heading_text {
     width: 100%;
   }
+  .Wallet_wrapper {
+    width: 50%;
+    height: 25vh;
+  }
   .concept_img {
     width: 90%;
   }
@@ -411,6 +456,31 @@ strong {
   }
   .barcode_wrapper {
     margin: 0%;
+  }
+  .card_container {
+    grid-template-columns: auto;
+    padding: 30px 40px;
+    margin: auto;
+  }
+  .card_grid_container {
+    width: 300px;
+    line-height: 2.4rem;
+  }
+  .banner {
+    background-image: url(../assets/shopXappAssets/shopxBarcode.png),
+      radial-gradient(
+        circle at center,
+        #fdb913 0,
+        #fdb913 60%,
+        transparent 50%,
+        transparent 100%
+      ),
+      linear-gradient(to right, #e3334a, #e3334a);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: contain, 80% auto, 100% 100%;
+    background-position: center center, center center, center center;
+    place-content: center;
+    height: 37vh;
   }
   .circle_red {
     display: none;
