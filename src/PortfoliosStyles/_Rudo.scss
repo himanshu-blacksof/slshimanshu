@@ -30,7 +30,6 @@ h2 {
 h3 {
   font-family: 'Epilogue-regural';
 }
-
 .saving_container {
   background-image: linear-gradient(
     to bottom,
@@ -51,20 +50,70 @@ h3 {
   background-color: #000000;
   overflow: hidden;
 }
-table {
-  border-collapse: collapse;
-  width: 45%;
-  margin: 10% auto;
-  font-size: 2rem;
-  color: aliceblue;
+.epilogue h2:hover {
+  transform: scale(1.2);
 }
-table th {
+// table {
+//   border-collapse: collapse;
+//   width: 40%;
+//   margin: 10% auto;
+//   font-size: 1.6rem;
+//   color: aliceblue;
+//   cursor: pointer;
+//   font-family: 'Epilogue-regural';
+// }
+// table th {
+//   border: 2px solid #e75553;
+//   color: #e75553;
+//   padding: 5px;
+//   align-items: center;
+//   min-width: 50%;
+// }
+// tr th:hover {
+//   transform: scale(1.1);
+// }
+ul li {
+  text-align: center;
+  min-width: 35%;
+  margin: auto;
+}
+li:nth-child(2) {
+  border-left: 2px solid #e75553;
+  border-right: 2px solid #e75553;
+}
+ul {
   border: 2px solid #e75553;
+  display: flex;
+  width: 40%;
+  margin: 10% auto;
+  list-style: none;
+  font-family: 'Epilogue-regural';
   color: #e75553;
 }
+.logo_img {
+  width: 20%;
+  margin: 10% auto;
+  display: block;
+}
+.logo_two_img {
+  width: 50%;
+  margin: 10% auto;
+  display: block;
+}
+.concept_container {
+  background-color: aliceblue;
+  padding: 10% 0;
+}
+.logo_design ul li:nth-child(2) {
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
 
-.Logo_design {
-  background-color: #e75553;
+.logo_design ul {
+  border: 2px solid black;
+  font-family: 'Epilogue-regural';
+  margin: 0 auto;
+  color: #000000;
 }
 .animation {
   display: flex;
@@ -88,19 +137,17 @@ table th {
   animation: animate 5s ease infinite;
 }
 .rudo_branding {
-  width: 70%;
+  width: 50%;
   align-items: center;
-  margin-left: 14%;
-  margin-top: 15%;
   justify-content: center;
-  margin-bottom: 15%;
+  margin: 15% auto;
+  display: block;
 }
 .rudo_branding_two {
   width: 70%;
   align-items: center;
-  margin-left: 14%;
-  margin-top: 50%;
-  justify-content: center;
+  display: block;
+  margin: 40% auto;
 }
 @keyframes changes {
   0% {
@@ -125,19 +172,22 @@ table th {
   max-width: 80%;
   margin: auto;
 }
-
+.typo_img {
+  width: 50%;
+}
 .typo_img_wrapper {
-  width: 70%;
-  margin-top: 30%;
-  margin-left: 10%;
+  width: 80%;
+  margin: 10% 15%;
+  align-items: center;
 }
 .type_para {
   width: 50%;
   align-items: center;
-  margin: 10%;
+  margin: 10% 10%;
 }
 .type_para h5 {
-  font-size: 30px;
+  font-size: 24px;
+  line-height: 2rem;
 }
 .circle_container {
   display: flex;
@@ -189,11 +239,10 @@ table th {
 }
 .color {
   color: aliceblue;
-  margin-left: 10%;
-  line-height: 11rem;
+  padding-left: 10%;
 }
-.color h1 {
-  font-size: 170px;
+.illustration {
+  font-size: 150px;
 }
 .multicolor {
   margin-top: 10%;
@@ -204,6 +253,32 @@ table th {
   justify-content: center;
   margin: 10% 0;
 }
+.rudo_one {
+  width: 40%;
+  // animation: MoveToLeft 4s linear infinite alternate;
+  cursor: pointer;
+}
+// @keyframes MoveToLeft {
+//   0% {
+//     transform: translateX(40px);
+//   }
+//   100% {
+//     transform: translateX(-30px);
+//   }
+// }
+.rudo_two {
+  width: 40%;
+  cursor: pointer;
+  // animation: MoveToRight 4s linear infinite alternate;
+}
+// @keyframes MoveToRight {
+//   0% {
+//     transform: translateX(-30px);
+//   }
+//   100% {
+//     transform: translateX(40px);
+//   }
+// }
 .webdesign {
   color: aliceblue;
   width: 85%;
@@ -224,7 +299,7 @@ table th {
   float: left;
   margin-left: 10%;
   margin: 10% 5%;
-  word-spacing: 1.3rem;
+  line-height: 3rem;
 }
 .star_img {
   width: 40%;
@@ -238,16 +313,34 @@ table th {
 }
 .text_color {
   color: aliceblue;
-  width: 130%;
+  width: 170%;
   margin-left: -11%;
   overflow: hidden;
   font-size: 64px;
+  animation: rightToLeft 7s linear infinite;
+  white-space: nowrap;
+  text-transform: uppercase;
+  position: absolute;
+  top: 15%;
+}
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(-350px);
+  }
+}
+.Vedio_container {
+  position: relative;
+}
+article {
+  max-width: 100%;
+  margin-top: 10%;
+  overflow: hidden;
 }
 .RUDO_TEXT {
   font-size: 64px;
-}
-.Vedio_container {
-  margin-top: 10%;
 }
 .Financial_wrapper {
   display: flex;
@@ -261,16 +354,20 @@ table th {
   color: aliceblue;
   padding: auto auto;
   text-decoration: underline;
-  font-size: 45px;
+  font-size: 36px;
   line-height: 4rem;
 }
 .know_text {
-  font-size: 45px;
-  line-height: 4rem;
+  font-size: 32px;
+  line-height: 3rem;
+  width: 70%;
 }
 .red_container {
   background-color: #e75553;
   padding: 5% 10%;
+}
+.Financial_img {
+  width: 60%;
 }
 .problem {
   margin: 12%;
@@ -354,6 +451,7 @@ table th {
   display: flex;
   justify-content: space-around;
 }
+
 .forms_wrapper h4 {
   text-align: center;
   margin-top: 5%;
@@ -362,7 +460,7 @@ table th {
 .bag_container {
   display: flex;
   width: 70%;
-  margin: auto;
+  margin: 5% auto;
   justify-content: space-around;
 }
 .thanks_container {
@@ -377,7 +475,10 @@ table th {
   line-height: 8rem;
   margin-top: 4%;
 }
-
+.untill_wrapper {
+  margin: 5% 0%;
+  width: 100%;
+}
 @media only screen and (max-width: 1100px) {
   .epilogue {
     font-size: 2rem;
@@ -387,10 +488,15 @@ table th {
   }
   .typo_design {
     flex-direction: column;
+    display: none;
   }
-  .type_para {
-    width: 100%;
-  }
+
+  // .type_para {
+  //   width: 100%;
+  // }
+  // .typo_img {
+  //   width: 100%;
+  // }
   .color img {
     width: 70%;
     margin: 0%;
@@ -398,47 +504,71 @@ table th {
   .illustration {
     font-size: 50px !important;
   }
+  .typo_img_wrapper {
+    width: 80%;
+    margin: 10% 10%;
+  }
+  .mobileresponsive {
+    display: none;
+  }
   .color {
     line-height: 6rem;
   }
   .epilogue h2 {
     font-size: 20px !important;
   }
+  .onboarding_wrapper h5 {
+    width: 80%;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .onboarding_wrapper {
+    padding-top: 25px;
+    padding-bottom: 5px;
+  }
+  .instruction_wrapper h5 {
+    width: 105%;
+    text-align: center;
+    margin: 5% 23%;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+  .instruction_wrapper h3 {
+    margin: 0 50%;
+  }
   .webdesign strong {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
   .webdesign h2 {
-    font-size: 30px !important;
+    font-size: 20px !important;
+    line-height: 2.8rem;
+    width: 100%;
   }
-  .webdesign {
-    line-height: 4.4rem;
+  ul {
+    width: 80%;
+    font-size: 1.1rem;
   }
-  table {
-    width: 70%;
+  ul li {
+    min-width: 30%;
   }
   .star_text strong {
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
-  .star_text h2 {
-    font-size: 30px !important;
+  .star_text h3 {
+    font-size: 18px !important;
+    line-height: 2.8rem;
   }
   .star_text {
-    line-height: 4.4rem;
     width: 100%;
   }
   .star_img {
     display: none;
   }
-  .type_para h5 {
-    font-size: 18px !important;
-    line-height: 2.4rem;
-    width: 85%;
-  }
   .text_color {
     display: none;
   }
   .thanks_container {
-    width: 100%;
+    width: 80%;
     margin: 10% auto;
   }
   .blue_container {
@@ -450,8 +580,39 @@ table th {
   }
   .Financial_wrapper {
     flex-direction: column;
+    padding: 10px 0;
+  }
+  .dots {
+    display: none;
   }
   .know_text {
     font-size: 30px;
+    width: 100%;
+  }
+  .mobile_one_img {
+    width: 80%;
+    margin: 5% 8%;
+    justify-content: center;
+  }
+  .Financial_img {
+    width: 100%;
+  }
+  .thanks_container h2 {
+    font-size: 24px;
+  }
+  .thanks_img {
+    width: 20%;
+  }
+  .problem h5 {
+    font-size: 16px !important;
+  }
+  .problem h3 {
+    font-size: 18px !important;
+  }
+  .logo_img {
+    width: 50%;
+  }
+  .logo_two_img {
+    width: 7 0%;
   }
 }

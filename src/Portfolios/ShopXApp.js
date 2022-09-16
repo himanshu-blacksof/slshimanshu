@@ -98,28 +98,42 @@ const ShopXApp = () => {
       </section>
       <section className="card_section">
         <div class="card_container  " data-aos="fade-up">
-          <div className="card_grid_container orange">
-            <h4>Sed ut perspiciatis unde omnis iste</h4>
+          <div className="card_grid_container  orange">
+            <div>
+              <h4>Sed ut perspiciatis unde omnis iste</h4>
+              <h5>Shop Now</h5>
+            </div>
             <img className=" Wallet_wrapper " src={Wallet} alt="shopx" />
           </div>
           <div className="card_grid_container yellow">
-            <h4> Neque porro quisquam est, qui dolorem</h4>
+            <div>
+              <h4> Sed ut perspiciatis unde omnis iste</h4>
+              <h5>Shop Now</h5>
+            </div>
             <img className=" Wallet_wrapper " src={DownArrow} alt="shopx" />
           </div>
           <div className="card_grid_container pink">
-            <h4> eaque ipsa quae ab illo inventore</h4>
+            <div>
+              <h4>Sed ut perspiciatis unde omnis iste</h4> <h5>Shop Now</h5>
+            </div>
             <img className=" Wallet_wrapper " src={SpecialOffer} alt="shopx" />
           </div>
           <div className="card_grid_container green">
-            <h4>eaque ipsa quae ab illo inventore</h4>
+            <div>
+              <h4>Sed ut perspiciatis unde omnis iste</h4> <h5>Shop Now</h5>
+            </div>
             <img className=" Wallet_wrapper " src={Friday} alt="shopx" />
           </div>
           <div className="card_grid_container blue">
-            <h4> nostrum citationem ullam corporis</h4>
+            <div>
+              <h4>Sed ut perspiciatis unde omnis iste</h4> <h5>Shop Now</h5>
+            </div>
             <img className=" Wallet_wrapper " src={Star} alt="shopx" />
           </div>
           <div className="card_grid_container lightblue">
-            <h4> nostrum citationem ullam corporis </h4>
+            <div>
+              <h4>Sed ut perspiciatis unde omnis iste </h4> <h5>Shop Now</h5>
+            </div>
             <img
               className=" Wallet_wrapper "
               src={DailySupersaver}
@@ -151,8 +165,8 @@ const ShopXApp = () => {
         </div>
       </section>
       <section className="cards_container" data-aos="fade-up">
-        <div className="reward_wrapper " data-aos="fade-up">
-          <div className="reward_img_wrapper">
+        <div className="reward_wrapper  " data-aos="fade-up">
+          <div className="reward_img_wrapper ">
             <img className="reward-img " src={Reward} alt="rewards" />
           </div>
           <div className="rewards_right ">
@@ -165,7 +179,7 @@ const ShopXApp = () => {
             </p>
           </div>
         </div>
-        <div className="reward_wrapper">
+        <div className="reward_wrapper ">
           <div className="rewardsecond_left">
             <h4>Rewards...</h4>
             <p>
@@ -175,7 +189,7 @@ const ShopXApp = () => {
               dicta sunt explicabo.
             </p>
           </div>
-          <div className="rewardSecondimg_wrapper" data-aos="fade-up">
+          <div className="rewardSecondimg_wrapper " data-aos="fade-up">
             <img className="reward-img" src={RewardSecond} alt="rewards" />
           </div>
         </div>

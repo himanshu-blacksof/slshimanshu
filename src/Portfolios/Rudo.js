@@ -1,5 +1,6 @@
-import React from 'react';
+import { React, useEffect } from 'react';
 import ReactPlayer from 'react-player';
+
 //Components
 import PortfolioHeading from '../Components/PortfolioHeading';
 import Images from '../Components/Atoms/Images';
@@ -9,7 +10,7 @@ import Saving from '../assets/rudo Assets/Frame 2304.png';
 import Logo from '../assets/rudo Assets/Frame 2305.png';
 import Rudowealth from '../assets/rudo Assets/Frame 2306.png';
 import Dots from '../assets/rudo Assets/Frame 4.png';
-import Logo2 from '../assets/rudo Assets/Frame 8.png';
+import Logo2 from '../assets/rudo Assets/frame 8.png';
 import RudoBranding from '../assets/rudo Assets/rudo_icon.svg';
 import RudoBranding2 from '../assets/rudo Assets/Frame.svg';
 import Typo from '../assets/rudo Assets/image.png';
@@ -40,12 +41,13 @@ import Mobile from '../assets/rudo Assets/Mobile Responsive_iPhone 13.png';
 import Mobile_one from '../assets/rudo Assets/FFT_Mobile Responsive01.png';
 import Mobile_two from '../assets/rudo Assets/FFT_Mobile Responsive02.png';
 import Mobile_three from '../assets/rudo Assets/FFT_Mobile Responsive03.png';
-import Vedio from '../assets/rudo Assets/Comp.mp4';
+import Video from '../assets/rudo Assets/website_video.mp4';
 import Fit from '../assets/rudo Assets/Socialmedia_gif.png';
 import Until from '../assets/rudo Assets/Socialmedia_all.png';
 import Pencil from '../assets/rudo Assets/Mockups01.png';
 import Bag from '../assets/rudo Assets/Mockups02.png';
 import Tshirt from '../assets/rudo Assets/Mockups03.png';
+import Bull from '../assets/rudo Assets/Bull.png';
 const Rudo = () => {
   return (
     <>
@@ -59,21 +61,46 @@ const Rudo = () => {
       <Images image={Banner} fullwidth alt="img" />
       <Images image={Multiple} fullwidth alt="img" />
       <Images image={Saving} fullwidth alt="img" />
-      <Images image={Logo} fullwidth alt="img" />
+      <section className="forms_container ">
+        <div className="logo_design">
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>PROCESS</li>
+          </ul>
+        </div>
+        <div className="logo_img_wrapper">
+          <img className="logo_img " src={Logo} alt="img" />
+        </div>
+      </section>
       <Images image={Rudowealth} fullwidth alt="img" />
       <Images image={Dots} fullwidth alt="img" />
-      <Images image={Logo2} fullwidth alt="img" />
+      <section className="concept_container ">
+        <div className="logo_design">
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>CONCEPT</li>
+          </ul>
+        </div>
+        <div className="logo_img_wrapper">
+          <img className="logo_two_img " src={Logo2} alt="img" />
+        </div>
+      </section>
+      <Images image={Bull} fullwidth alt="img" />
       <section className="main_design">
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>BRANDING</b>
-              </th>
-              <th>TYPOGRAPHY</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>TYPOGRAPHY</li>
+          </ul>
         </div>
         <div className="animation">
           <div className="rudo_design">
@@ -112,15 +139,13 @@ const Rudo = () => {
         </div>
         <Images image={TextAa} alt="img" />
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>BRANDING</b>
-              </th>
-              <th>COLOUR</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>COLOUR</li>
+          </ul>
         </div>
         <div className="color">
           <h1 className="illustration">COLOUR</h1>
@@ -130,15 +155,13 @@ const Rudo = () => {
           <Images image={Multicolor} alt="img" />
         </div>
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>BRANDING</b>
-              </th>
-              <th>ILLUSTRATION</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>ILLUSTRATION</li>
+          </ul>
         </div>
         <div className="color">
           <h1 className="illustration">CUSTOM</h1>
@@ -164,15 +187,13 @@ const Rudo = () => {
           </div>
         </div>
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>WEB DESIGN</b>
-              </th>
-              <th>UX</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>WEB DESIGN</b>
+            </li>
+            <li>UX</li>
+          </ul>
         </div>
         <div className="webdesign">
           <h2>
@@ -209,45 +230,47 @@ const Rudo = () => {
       <div className="workprocess">
         <Images image={Workprocess} fullwidth alt="img" />
       </div>
-      <section className="main_design ">
-        <div className="Vedio_container  ">
-          <h4 className="text_color ">
-            RuDO Web design. RuDO Wealth. Web design .
-            <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design. .
-            Web design
-          </h4>
-          <div className="reactplayer">
+      <section className="main_design">
+        <div className="Vedio_container">
+          <article>
+            <h4 className="text_color ">
+              RuDO Web design.
+              <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design .
+              <strong className="RUDO_TEXT">RuDO Wealth </strong>. Web design.
+              Web design.
+              <strong className="RUDO_TEXT">RuDO Wealth </strong>.
+            </h4>
+          </article>
+          <div className="react_player">
             <ReactPlayer
-              url={Vedio}
+              url={Video}
               loop
               pip
               playing
               muted
               playsinline
               width="100vw"
-              height="100vh"
+              height="100%"
             />
           </div>
         </div>
       </section>
       <section className="main_design ">
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>Questioner</b>
-              </th>
-              <th>#Financial Wellness Test</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>QUESTIONER</b>
+            </li>
+            <li>#FINANCIAL </li>
+          </ul>
         </div>
         <div className="Financial_wrapper">
           <div className="blue_container">
             <h2 className="know_container">#Financial Wellness Test</h2>
             <h2 className="know_text">Know what your financial fitness is !</h2>
           </div>
-          <div>
+          <div className="Financial_img">
             <Images image={FinancialTest} fullwidth alt="img" />
           </div>
         </div>
@@ -279,7 +302,7 @@ const Rudo = () => {
         </div>
         <Images image={Problem} fullwidth alt="img" />
       </section>
-      <section className="main_design b ">
+      <section className="main_design ">
         <div className=" instruction_container">
           <Images image={Instruction} alt="img" />
         </div>
@@ -349,41 +372,39 @@ const Rudo = () => {
       <section className="forms_container ">
         <div className="forms_wrapper">
           <div className="mobile_one ">
-            <img src={Mobile_one} alt="img" />
+            <img className="mobile_one_img" src={Mobile_one} alt="img" />
             <h4>Onboarding</h4>
           </div>
           <div className="mobile_one">
-            <img src={Mobile_three} alt="img" />
+            <img className="mobile_one_img" src={Mobile_three} alt="img" />
             <h4>Forms</h4>
           </div>
           <div className="mobile_one">
-            <img src={Mobile_two} alt="img" />
+            <img className="mobile_one_img" src={Mobile_two} alt="img" />
             <h4>Result</h4>
           </div>
         </div>
       </section>
       <section className="main_design">
         <div className="table_wrapper">
-          <table>
-            <tr>
-              <th>RUDO</th>
-              <th>
-                <b>BRANDING</b>
-              </th>
-              <th>Social Media</th>
-            </tr>
-          </table>
+          <ul>
+            <li>RUDO</li>
+            <li>
+              <b>BRANDING</b>
+            </li>
+            <li>SOCIAL MEDIA</li>
+          </ul>
         </div>
         <Images image={Fit} alt="img" />
-        <Images image={Until} fullwidth alt="img" />
-        <Images image={Pencil} fullwidth alt="img" />
+        <img className="untill_wrapper" src={Until} fullwidth alt="img" />
+        <img className="untill_wrapper" src={Pencil} fullwidth alt="img" />
         <div className="bag_container">
           <Images image={Bag} alt="img" />
           <Images image={Tshirt} alt="img" />
         </div>
         <div className="thanks_container ">
           <img className="thanks_img" src={Rudologo2} alt="img" />
-          <h2>Thanks you for Watching!</h2>
+          <h2>Thank you for Watching!</h2>
         </div>
       </section>
     </>

@@ -21,14 +21,16 @@
 .card_section {
   background-color: #fff5f6;
 }
+
 .card_container {
   display: grid;
-  align-items: center;
-  grid-template-columns: auto auto auto;
-  padding: 90px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 370px));
+  grid-gap: 25px 25px;
   justify-content: center;
-  column-gap: 40px;
-  row-gap: 40px;
+  align-items: baseline;
+  max-width: 1500px;
+  margin: auto;
+  padding: 90px 30px;
 }
 .yellow {
   background-color: #ffe992;
@@ -49,21 +51,36 @@
   background-color: #76e6ba;
 }
 .card_grid_container {
-  width: 400px;
+  width: 95%;
   border-radius: 20px;
-  height: 250px;
+  height: 220px;
   line-height: 1.9rem;
   display: flex;
+  justify-content: space-around;
+  justify-items: center;
+}
+.card_grid_container:hover {
+  filter: contrast(0.8);
 }
 .card_grid_container h4 {
+  font-size: 24px;
+  padding: 0 25px;
+  padding-top: 30px;
+}
+.card_grid_container h5 {
+  padding: 0 7px;
+  background-color: #ffffff;
+  color: #ea1f3d;
+  border-radius: 20px;
   width: 55%;
-  font-size: 26px;
-  padding: 30px 20px;
+  margin: 10px 25px;
+  text-align: center;
 }
 .Wallet_wrapper {
   padding: 0 20px;
-  width: 60%;
+  width: 50%;
   padding-bottom: 30px;
+  object-fit: contain;
 }
 .banner {
   background-image: url(../assets/shopXappAssets/shopxBarcode.png),
@@ -524,8 +541,9 @@ strong {
     padding: 0%;
   }
   .expertation_wrapper {
-    width: 100%;
+    width: 90%;
     margin: auto;
+    margin-left: 5%;
   }
   .barcode_wrapper {
     width: 200px;
@@ -645,6 +663,12 @@ strong {
   .yellow_indian_women {
     width: 15vw;
     bottom: 70%;
+  }
+  .reward_img_wrapper {
+    width: 100%;
+  }
+  .rewardSecondimg_wrapper {
+    width: 100%;
   }
 }
 .b {
